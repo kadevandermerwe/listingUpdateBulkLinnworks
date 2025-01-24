@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bulk Listing Formatter</title>
+</head>
+<body>
+    <h1>Bulk Listing Formatter</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Product CSV File:</label>
+        <input type="file" name="file" required>
+        <br><br>
+
+        <label for="update_type">Choose Update Type:</label>
+        <select name="update_type" required>
+            <option value="titles">Titles Only</option>
+            <option value="descriptions">Descriptions Only</option>
+            <option value="titles_descriptions">Titles and Descriptions</option>
+            <option value="extended_properties">Extended Properties Only</option>
+            <option value="prices">Prices Only</option>
+            <option value="all">All of the Above</option>
+        </select>
+        <br><br>
+
+        <label for="find">Find:</label>
+        <input type="text" name="find" placeholder="Text to find" required>
+        <br><br>
+
+        <label for="replace">Replace:</label>
+        <input type="text" name="replace" placeholder="Text to replace with" required>
+        <br><br>
+
+        <label for="change_note">Change 'Please Note' in Descriptions?</label>
+        <input type="checkbox" name="change_note" value="yes">
+        <br><br>
+
+        <label for="note_replacement">New 'Please Note' Text:</label>
+        <input type="text" name="note_replacement" placeholder="Replacement for 'please note:'">
+        <br><br>
+
+        <label for="extended_properties">Extended Properties to Update:</label>
+        <select name="extended_properties" multiple>
+            <option value="BULLET1">BULLET1</option>
+            <option value="BULLET2">BULLET2</option>
+            <option value="BULLET3">BULLET3</option>
+            <option value="mag_short_description">mag_short_description</option>
+            <option value="Make">Make</option>
+            <option value="Model">Model</option>
+            <option value="Material">Material</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Process</button>
+    </form>
+</body>
+</html>
