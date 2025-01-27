@@ -1,1 +1,3064 @@
 2025-01-27 23:34:05,756 - Starting new HTTPS connection (1): www.dropbox.com:443
+2025-01-27 23:34:06,449 - https://www.dropbox.com:443 "GET /scl/fi/h52wh2zokq6j055tag5c2/SKU-Creator-Formating-MONSTER-COPY.xlsx?rlkey=r3r0ocp8lggvbx2zs1xnogvcp&e=2&st=bmf5lxzo&dl=1 HTTP/1.1" 302 17
+2025-01-27 23:34:06,451 - Starting new HTTPS connection (1): uca143fee4cfd3c00131363fdb0f.dl.dropboxusercontent.com:443
+2025-01-27 23:34:06,868 - https://uca143fee4cfd3c00131363fdb0f.dl.dropboxusercontent.com:443 "GET /cd/0/get/CjAdqona3FiM-l3U3CRCEeaWv5jjdrMzyUORTjYtPSXAxW0FZHDLATuMduxbnUAnAvla7ilwSFy-KooHZuQ-xlYxJlako4VvAd1CmegQIyZINGUh7-L6PZcDarYT9eW2ppwUl5mpMdX480bcv4g3Smni/file?dl=1 HTTP/1.1" 200 2710476
+2025-01-27 23:34:07,247 - File downloaded successfully from Dropbox.
+2025-01-27 23:34:07,444 - Excel file loaded with 862 rows
+2025-01-27 23:34:07,448 - Processing make: 'LED', model: '2'
+2025-01-27 23:34:07,448 - Added make+model combination: 'led 2'
+2025-01-27 23:34:07,448 - Added complete terms: 'led', '2'
+2025-01-27 23:34:07,450 - Processing make: 'Scania', model: '1'
+2025-01-27 23:34:07,450 - Added make+model combination: 'scania 1'
+2025-01-27 23:34:07,450 - Added complete terms: 'scania', '1'
+2025-01-27 23:34:07,451 - Processing make: 'Volvo', model: '2'
+2025-01-27 23:34:07,451 - Added make+model combination: 'volvo 2'
+2025-01-27 23:34:07,451 - Added complete terms: 'volvo', '2'
+2025-01-27 23:34:07,452 - Processing make: 'DAF', model: '3'
+2025-01-27 23:34:07,452 - Added make+model combination: 'daf 3'
+2025-01-27 23:34:07,452 - Added complete terms: 'daf', '3'
+2025-01-27 23:34:07,452 - Processing make: 'MAN', model: '4'
+2025-01-27 23:34:07,453 - Added make+model combination: 'man 4'
+2025-01-27 23:34:07,453 - Added complete terms: 'man', '4'
+2025-01-27 23:34:07,453 - Processing make: 'Renault', model: '5'
+2025-01-27 23:34:07,453 - Added make+model combination: 'renault 5'
+2025-01-27 23:34:07,454 - Added complete terms: 'renault', '5'
+2025-01-27 23:34:07,454 - Processing make: 'Iveco', model: '6'
+2025-01-27 23:34:07,455 - Added make+model combination: 'iveco 6'
+2025-01-27 23:34:07,455 - Added complete terms: 'iveco', '6'
+2025-01-27 23:34:07,455 - Processing make: 'Mercedes', model: '7'
+2025-01-27 23:34:07,456 - Added make+model combination: 'mercedes 7'
+2025-01-27 23:34:07,456 - Added complete terms: 'mercedes', '7'
+2025-01-27 23:34:07,456 - Processing make: 'Mitsubushi', model: '8'
+2025-01-27 23:34:07,457 - Added make+model combination: 'mitsubushi 8'
+2025-01-27 23:34:07,457 - Added complete terms: 'mitsubushi', '8'
+2025-01-27 23:34:07,457 - Processing make: 'American Style', model: '9'
+2025-01-27 23:34:07,457 - Added make+model combination: 'american style 9'
+2025-01-27 23:34:07,458 - Added complete terms: 'american style', '9'
+2025-01-27 23:34:07,458 - Processing make: 'Isuzu', model: '10'
+2025-01-27 23:34:07,458 - Added make+model combination: 'isuzu 10'
+2025-01-27 23:34:07,459 - Added complete terms: 'isuzu', '10'
+2025-01-27 23:34:07,459 - Processing make: 'Sino', model: '11'
+2025-01-27 23:34:07,459 - Added make+model combination: 'sino 11'
+2025-01-27 23:34:07,459 - Added complete terms: 'sino', '11'
+2025-01-27 23:34:07,460 - Processing make: 'Foden', model: '13'
+2025-01-27 23:34:07,460 - Added make+model combination: 'foden 13'
+2025-01-27 23:34:07,460 - Added complete terms: 'foden', '13'
+2025-01-27 23:34:07,461 - Processing make: 'Nissan', model: '14'
+2025-01-27 23:34:07,461 - Added make+model combination: 'nissan 14'
+2025-01-27 23:34:07,461 - Added complete terms: 'nissan', '14'
+2025-01-27 23:34:07,462 - Processing make: 'Ford', model: '15'
+2025-01-27 23:34:07,462 - Added make+model combination: 'ford 15'
+2025-01-27 23:34:07,462 - Added complete terms: 'ford', '15'
+2025-01-27 23:34:07,462 - Processing make: 'Universal', model: '16'
+2025-01-27 23:34:07,463 - Added make+model combination: 'universal 16'
+2025-01-27 23:34:07,463 - Added complete terms: 'universal', '16'
+2025-01-27 23:34:07,464 - Processing make: 'P, G, R, 6 Series 2009+', model: '1'
+2025-01-27 23:34:07,464 - Added make+model combination: 'p, g, r, 6 series 2009+ 1'
+2025-01-27 23:34:07,464 - Added complete terms: 'p, g, r, 6 series 2009+', '1'
+2025-01-27 23:34:07,465 - Processing make: 'Topline', model: '11'
+2025-01-27 23:34:07,465 - Added make+model combination: 'topline 11'
+2025-01-27 23:34:07,466 - Added complete terms: 'topline', '11'
+2025-01-27 23:34:07,466 - Processing make: 'Highline', model: '12'
+2025-01-27 23:34:07,467 - Added make+model combination: 'highline 12'
+2025-01-27 23:34:07,467 - Added complete terms: 'highline', '12'
+2025-01-27 23:34:07,468 - Processing make: 'Standard Sleeper', model: '13'
+2025-01-27 23:34:07,468 - Added make+model combination: 'standard sleeper 13'
+2025-01-27 23:34:07,469 - Added complete terms: 'standard sleeper', '13'
+2025-01-27 23:34:07,469 - Processing make: 'Day Cab / Flat Cab', model: '14'
+2025-01-27 23:34:07,469 - Added make+model combination: 'day cab / flat cab 14'
+2025-01-27 23:34:07,470 - Added complete terms: 'day cab / flat cab', '14'
+2025-01-27 23:34:07,470 - Processing make: 'Streamline', model: '15'
+2025-01-27 23:34:07,471 - Added make+model combination: 'streamline 15'
+2025-01-27 23:34:07,471 - Added complete terms: 'streamline', '15'
+2025-01-27 23:34:07,472 - Processing make: 'P, G, R Series Pre 2009', model: '2'
+2025-01-27 23:34:07,472 - Added make+model combination: 'p, g, r series pre 2009 2'
+2025-01-27 23:34:07,472 - Added complete terms: 'p, g, r series pre 2009', '2'
+2025-01-27 23:34:07,473 - Processing make: 'Topline', model: '21'
+2025-01-27 23:34:07,473 - Added make+model combination: 'topline 21'
+2025-01-27 23:34:07,473 - Added complete terms: 'topline', '21'
+2025-01-27 23:34:07,474 - Processing make: 'Highline', model: '22'
+2025-01-27 23:34:07,474 - Added make+model combination: 'highline 22'
+2025-01-27 23:34:07,474 - Added complete terms: 'highline', '22'
+2025-01-27 23:34:07,475 - Processing make: 'Standard Sleeper', model: '23'
+2025-01-27 23:34:07,475 - Added make+model combination: 'standard sleeper 23'
+2025-01-27 23:34:07,475 - Added complete terms: 'standard sleeper', '23'
+2025-01-27 23:34:07,476 - Processing make: 'Day Cab / Flat Cab', model: '24'
+2025-01-27 23:34:07,476 - Added make+model combination: 'day cab / flat cab 24'
+2025-01-27 23:34:07,476 - Added complete terms: 'day cab / flat cab', '24'
+2025-01-27 23:34:07,477 - Processing make: '4 Series', model: '3'
+2025-01-27 23:34:07,477 - Added make+model combination: '4 series 3'
+2025-01-27 23:34:07,477 - Added complete terms: '4 series', '3'
+2025-01-27 23:34:07,478 - Processing make: 'Topline', model: '31'
+2025-01-27 23:34:07,478 - Added make+model combination: 'topline 31'
+2025-01-27 23:34:07,478 - Added complete terms: 'topline', '31'
+2025-01-27 23:34:07,479 - Processing make: 'Standard Sleeper', model: '32'
+2025-01-27 23:34:07,479 - Added make+model combination: 'standard sleeper 32'
+2025-01-27 23:34:07,479 - Added complete terms: 'standard sleeper', '32'
+2025-01-27 23:34:07,480 - Processing make: 'Day Cab / Flat Cab', model: '33'
+2025-01-27 23:34:07,481 - Added make+model combination: 'day cab / flat cab 33'
+2025-01-27 23:34:07,481 - Added complete terms: 'day cab / flat cab', '33'
+2025-01-27 23:34:07,481 - Processing make: 'Next Generation 2017+  R & S', model: '4'
+2025-01-27 23:34:07,482 - Added make+model combination: 'next generation 2017+  r & s 4'
+2025-01-27 23:34:07,482 - Added complete terms: 'next generation 2017+  r & s', '4'
+2025-01-27 23:34:07,482 - Processing make: 'R & S Series High Cab', model: '41'
+2025-01-27 23:34:07,483 - Added make+model combination: 'r & s series high cab 41'
+2025-01-27 23:34:07,483 - Added complete terms: 'r & s series high cab', '41'
+2025-01-27 23:34:07,483 - Processing make: 'R & S Series Normal Cab', model: '42'
+2025-01-27 23:34:07,484 - Added make+model combination: 'r & s series normal cab 42'
+2025-01-27 23:34:07,484 - Added complete terms: 'r & s series normal cab', '42'
+2025-01-27 23:34:07,484 - Processing make: 'R & S Series Low Cab', model: '43'
+2025-01-27 23:34:07,485 - Added make+model combination: 'r & s series low cab 43'
+2025-01-27 23:34:07,485 - Added complete terms: 'r & s series low cab', '43'
+2025-01-27 23:34:07,485 - Processing make: 'Next Generation 2017+ P, G, R, S', model: '5'
+2025-01-27 23:34:07,486 - Added make+model combination: 'next generation 2017+ p, g, r, s 5'
+2025-01-27 23:34:07,486 - Added complete terms: 'next generation 2017+ p, g, r, s', '5'
+2025-01-27 23:34:07,486 - Processing make: 'P, G, R, S Series High Cab', model: '51'
+2025-01-27 23:34:07,487 - Added make+model combination: 'p, g, r, s series high cab 51'
+2025-01-27 23:34:07,487 - Added complete terms: 'p, g, r, s series high cab', '51'
+2025-01-27 23:34:07,487 - Processing make: 'P, G, R, S Series Normal Cab', model: '52'
+2025-01-27 23:34:07,488 - Added make+model combination: 'p, g, r, s series normal cab 52'
+2025-01-27 23:34:07,488 - Added complete terms: 'p, g, r, s series normal cab', '52'
+2025-01-27 23:34:07,488 - Processing make: 'P, G, R, S Series Low Cab', model: '53'
+2025-01-27 23:34:07,489 - Added make+model combination: 'p, g, r, s series low cab 53'
+2025-01-27 23:34:07,489 - Added complete terms: 'p, g, r, s series low cab', '53'
+2025-01-27 23:34:07,490 - Processing make: 'Scania 2 & 3 Series', model: '6'
+2025-01-27 23:34:07,490 - Added make+model combination: 'scania 2 & 3 series 6'
+2025-01-27 23:34:07,490 - Added complete terms: 'scania 2 & 3 series', '6'
+2025-01-27 23:34:07,491 - Processing make: 'Topline', model: '61'
+2025-01-27 23:34:07,491 - Added make+model combination: 'topline 61'
+2025-01-27 23:34:07,491 - Added complete terms: 'topline', '61'
+2025-01-27 23:34:07,492 - Processing make: 'Highline', model: '62'
+2025-01-27 23:34:07,492 - Added make+model combination: 'highline 62'
+2025-01-27 23:34:07,493 - Added complete terms: 'highline', '62'
+2025-01-27 23:34:07,493 - Processing make: '`', model: '63'
+2025-01-27 23:34:07,493 - Added make+model combination: '` 63'
+2025-01-27 23:34:07,494 - Added complete terms: '`', '63'
+2025-01-27 23:34:07,495 - Processing make: 'FH4 2013-2021', model: '1'
+2025-01-27 23:34:07,496 - Added make+model combination: 'fh4 2013-2021 1'
+2025-01-27 23:34:07,496 - Added complete terms: 'fh4 2013-2021', '1'
+2025-01-27 23:34:07,496 - Processing make: 'Globetrotter XL', model: '11'
+2025-01-27 23:34:07,497 - Added make+model combination: 'globetrotter xl 11'
+2025-01-27 23:34:07,497 - Added complete terms: 'globetrotter xl', '11'
+2025-01-27 23:34:07,497 - Processing make: 'Globetrotter Standard', model: '12'
+2025-01-27 23:34:07,497 - Added make+model combination: 'globetrotter standard 12'
+2025-01-27 23:34:07,498 - Added complete terms: 'globetrotter standard', '12'
+2025-01-27 23:34:07,498 - Processing make: 'Day Cab / Standard Sleeper', model: '13'
+2025-01-27 23:34:07,498 - Added make+model combination: 'day cab / standard sleeper 13'
+2025-01-27 23:34:07,498 - Added complete terms: 'day cab / standard sleeper', '13'
+2025-01-27 23:34:07,499 - Processing make: 'FM4 Euro6 2013+', model: '2'
+2025-01-27 23:34:07,499 - Added make+model combination: 'fm4 euro6 2013+ 2'
+2025-01-27 23:34:07,499 - Added complete terms: 'fm4 euro6 2013+', '2'
+2025-01-27 23:34:07,500 - Processing make: 'Globetrotter', model: '21'
+2025-01-27 23:34:07,500 - Added make+model combination: 'globetrotter 21'
+2025-01-27 23:34:07,501 - Added complete terms: 'globetrotter', '21'
+2025-01-27 23:34:07,501 - Processing make: 'Day Cab', model: '22'
+2025-01-27 23:34:07,502 - Added make+model combination: 'day cab 22'
+2025-01-27 23:34:07,502 - Added complete terms: 'day cab', '22'
+2025-01-27 23:34:07,502 - Processing make: 'Volvo FH 2002-2013', model: '3'
+2025-01-27 23:34:07,503 - Added make+model combination: 'volvo fh 2002-2013 3'
+2025-01-27 23:34:07,503 - Added complete terms: 'volvo fh 2002-2013', '3'
+2025-01-27 23:34:07,503 - Processing make: 'Globetrotter XL', model: '31'
+2025-01-27 23:34:07,504 - Added make+model combination: 'globetrotter xl 31'
+2025-01-27 23:34:07,504 - Added complete terms: 'globetrotter xl', '31'
+2025-01-27 23:34:07,504 - Processing make: 'Globetrotter Standard', model: '32'
+2025-01-27 23:34:07,505 - Added make+model combination: 'globetrotter standard 32'
+2025-01-27 23:34:07,505 - Added complete terms: 'globetrotter standard', '32'
+2025-01-27 23:34:07,505 - Processing make: 'Day Cab / Standard Sleeper', model: '33'
+2025-01-27 23:34:07,505 - Added make+model combination: 'day cab / standard sleeper 33'
+2025-01-27 23:34:07,506 - Added complete terms: 'day cab / standard sleeper', '33'
+2025-01-27 23:34:07,506 - Processing make: 'Volvo FM 2002-2013', model: '4'
+2025-01-27 23:34:07,506 - Added make+model combination: 'volvo fm 2002-2013 4'
+2025-01-27 23:34:07,506 - Added complete terms: 'volvo fm 2002-2013', '4'
+2025-01-27 23:34:07,507 - Processing make: 'Globetrotter XL', model: '41'
+2025-01-27 23:34:07,507 - Added make+model combination: 'globetrotter xl 41'
+2025-01-27 23:34:07,507 - Added complete terms: 'globetrotter xl', '41'
+2025-01-27 23:34:07,508 - Processing make: 'Globetrotter Standard', model: '42'
+2025-01-27 23:34:07,508 - Added make+model combination: 'globetrotter standard 42'
+2025-01-27 23:34:07,509 - Added complete terms: 'globetrotter standard', '42'
+2025-01-27 23:34:07,509 - Processing make: 'Day Cab / Standard Sleeper', model: '43'
+2025-01-27 23:34:07,509 - Added make+model combination: 'day cab / standard sleeper 43'
+2025-01-27 23:34:07,510 - Added complete terms: 'day cab / standard sleeper', '43'
+2025-01-27 23:34:07,510 - Processing make: 'Volvo FE', model: '5'
+2025-01-27 23:34:07,511 - Added make+model combination: 'volvo fe 5'
+2025-01-27 23:34:07,511 - Added complete terms: 'volvo fe', '5'
+2025-01-27 23:34:07,511 - Processing make: 'Volvo FL', model: '6'
+2025-01-27 23:34:07,512 - Added make+model combination: 'volvo fl 6'
+2025-01-27 23:34:07,512 - Added complete terms: 'volvo fl', '6'
+2025-01-27 23:34:07,512 - Processing make: 'F10', model: '7'
+2025-01-27 23:34:07,512 - Added make+model combination: 'f10 7'
+2025-01-27 23:34:07,513 - Added complete terms: 'f10', '7'
+2025-01-27 23:34:07,513 - Processing make: 'F12', model: '8'
+2025-01-27 23:34:07,513 - Added make+model combination: 'f12 8'
+2025-01-27 23:34:07,514 - Added complete terms: 'f12', '8'
+2025-01-27 23:34:07,514 - Processing make: 'FMX 2013 - 2021', model: '9'
+2025-01-27 23:34:07,515 - Added make+model combination: 'fmx 2013 - 2021 9'
+2025-01-27 23:34:07,515 - Added complete terms: 'fmx 2013 - 2021', '9'
+2025-01-27 23:34:07,515 - Processing make: 'FMX Globetrotter', model: '91'
+2025-01-27 23:34:07,516 - Added make+model combination: 'fmx globetrotter 91'
+2025-01-27 23:34:07,516 - Added complete terms: 'fmx globetrotter', '91'
+2025-01-27 23:34:07,516 - Processing make: 'FMX Day Cab', model: '92'
+2025-01-27 23:34:07,516 - Added make+model combination: 'fmx day cab 92'
+2025-01-27 23:34:07,517 - Added complete terms: 'fmx day cab', '92'
+2025-01-27 23:34:07,517 - Processing make: 'FMX 2021+', model: '10'
+2025-01-27 23:34:07,517 - Added make+model combination: 'fmx 2021+ 10'
+2025-01-27 23:34:07,518 - Added complete terms: 'fmx 2021+', '10'
+2025-01-27 23:34:07,518 - Processing make: 'FMX Day Cab', model: '101'
+2025-01-27 23:34:07,518 - Added make+model combination: 'fmx day cab 101'
+2025-01-27 23:34:07,518 - Added complete terms: 'fmx day cab', '101'
+2025-01-27 23:34:07,519 - Processing make: 'FMX Globetrotter', model: '102'
+2025-01-27 23:34:07,519 - Added make+model combination: 'fmx globetrotter 102'
+2025-01-27 23:34:07,519 - Added complete terms: 'fmx globetrotter', '102'
+2025-01-27 23:34:07,520 - Processing make: 'FMX Globetrotter XL', model: '103'
+2025-01-27 23:34:07,520 - Added make+model combination: 'fmx globetrotter xl 103'
+2025-01-27 23:34:07,520 - Added complete terms: 'fmx globetrotter xl', '103'
+2025-01-27 23:34:07,520 - Processing make: 'FH5 2021+', model: '11'
+2025-01-27 23:34:07,521 - Added make+model combination: 'fh5 2021+ 11'
+2025-01-27 23:34:07,521 - Added complete terms: 'fh5 2021+', '11'
+2025-01-27 23:34:07,521 - Processing make: 'Globetrotter XL', model: '111'
+2025-01-27 23:34:07,522 - Added make+model combination: 'globetrotter xl 111'
+2025-01-27 23:34:07,522 - Added complete terms: 'globetrotter xl', '111'
+2025-01-27 23:34:07,522 - Processing make: 'Globetrotter Standard', model: '112'
+2025-01-27 23:34:07,523 - Added make+model combination: 'globetrotter standard 112'
+2025-01-27 23:34:07,523 - Added complete terms: 'globetrotter standard', '112'
+2025-01-27 23:34:07,523 - Processing make: 'Day Cab / Standard Sleeper', model: '113'
+2025-01-27 23:34:07,524 - Added make+model combination: 'day cab / standard sleeper 113'
+2025-01-27 23:34:07,524 - Added complete terms: 'day cab / standard sleeper', '113'
+2025-01-27 23:34:07,524 - Processing make: 'FM5 2021+', model: '12'
+2025-01-27 23:34:07,524 - Added make+model combination: 'fm5 2021+ 12'
+2025-01-27 23:34:07,524 - Added complete terms: 'fm5 2021+', '12'
+2025-01-27 23:34:07,525 - Processing make: 'Globetrotter XL', model: '121'
+2025-01-27 23:34:07,525 - Added make+model combination: 'globetrotter xl 121'
+2025-01-27 23:34:07,525 - Added complete terms: 'globetrotter xl', '121'
+2025-01-27 23:34:07,525 - Processing make: 'Globetrotter Standard', model: '122'
+2025-01-27 23:34:07,526 - Added make+model combination: 'globetrotter standard 122'
+2025-01-27 23:34:07,526 - Added complete terms: 'globetrotter standard', '122'
+2025-01-27 23:34:07,526 - Processing make: 'Day Cab / Standard Sleeper', model: '123'
+2025-01-27 23:34:07,526 - Added make+model combination: 'day cab / standard sleeper 123'
+2025-01-27 23:34:07,526 - Added complete terms: 'day cab / standard sleeper', '123'
+2025-01-27 23:34:07,527 - Processing make: 'XF106', model: '1'
+2025-01-27 23:34:07,527 - Added make+model combination: 'xf106 1'
+2025-01-27 23:34:07,527 - Added complete terms: 'xf106', '1'
+2025-01-27 23:34:07,527 - Processing make: 'Superspace Cab', model: '11'
+2025-01-27 23:34:07,527 - Added make+model combination: 'superspace cab 11'
+2025-01-27 23:34:07,528 - Added complete terms: 'superspace cab', '11'
+2025-01-27 23:34:07,528 - Processing make: 'Space Cab', model: '12'
+2025-01-27 23:34:07,529 - Added make+model combination: 'space cab 12'
+2025-01-27 23:34:07,529 - Added complete terms: 'space cab', '12'
+2025-01-27 23:34:07,529 - Processing make: 'Superspace Cab 2019+ Facelift', model: '13'
+2025-01-27 23:34:07,529 - Added make+model combination: 'superspace cab 2019+ facelift 13'
+2025-01-27 23:34:07,529 - Added complete terms: 'superspace cab 2019+ facelift', '13'
+2025-01-27 23:34:07,530 - Processing make: 'XF105', model: '2'
+2025-01-27 23:34:07,530 - Added make+model combination: 'xf105 2'
+2025-01-27 23:34:07,530 - Added complete terms: 'xf105', '2'
+2025-01-27 23:34:07,530 - Processing make: 'Superspace Cab', model: '21'
+2025-01-27 23:34:07,531 - Added make+model combination: 'superspace cab 21'
+2025-01-27 23:34:07,531 - Added complete terms: 'superspace cab', '21'
+2025-01-27 23:34:07,531 - Processing make: 'Space Cab', model: '22'
+2025-01-27 23:34:07,531 - Added make+model combination: 'space cab 22'
+2025-01-27 23:34:07,531 - Added complete terms: 'space cab', '22'
+2025-01-27 23:34:07,532 - Processing make: 'XF95', model: '3'
+2025-01-27 23:34:07,532 - Added make+model combination: 'xf95 3'
+2025-01-27 23:34:07,532 - Added complete terms: 'xf95', '3'
+2025-01-27 23:34:07,532 - Processing make: 'Superspace Cab', model: '31'
+2025-01-27 23:34:07,532 - Added make+model combination: 'superspace cab 31'
+2025-01-27 23:34:07,532 - Added complete terms: 'superspace cab', '31'
+2025-01-27 23:34:07,533 - Processing make: 'Space Cab', model: '32'
+2025-01-27 23:34:07,533 - Added make+model combination: 'space cab 32'
+2025-01-27 23:34:07,533 - Added complete terms: 'space cab', '32'
+2025-01-27 23:34:07,533 - Processing make: 'DAF CF 2014+', model: '4'
+2025-01-27 23:34:07,533 - Added make+model combination: 'daf cf 2014+ 4'
+2025-01-27 23:34:07,534 - Added complete terms: 'daf cf 2014+', '4'
+2025-01-27 23:34:07,534 - Processing make: 'Space Cab', model: '41'
+2025-01-27 23:34:07,534 - Added make+model combination: 'space cab 41'
+2025-01-27 23:34:07,534 - Added complete terms: 'space cab', '41'
+2025-01-27 23:34:07,534 - Processing make: 'Day Cab / Standard Sleeper', model: '42'
+2025-01-27 23:34:07,535 - Added make+model combination: 'day cab / standard sleeper 42'
+2025-01-27 23:34:07,535 - Added complete terms: 'day cab / standard sleeper', '42'
+2025-01-27 23:34:07,535 - Processing make: 'DAF CF Pre 2014', model: '5'
+2025-01-27 23:34:07,536 - Added make+model combination: 'daf cf pre 2014 5'
+2025-01-27 23:34:07,536 - Added complete terms: 'daf cf pre 2014', '5'
+2025-01-27 23:34:07,536 - Processing make: 'Space Cab', model: '51'
+2025-01-27 23:34:07,536 - Added make+model combination: 'space cab 51'
+2025-01-27 23:34:07,537 - Added complete terms: 'space cab', '51'
+2025-01-27 23:34:07,537 - Processing make: 'Day Cab / Standard Sleeper', model: '52'
+2025-01-27 23:34:07,537 - Added make+model combination: 'day cab / standard sleeper 52'
+2025-01-27 23:34:07,537 - Added complete terms: 'day cab / standard sleeper', '52'
+2025-01-27 23:34:07,538 - Processing make: 'DAF LF 2014+', model: '6'
+2025-01-27 23:34:07,538 - Added make+model combination: 'daf lf 2014+ 6'
+2025-01-27 23:34:07,538 - Added complete terms: 'daf lf 2014+', '6'
+2025-01-27 23:34:07,538 - Processing make: 'LF45', model: '61'
+2025-01-27 23:34:07,538 - Added make+model combination: 'lf45 61'
+2025-01-27 23:34:07,539 - Added complete terms: 'lf45', '61'
+2025-01-27 23:34:07,539 - Processing make: 'LF55', model: '62'
+2025-01-27 23:34:07,539 - Added make+model combination: 'lf55 62'
+2025-01-27 23:34:07,539 - Added complete terms: 'lf55', '62'
+2025-01-27 23:34:07,539 - Processing make: 'DAF LF Pre 2014', model: '7'
+2025-01-27 23:34:07,539 - Added make+model combination: 'daf lf pre 2014 7'
+2025-01-27 23:34:07,540 - Added complete terms: 'daf lf pre 2014', '7'
+2025-01-27 23:34:07,540 - Processing make: 'LF45', model: '71'
+2025-01-27 23:34:07,540 - Added make+model combination: 'lf45 71'
+2025-01-27 23:34:07,540 - Added complete terms: 'lf45', '71'
+2025-01-27 23:34:07,540 - Processing make: 'LF55', model: '72'
+2025-01-27 23:34:07,540 - Added make+model combination: 'lf55 72'
+2025-01-27 23:34:07,541 - Added complete terms: 'lf55', '72'
+2025-01-27 23:34:07,541 - Processing make: 'DAF 2017+', model: '8'
+2025-01-27 23:34:07,541 - Added make+model combination: 'daf 2017+ 8'
+2025-01-27 23:34:07,541 - Added complete terms: 'daf 2017+', '8'
+2025-01-27 23:34:07,542 - Processing make: 'XG/XF', model: '9'
+2025-01-27 23:34:07,542 - Added make+model combination: 'xg/xf 9'
+2025-01-27 23:34:07,542 - Added complete terms: 'xg/xf', '9'
+2025-01-27 23:34:07,543 - Processing make: 'XG+', model: '91'
+2025-01-27 23:34:07,543 - Added make+model combination: 'xg+ 91'
+2025-01-27 23:34:07,543 - Added complete terms: 'xg+', '91'
+2025-01-27 23:34:07,543 - Processing make: 'XD/XDC/XFC', model: '92'
+2025-01-27 23:34:07,544 - Added make+model combination: 'xd/xdc/xfc 92'
+2025-01-27 23:34:07,544 - Added complete terms: 'xd/xdc/xfc', '92'
+2025-01-27 23:34:07,544 - Processing make: 'XB/XBC', model: '93'
+2025-01-27 23:34:07,544 - Added make+model combination: 'xb/xbc 93'
+2025-01-27 23:34:07,545 - Added complete terms: 'xb/xbc', '93'
+2025-01-27 23:34:07,545 - Processing make: 'TGX 2015+', model: '1'
+2025-01-27 23:34:07,545 - Added make+model combination: 'tgx 2015+ 1'
+2025-01-27 23:34:07,545 - Added complete terms: 'tgx 2015+', '1'
+2025-01-27 23:34:07,546 - Processing make: 'XXL', model: '11'
+2025-01-27 23:34:07,546 - Added make+model combination: 'xxl 11'
+2025-01-27 23:34:07,546 - Added complete terms: 'xxl', '11'
+2025-01-27 23:34:07,546 - Processing make: 'XLX', model: '12'
+2025-01-27 23:34:07,547 - Added make+model combination: 'xlx 12'
+2025-01-27 23:34:07,547 - Added complete terms: 'xlx', '12'
+2025-01-27 23:34:07,547 - Processing make: 'XL', model: '13'
+2025-01-27 23:34:07,547 - Added make+model combination: 'xl 13'
+2025-01-27 23:34:07,547 - Added complete terms: 'xl', '13'
+2025-01-27 23:34:07,548 - Processing make: 'TGX', model: '2'
+2025-01-27 23:34:07,548 - Added make+model combination: 'tgx 2'
+2025-01-27 23:34:07,548 - Added complete terms: 'tgx', '2'
+2025-01-27 23:34:07,548 - Processing make: 'XXL', model: '21'
+2025-01-27 23:34:07,548 - Added make+model combination: 'xxl 21'
+2025-01-27 23:34:07,548 - Added complete terms: 'xxl', '21'
+2025-01-27 23:34:07,549 - Processing make: 'XLX', model: '22'
+2025-01-27 23:34:07,549 - Added make+model combination: 'xlx 22'
+2025-01-27 23:34:07,549 - Added complete terms: 'xlx', '22'
+2025-01-27 23:34:07,550 - Processing make: 'XL', model: '23'
+2025-01-27 23:34:07,550 - Added make+model combination: 'xl 23'
+2025-01-27 23:34:07,550 - Added complete terms: 'xl', '23'
+2025-01-27 23:34:07,551 - Processing make: 'TGA', model: '3'
+2025-01-27 23:34:07,552 - Added make+model combination: 'tga 3'
+2025-01-27 23:34:07,552 - Added complete terms: 'tga', '3'
+2025-01-27 23:34:07,552 - Processing make: 'XXL', model: '31'
+2025-01-27 23:34:07,552 - Added make+model combination: 'xxl 31'
+2025-01-27 23:34:07,553 - Added complete terms: 'xxl', '31'
+2025-01-27 23:34:07,553 - Processing make: 'XLX', model: '32'
+2025-01-27 23:34:07,553 - Added make+model combination: 'xlx 32'
+2025-01-27 23:34:07,554 - Added complete terms: 'xlx', '32'
+2025-01-27 23:34:07,554 - Processing make: 'XL', model: '33'
+2025-01-27 23:34:07,554 - Added make+model combination: 'xl 33'
+2025-01-27 23:34:07,554 - Added complete terms: 'xl', '33'
+2025-01-27 23:34:07,555 - Processing make: 'LX', model: '34'
+2025-01-27 23:34:07,555 - Added make+model combination: 'lx 34'
+2025-01-27 23:34:07,555 - Added complete terms: 'lx', '34'
+2025-01-27 23:34:07,556 - Processing make: 'M / L', model: '35'
+2025-01-27 23:34:07,556 - Added make+model combination: 'm / l 35'
+2025-01-27 23:34:07,557 - Added complete terms: 'm / l', '35'
+2025-01-27 23:34:07,557 - Processing make: 'TGL / TGM', model: '4'
+2025-01-27 23:34:07,557 - Added make+model combination: 'tgl / tgm 4'
+2025-01-27 23:34:07,558 - Added complete terms: 'tgl / tgm', '4'
+2025-01-27 23:34:07,558 - Processing make: 'LX - Long-haul Sleeper', model: '1'
+2025-01-27 23:34:07,558 - Added make+model combination: 'lx - long-haul sleeper 1'
+2025-01-27 23:34:07,559 - Added complete terms: 'lx - long-haul sleeper', '1'
+2025-01-27 23:34:07,559 - Processing make: 'L - Distribution Sleeper', model: '2'
+2025-01-27 23:34:07,559 - Added make+model combination: 'l - distribution sleeper 2'
+2025-01-27 23:34:07,559 - Added complete terms: 'l - distribution sleeper', '2'
+2025-01-27 23:34:07,560 - Processing make: 'C - Day Cab', model: '3'
+2025-01-27 23:34:07,560 - Added make+model combination: 'c - day cab 3'
+2025-01-27 23:34:07,560 - Added complete terms: 'c - day cab', '3'
+2025-01-27 23:34:07,560 - Processing make: 'DK - Crew Cab', model: '4'
+2025-01-27 23:34:07,560 - Added make+model combination: 'dk - crew cab 4'
+2025-01-27 23:34:07,561 - Added complete terms: 'dk - crew cab', '4'
+2025-01-27 23:34:07,561 - Processing make: 'TGS', model: '5'
+2025-01-27 23:34:07,561 - Added make+model combination: 'tgs 5'
+2025-01-27 23:34:07,561 - Added complete terms: 'tgs', '5'
+2025-01-27 23:34:07,562 - Processing make: 'M/L', model: '51'
+2025-01-27 23:34:07,562 - Added make+model combination: 'm/l 51'
+2025-01-27 23:34:07,562 - Added complete terms: 'm/l', '51'
+2025-01-27 23:34:07,563 - Processing make: 'LX', model: '52'
+2025-01-27 23:34:07,563 - Added make+model combination: 'lx 52'
+2025-01-27 23:34:07,564 - Added complete terms: 'lx', '52'
+2025-01-27 23:34:07,564 - Processing make: 'T Range', model: '1'
+2025-01-27 23:34:07,564 - Added make+model combination: 't range 1'
+2025-01-27 23:34:07,565 - Added complete terms: 't range', '1'
+2025-01-27 23:34:07,565 - Processing make: 'C Range', model: '2'
+2025-01-27 23:34:07,565 - Added make+model combination: 'c range 2'
+2025-01-27 23:34:07,565 - Added complete terms: 'c range', '2'
+2025-01-27 23:34:07,566 - Processing make: 'Magnum', model: '3'
+2025-01-27 23:34:07,566 - Added make+model combination: 'magnum 3'
+2025-01-27 23:34:07,566 - Added complete terms: 'magnum', '3'
+2025-01-27 23:34:07,567 - Processing make: 'Magnum Pre 2009', model: '31'
+2025-01-27 23:34:07,567 - Added make+model combination: 'magnum pre 2009 31'
+2025-01-27 23:34:07,567 - Added complete terms: 'magnum pre 2009', '31'
+2025-01-27 23:34:07,567 - Processing make: 'Premium', model: '4'
+2025-01-27 23:34:07,567 - Added make+model combination: 'premium 4'
+2025-01-27 23:34:07,568 - Added complete terms: 'premium', '4'
+2025-01-27 23:34:07,568 - Processing make: 'Priviledge H/R Sleeper', model: '41'
+2025-01-27 23:34:07,568 - Added make+model combination: 'priviledge h/r sleeper 41'
+2025-01-27 23:34:07,568 - Added complete terms: 'priviledge h/r sleeper', '41'
+2025-01-27 23:34:07,569 - Processing make: 'Day + F/R Sleeper', model: '42'
+2025-01-27 23:34:07,569 - Added make+model combination: 'day + f/r sleeper 42'
+2025-01-27 23:34:07,569 - Added complete terms: 'day + f/r sleeper', '42'
+2025-01-27 23:34:07,570 - Processing make: 'Lander', model: '5'
+2025-01-27 23:34:07,570 - Added make+model combination: 'lander 5'
+2025-01-27 23:34:07,570 - Added complete terms: 'lander', '5'
+2025-01-27 23:34:07,571 - Processing make: 'Midlum', model: '6'
+2025-01-27 23:34:07,571 - Added make+model combination: 'midlum 6'
+2025-01-27 23:34:07,571 - Added complete terms: 'midlum', '6'
+2025-01-27 23:34:07,572 - Processing make: 'Kerax', model: '7'
+2025-01-27 23:34:07,572 - Added make+model combination: 'kerax 7'
+2025-01-27 23:34:07,572 - Added complete terms: 'kerax', '7'
+2025-01-27 23:34:07,572 - Processing make: 'Maxity 2007+', model: '8'
+2025-01-27 23:34:07,573 - Added make+model combination: 'maxity 2007+ 8'
+2025-01-27 23:34:07,573 - Added complete terms: 'maxity 2007+', '8'
+2025-01-27 23:34:07,573 - Processing make: 'D Range', model: '9'
+2025-01-27 23:34:07,573 - Added make+model combination: 'd range 9'
+2025-01-27 23:34:07,573 - Added complete terms: 'd range', '9'
+2025-01-27 23:34:07,574 - Processing make: 'Stralis Cube + Hiway', model: '1'
+2025-01-27 23:34:07,574 - Added make+model combination: 'stralis cube + hiway 1'
+2025-01-27 23:34:07,574 - Added complete terms: 'stralis cube + hiway', '1'
+2025-01-27 23:34:07,574 - Processing make: 'Active Space / Time', model: '11'
+2025-01-27 23:34:07,575 - Added make+model combination: 'active space / time 11'
+2025-01-27 23:34:07,575 - Added complete terms: 'active space / time', '11'
+2025-01-27 23:34:07,575 - Processing make: 'Active Day', model: '12'
+2025-01-27 23:34:07,575 - Added make+model combination: 'active day 12'
+2025-01-27 23:34:07,575 - Added complete terms: 'active day', '12'
+2025-01-27 23:34:07,576 - Processing make: 'Stralis', model: '2'
+2025-01-27 23:34:07,576 - Added make+model combination: 'stralis 2'
+2025-01-27 23:34:07,576 - Added complete terms: 'stralis', '2'
+2025-01-27 23:34:07,577 - Processing make: 'Eurocargo ( 13 - 26GVW Grill Bar)', model: '3'
+2025-01-27 23:34:07,577 - Added make+model combination: 'eurocargo ( 13 - 26gvw grill bar) 3'
+2025-01-27 23:34:07,577 - Added complete terms: 'eurocargo ( 13 - 26gvw grill bar)', '3'
+2025-01-27 23:34:07,578 - Processing make: 'Eurocargo ( 7.5 - 13GVW Grill Bar)', model: '31'
+2025-01-27 23:34:07,578 - Added make+model combination: 'eurocargo ( 7.5 - 13gvw grill bar) 31'
+2025-01-27 23:34:07,578 - Added complete terms: 'eurocargo ( 7.5 - 13gvw grill bar)', '31'
+2025-01-27 23:34:07,579 - Processing make: 'Trakker', model: '4'
+2025-01-27 23:34:07,579 - Added make+model combination: 'trakker 4'
+2025-01-27 23:34:07,580 - Added complete terms: 'trakker', '4'
+2025-01-27 23:34:07,580 - Processing make: 'S-Way 2019+', model: '5'
+2025-01-27 23:34:07,580 - Added make+model combination: 's-way 2019+ 5'
+2025-01-27 23:34:07,581 - Added complete terms: 's-way 2019+', '5'
+2025-01-27 23:34:07,581 - Processing make: 'Actros MP4', model: '1'
+2025-01-27 23:34:07,582 - Added make+model combination: 'actros mp4 1'
+2025-01-27 23:34:07,582 - Added complete terms: 'actros mp4', '1'
+2025-01-27 23:34:07,582 - Processing make: 'Gigaspace', model: '11'
+2025-01-27 23:34:07,583 - Added make+model combination: 'gigaspace 11'
+2025-01-27 23:34:07,583 - Added complete terms: 'gigaspace', '11'
+2025-01-27 23:34:07,583 - Processing make: 'Bigspace', model: '12'
+2025-01-27 23:34:07,584 - Added make+model combination: 'bigspace 12'
+2025-01-27 23:34:07,584 - Added complete terms: 'bigspace', '12'
+2025-01-27 23:34:07,585 - Processing make: 'Actros MP4 2012+ StreamSpace', model: '13'
+2025-01-27 23:34:07,585 - Added make+model combination: 'actros mp4 2012+ streamspace 13'
+2025-01-27 23:34:07,585 - Added complete terms: 'actros mp4 2012+ streamspace', '13'
+2025-01-27 23:34:07,586 - Processing make: 'Classic', model: '14'
+2025-01-27 23:34:07,586 - Added make+model combination: 'classic 14'
+2025-01-27 23:34:07,586 - Added complete terms: 'classic', '14'
+2025-01-27 23:34:07,587 - Processing make: 'Actros MP3 / MP2', model: '2'
+2025-01-27 23:34:07,587 - Added make+model combination: 'actros mp3 / mp2 2'
+2025-01-27 23:34:07,587 - Added complete terms: 'actros mp3 / mp2', '2'
+2025-01-27 23:34:07,588 - Processing make: 'Arocs', model: '3'
+2025-01-27 23:34:07,588 - Added make+model combination: 'arocs 3'
+2025-01-27 23:34:07,589 - Added complete terms: 'arocs', '3'
+2025-01-27 23:34:07,589 - Processing make: 'Classic', model: '31'
+2025-01-27 23:34:07,589 - Added make+model combination: 'classic 31'
+2025-01-27 23:34:07,589 - Added complete terms: 'classic', '31'
+2025-01-27 23:34:07,590 - Processing make: 'Bigspace', model: '32'
+2025-01-27 23:34:07,590 - Added make+model combination: 'bigspace 32'
+2025-01-27 23:34:07,590 - Added complete terms: 'bigspace', '32'
+2025-01-27 23:34:07,591 - Processing make: 'Streamspace 2.3 / 2.5m', model: '33'
+2025-01-27 23:34:07,591 - Added make+model combination: 'streamspace 2.3 / 2.5m 33'
+2025-01-27 23:34:07,592 - Added complete terms: 'streamspace 2.3 / 2.5m', '33'
+2025-01-27 23:34:07,593 - Processing make: 'Axor', model: '4'
+2025-01-27 23:34:07,593 - Added make+model combination: 'axor 4'
+2025-01-27 23:34:07,593 - Added complete terms: 'axor', '4'
+2025-01-27 23:34:07,594 - Processing make: 'Atego', model: '5'
+2025-01-27 23:34:07,594 - Added make+model combination: 'atego 5'
+2025-01-27 23:34:07,594 - Added complete terms: 'atego', '5'
+2025-01-27 23:34:07,594 - Processing make: 'Mercedes 814', model: '6'
+2025-01-27 23:34:07,595 - Added make+model combination: 'mercedes 814 6'
+2025-01-27 23:34:07,595 - Added complete terms: 'mercedes 814', '6'
+2025-01-27 23:34:07,595 - Processing make: 'Antos', model: '7'
+2025-01-27 23:34:07,595 - Added make+model combination: 'antos 7'
+2025-01-27 23:34:07,596 - Added complete terms: 'antos', '7'
+2025-01-27 23:34:07,596 - Processing make: 'LN2', model: '8'
+2025-01-27 23:34:07,597 - Added make+model combination: 'ln2 8'
+2025-01-27 23:34:07,597 - Added complete terms: 'ln2', '8'
+2025-01-27 23:34:07,597 - Processing make: 'Short Cab', model: '1'
+2025-01-27 23:34:07,598 - Added make+model combination: 'short cab 1'
+2025-01-27 23:34:07,598 - Added complete terms: 'short cab', '1'
+2025-01-27 23:34:07,598 - Processing make: 'Actros MP5', model: '9'
+2025-01-27 23:34:07,599 - Added make+model combination: 'actros mp5 9'
+2025-01-27 23:34:07,599 - Added complete terms: 'actros mp5', '9'
+2025-01-27 23:34:07,600 - Processing make: 'Gigaspace', model: '91'
+2025-01-27 23:34:07,600 - Added make+model combination: 'gigaspace 91'
+2025-01-27 23:34:07,600 - Added complete terms: 'gigaspace', '91'
+2025-01-27 23:34:07,600 - Processing make: 'Bigspace', model: '92'
+2025-01-27 23:34:07,601 - Added make+model combination: 'bigspace 92'
+2025-01-27 23:34:07,601 - Added complete terms: 'bigspace', '92'
+2025-01-27 23:34:07,601 - Processing make: 'Streamspace 2.3 / 2.5m', model: '93'
+2025-01-27 23:34:07,601 - Added make+model combination: 'streamspace 2.3 / 2.5m 93'
+2025-01-27 23:34:07,601 - Added complete terms: 'streamspace 2.3 / 2.5m', '93'
+2025-01-27 23:34:07,602 - Processing make: 'Classic', model: '94'
+2025-01-27 23:34:07,602 - Added make+model combination: 'classic 94'
+2025-01-27 23:34:07,602 - Added complete terms: 'classic', '94'
+2025-01-27 23:34:07,603 - Processing make: 'Canter', model: '1'
+2025-01-27 23:34:07,603 - Added make+model combination: 'canter 1'
+2025-01-27 23:34:07,603 - Added complete terms: 'canter', '1'
+2025-01-27 23:34:07,603 - Processing make: 'Sterling 360', model: '2'
+2025-01-27 23:34:07,604 - Added make+model combination: 'sterling 360 2'
+2025-01-27 23:34:07,604 - Added complete terms: 'sterling 360', '2'
+2025-01-27 23:34:07,604 - Processing make: 'FV / FU / FP Series', model: '3'
+2025-01-27 23:34:07,604 - Added make+model combination: 'fv / fu / fp series 3'
+2025-01-27 23:34:07,604 - Added complete terms: 'fv / fu / fp series', '3'
+2025-01-27 23:34:07,605 - Processing make: 'FK / FM Series', model: '4'
+2025-01-27 23:34:07,605 - Added make+model combination: 'fk / fm series 4'
+2025-01-27 23:34:07,605 - Added complete terms: 'fk / fm series', '4'
+2025-01-27 23:34:07,606 - Processing make: 'Canter 1997-2005', model: '5'
+2025-01-27 23:34:07,606 - Added make+model combination: 'canter 1997-2005 5'
+2025-01-27 23:34:07,606 - Added complete terms: 'canter 1997-2005', '5'
+2025-01-27 23:34:07,607 - Processing make: 'Mitsubishi Fuso Super Great Shogun', model: '6'
+2025-01-27 23:34:07,607 - Added make+model combination: 'mitsubishi fuso super great shogun 6'
+2025-01-27 23:34:07,607 - Added complete terms: 'mitsubishi fuso super great shogun', '6'
+2025-01-27 23:34:07,607 - Processing make: 'Peterbilt', model: '1'
+2025-01-27 23:34:07,608 - Added make+model combination: 'peterbilt 1'
+2025-01-27 23:34:07,608 - Added complete terms: 'peterbilt', '1'
+2025-01-27 23:34:07,608 - Processing make: 'Volvo VNL Series', model: '2'
+2025-01-27 23:34:07,608 - Added make+model combination: 'volvo vnl series 2'
+2025-01-27 23:34:07,609 - Added complete terms: 'volvo vnl series', '2'
+2025-01-27 23:34:07,609 - Processing make: '780', model: '21'
+2025-01-27 23:34:07,609 - Added make+model combination: '780 21'
+2025-01-27 23:34:07,609 - Added complete terms: '780', '21'
+2025-01-27 23:34:07,610 - Processing make: 'Mack', model: '3'
+2025-01-27 23:34:07,610 - Added make+model combination: 'mack 3'
+2025-01-27 23:34:07,610 - Added complete terms: 'mack', '3'
+2025-01-27 23:34:07,610 - Processing make: 'Pinnacle Long Haul', model: '31'
+2025-01-27 23:34:07,611 - Added make+model combination: 'pinnacle long haul 31'
+2025-01-27 23:34:07,611 - Added complete terms: 'pinnacle long haul', '31'
+2025-01-27 23:34:07,611 - Processing make: 'Freightliner', model: '4'
+2025-01-27 23:34:07,612 - Added make+model combination: 'freightliner 4'
+2025-01-27 23:34:07,612 - Added complete terms: 'freightliner', '4'
+2025-01-27 23:34:07,612 - Processing make: 'New Cascadia', model: '41'
+2025-01-27 23:34:07,613 - Added make+model combination: 'new cascadia 41'
+2025-01-27 23:34:07,613 - Added complete terms: 'new cascadia', '41'
+2025-01-27 23:34:07,614 - Processing make: 'Cascadia Evolution', model: '42'
+2025-01-27 23:34:07,614 - Added make+model combination: 'cascadia evolution 42'
+2025-01-27 23:34:07,614 - Added complete terms: 'cascadia evolution', '42'
+2025-01-27 23:34:07,615 - Processing make: 'Kentworth', model: '5'
+2025-01-27 23:34:07,615 - Added make+model combination: 'kentworth 5'
+2025-01-27 23:34:07,615 - Added complete terms: 'kentworth', '5'
+2025-01-27 23:34:07,616 - Processing make: 'T680 52"', model: '51'
+2025-01-27 23:34:07,616 - Added make+model combination: 't680 52" 51'
+2025-01-27 23:34:07,616 - Added complete terms: 't680 52"', '51'
+2025-01-27 23:34:07,616 - Processing make: 'T680 76"', model: '52'
+2025-01-27 23:34:07,616 - Added make+model combination: 't680 76" 52'
+2025-01-27 23:34:07,616 - Added complete terms: 't680 76"', '52'
+2025-01-27 23:34:07,617 - Processing make: 'W900', model: '53'
+2025-01-27 23:34:07,617 - Added make+model combination: 'w900 53'
+2025-01-27 23:34:07,617 - Added complete terms: 'w900', '53'
+2025-01-27 23:34:07,617 - Processing make: 'T370', model: '54'
+2025-01-27 23:34:07,617 - Added make+model combination: 't370 54'
+2025-01-27 23:34:07,618 - Added complete terms: 't370', '54'
+2025-01-27 23:34:07,618 - Processing make: 'K370', model: '55'
+2025-01-27 23:34:07,619 - Added make+model combination: 'k370 55'
+2025-01-27 23:34:07,619 - Added complete terms: 'k370', '55'
+2025-01-27 23:34:07,619 - Processing make: 'Western Star', model: '6'
+2025-01-27 23:34:07,619 - Added make+model combination: 'western star 6'
+2025-01-27 23:34:07,619 - Added complete terms: 'western star', '6'
+2025-01-27 23:34:07,620 - Processing make: '5700XE', model: '61'
+2025-01-27 23:34:07,620 - Added make+model combination: '5700xe 61'
+2025-01-27 23:34:07,620 - Added complete terms: '5700xe', '61'
+2025-01-27 23:34:07,621 - Processing make: 'International', model: '7'
+2025-01-27 23:34:07,621 - Added make+model combination: 'international 7'
+2025-01-27 23:34:07,621 - Added complete terms: 'international', '7'
+2025-01-27 23:34:07,621 - Processing make: 'Lonestar', model: '71'
+2025-01-27 23:34:07,622 - Added make+model combination: 'lonestar 71'
+2025-01-27 23:34:07,622 - Added complete terms: 'lonestar', '71'
+2025-01-27 23:34:07,622 - Processing make: 'LT Series', model: '72'
+2025-01-27 23:34:07,622 - Added make+model combination: 'lt series 72'
+2025-01-27 23:34:07,622 - Added complete terms: 'lt series', '72'
+2025-01-27 23:34:07,622 - Processing make: '9900i', model: '73'
+2025-01-27 23:34:07,622 - Added make+model combination: '9900i 73'
+2025-01-27 23:34:07,623 - Added complete terms: '9900i', '73'
+2025-01-27 23:34:07,623 - Processing make: 'Tractor / Excavator', model: '8'
+2025-01-27 23:34:07,623 - Added make+model combination: 'tractor / excavator 8'
+2025-01-27 23:34:07,628 - Added complete terms: 'tractor / excavator', '8'
+2025-01-27 23:34:07,628 - Processing make: 'New Holand / Zetor / Massey Ferguson / Ford', model: '81'
+2025-01-27 23:34:07,629 - Added make+model combination: 'new holand / zetor / massey ferguson / ford 81'
+2025-01-27 23:34:07,629 - Added complete terms: 'new holand / zetor / massey ferguson / ford', '81'
+2025-01-27 23:34:07,630 - Processing make: 'John Deere / Case / Deutz / Fendt / Fiat / Lamborghini', model: '82'
+2025-01-27 23:34:07,630 - Added make+model combination: 'john deere / case / deutz / fendt / fiat / lamborghini 82'
+2025-01-27 23:34:07,630 - Added complete terms: 'john deere / case / deutz / fendt / fiat / lamborghini', '82'
+2025-01-27 23:34:07,631 - Processing make: '12T/13T Hitachi Hyundai Komatsu Kobelco JCB CAT', model: '83'
+2025-01-27 23:34:07,631 - Added make+model combination: '12t/13t hitachi hyundai komatsu kobelco jcb cat 83'
+2025-01-27 23:34:07,631 - Added complete terms: '12t/13t hitachi hyundai komatsu kobelco jcb cat', '83'
+2025-01-27 23:34:07,632 - Processing make: 'NPR', model: '1'
+2025-01-27 23:34:07,632 - Added make+model combination: 'npr 1'
+2025-01-27 23:34:07,633 - Added complete terms: 'npr', '1'
+2025-01-27 23:34:07,634 - Processing make: 'New Sino', model: '1'
+2025-01-27 23:34:07,635 - Added make+model combination: 'new sino 1'
+2025-01-27 23:34:07,635 - Added complete terms: 'new sino', '1'
+2025-01-27 23:34:07,636 - Processing make: 'Low Roof', model: '11'
+2025-01-27 23:34:07,636 - Added make+model combination: 'low roof 11'
+2025-01-27 23:34:07,636 - Added complete terms: 'low roof', '11'
+2025-01-27 23:34:07,637 - Processing make: 'Alpha', model: '1'
+2025-01-27 23:34:07,637 - Added make+model combination: 'alpha 1'
+2025-01-27 23:34:07,637 - Added complete terms: 'alpha', '1'
+2025-01-27 23:34:07,638 - Processing make: 'Space Cab - High', model: '11'
+2025-01-27 23:34:07,638 - Added make+model combination: 'space cab - high 11'
+2025-01-27 23:34:07,639 - Added complete terms: 'space cab - high', '11'
+2025-01-27 23:34:07,640 - Processing make: 'Day Cab / Standard Sleeper - Low', model: '12'
+2025-01-27 23:34:07,640 - Added make+model combination: 'day cab / standard sleeper - low 12'
+2025-01-27 23:34:07,640 - Added complete terms: 'day cab / standard sleeper - low', '12'
+2025-01-27 23:34:07,642 - Processing make: 'Cabstar', model: '1'
+2025-01-27 23:34:07,642 - Added make+model combination: 'cabstar 1'
+2025-01-27 23:34:07,642 - Added complete terms: 'cabstar', '1'
+2025-01-27 23:34:07,643 - Processing make: 'F-Max 2018+', model: '1'
+2025-01-27 23:34:07,643 - Added make+model combination: 'f-max 2018+ 1'
+2025-01-27 23:34:07,644 - Added complete terms: 'f-max 2018+', '1'
+2025-01-27 23:34:07,644 - Processing make: 'Ford', model: '1'
+2025-01-27 23:34:07,645 - Added make+model combination: 'ford 1'
+2025-01-27 23:34:07,645 - Added complete terms: 'ford', '1'
+2025-01-27 23:34:07,646 - Processing make: 'Volkswagan (VW)', model: '2'
+2025-01-27 23:34:07,647 - Added make+model combination: 'volkswagan (vw) 2'
+2025-01-27 23:34:07,647 - Added complete terms: 'volkswagan (vw)', '2'
+2025-01-27 23:34:07,648 - Processing make: 'Mercedes', model: '3'
+2025-01-27 23:34:07,648 - Added make+model combination: 'mercedes 3'
+2025-01-27 23:34:07,648 - Added complete terms: 'mercedes', '3'
+2025-01-27 23:34:07,649 - Processing make: 'Renault', model: '4'
+2025-01-27 23:34:07,649 - Added make+model combination: 'renault 4'
+2025-01-27 23:34:07,650 - Added complete terms: 'renault', '4'
+2025-01-27 23:34:07,650 - Processing make: 'Vauxhall / Opel', model: '5'
+2025-01-27 23:34:07,650 - Added make+model combination: 'vauxhall / opel 5'
+2025-01-27 23:34:07,651 - Added complete terms: 'vauxhall / opel', '5'
+2025-01-27 23:34:07,656 - Processing make: 'Fiat', model: '6'
+2025-01-27 23:34:07,664 - Added make+model combination: 'fiat 6'
+2025-01-27 23:34:07,666 - Added complete terms: 'fiat', '6'
+2025-01-27 23:34:07,668 - Processing make: 'Citreon', model: '7'
+2025-01-27 23:34:07,670 - Added make+model combination: 'citreon 7'
+2025-01-27 23:34:07,672 - Added complete terms: 'citreon', '7'
+2025-01-27 23:34:07,675 - Processing make: 'Peugoet', model: '8'
+2025-01-27 23:34:07,676 - Added make+model combination: 'peugoet 8'
+2025-01-27 23:34:07,676 - Added complete terms: 'peugoet', '8'
+2025-01-27 23:34:07,677 - Processing make: 'Nissan', model: '9'
+2025-01-27 23:34:07,677 - Added make+model combination: 'nissan 9'
+2025-01-27 23:34:07,677 - Added complete terms: 'nissan', '9'
+2025-01-27 23:34:07,678 - Processing make: 'Hyundai', model: '10'
+2025-01-27 23:34:07,678 - Added make+model combination: 'hyundai 10'
+2025-01-27 23:34:07,679 - Added complete terms: 'hyundai', '10'
+2025-01-27 23:34:07,679 - Processing make: 'Iveco', model: '11'
+2025-01-27 23:34:07,679 - Added make+model combination: 'iveco 11'
+2025-01-27 23:34:07,679 - Added complete terms: 'iveco', '11'
+2025-01-27 23:34:07,680 - Processing make: 'LDV', model: '12'
+2025-01-27 23:34:07,681 - Added make+model combination: 'ldv 12'
+2025-01-27 23:34:07,681 - Added complete terms: 'ldv', '12'
+2025-01-27 23:34:07,682 - Processing make: 'Toyota', model: '13'
+2025-01-27 23:34:07,682 - Added make+model combination: 'toyota 13'
+2025-01-27 23:34:07,683 - Added complete terms: 'toyota', '13'
+2025-01-27 23:34:07,683 - Processing make: 'MAN', model: '14'
+2025-01-27 23:34:07,684 - Added make+model combination: 'man 14'
+2025-01-27 23:34:07,684 - Added complete terms: 'man', '14'
+2025-01-27 23:34:07,685 - Processing make: 'Universal', model: '20'
+2025-01-27 23:34:07,685 - Added make+model combination: 'universal 20'
+2025-01-27 23:34:07,685 - Added complete terms: 'universal', '20'
+2025-01-27 23:34:07,686 - Processing make: 'Transit MK7 2007 - 2014', model: '1'
+2025-01-27 23:34:07,686 - Added make+model combination: 'transit mk7 2007 - 2014 1'
+2025-01-27 23:34:07,687 - Added complete terms: 'transit mk7 2007 - 2014', '1'
+2025-01-27 23:34:07,688 - Processing make: 'Transit Connect 2002 - 2014', model: '2'
+2025-01-27 23:34:07,688 - Added make+model combination: 'transit connect 2002 - 2014 2'
+2025-01-27 23:34:07,689 - Added complete terms: 'transit connect 2002 - 2014', '2'
+2025-01-27 23:34:07,689 - Processing make: 'Transit Custom 2013 - 2018', model: '3'
+2025-01-27 23:34:07,690 - Added make+model combination: 'transit custom 2013 - 2018 3'
+2025-01-27 23:34:07,690 - Added complete terms: 'transit custom 2013 - 2018', '3'
+2025-01-27 23:34:07,690 - Processing make: 'Transit MK6 2000 - 2006', model: '4'
+2025-01-27 23:34:07,691 - Added make+model combination: 'transit mk6 2000 - 2006 4'
+2025-01-27 23:34:07,691 - Added complete terms: 'transit mk6 2000 - 2006', '4'
+2025-01-27 23:34:07,691 - Processing make: 'Transit MK8 2014+', model: '5'
+2025-01-27 23:34:07,692 - Added make+model combination: 'transit mk8 2014+ 5'
+2025-01-27 23:34:07,692 - Added complete terms: 'transit mk8 2014+', '5'
+2025-01-27 23:34:07,693 - Processing make: 'Transit Connect 2014-2024', model: '6'
+2025-01-27 23:34:07,693 - Added make+model combination: 'transit connect 2014-2024 6'
+2025-01-27 23:34:07,693 - Added complete terms: 'transit connect 2014-2024', '6'
+2025-01-27 23:34:07,694 - Processing make: 'Transit Courier', model: '7'
+2025-01-27 23:34:07,694 - Added make+model combination: 'transit courier 7'
+2025-01-27 23:34:07,694 - Added complete terms: 'transit courier', '7'
+2025-01-27 23:34:07,695 - Processing make: 'Transit Custom 2018 - 2023', model: '8'
+2025-01-27 23:34:07,695 - Added make+model combination: 'transit custom 2018 - 2023 8'
+2025-01-27 23:34:07,695 - Added complete terms: 'transit custom 2018 - 2023', '8'
+2025-01-27 23:34:07,696 - Processing make: 'Transit MK9 2021+', model: '9'
+2025-01-27 23:34:07,696 - Added make+model combination: 'transit mk9 2021+ 9'
+2025-01-27 23:34:07,696 - Added complete terms: 'transit mk9 2021+', '9'
+2025-01-27 23:34:07,697 - Processing make: 'Transit Connect 2018+', model: '10'
+2025-01-27 23:34:07,697 - Added make+model combination: 'transit connect 2018+ 10'
+2025-01-27 23:34:07,697 - Added complete terms: 'transit connect 2018+', '10'
+2025-01-27 23:34:07,697 - Processing make: 'Note: has a lot of similar SKUs when used.', model: '11'
+2025-01-27 23:34:07,698 - Added make+model combination: 'note: has a lot of similar skus when used. 11'
+2025-01-27 23:34:07,698 - Added complete terms: 'note: has a lot of similar skus when used.', '11'
+2025-01-27 23:34:07,698 - Processing make: 'Note: has a lot of similar SKUs when used.', model: '12'
+2025-01-27 23:34:07,698 - Added make+model combination: 'note: has a lot of similar skus when used. 12'
+2025-01-27 23:34:07,699 - Added complete terms: 'note: has a lot of similar skus when used.', '12'
+2025-01-27 23:34:07,699 - Processing make: 'Transit Custom 2023+', model: '13'
+2025-01-27 23:34:07,699 - Added make+model combination: 'transit custom 2023+ 13'
+2025-01-27 23:34:07,699 - Added complete terms: 'transit custom 2023+', '13'
+2025-01-27 23:34:07,700 - Processing make: 'Transit Courier MK2 2023+', model: '14'
+2025-01-27 23:34:07,700 - Added make+model combination: 'transit courier mk2 2023+ 14'
+2025-01-27 23:34:07,700 - Added complete terms: 'transit courier mk2 2023+', '14'
+2025-01-27 23:34:07,701 - Processing make: 'Transit / Tournero Connect 2024+', model: '15'
+2025-01-27 23:34:07,701 - Added make+model combination: 'transit / tournero connect 2024+ 15'
+2025-01-27 23:34:07,701 - Added complete terms: 'transit / tournero connect 2024+', '15'
+2025-01-27 23:34:07,702 - Processing make: 'Caddy 2010-2015', model: '1'
+2025-01-27 23:34:07,702 - Added make+model combination: 'caddy 2010-2015 1'
+2025-01-27 23:34:07,702 - Added complete terms: 'caddy 2010-2015', '1'
+2025-01-27 23:34:07,702 - Processing make: 'Caddy 04-2010', model: '2'
+2025-01-27 23:34:07,703 - Added make+model combination: 'caddy 04-2010 2'
+2025-01-27 23:34:07,703 - Added complete terms: 'caddy 04-2010', '2'
+2025-01-27 23:34:07,703 - Processing make: 'Transporter  2004 - 2010 T5', model: '3'
+2025-01-27 23:34:07,703 - Added make+model combination: 'transporter  2004 - 2010 t5 3'
+2025-01-27 23:34:07,704 - Added complete terms: 'transporter  2004 - 2010 t5', '3'
+2025-01-27 23:34:07,704 - Processing make: 'Crafter 2006-2014', model: '4'
+2025-01-27 23:34:07,704 - Added make+model combination: 'crafter 2006-2014 4'
+2025-01-27 23:34:07,704 - Added complete terms: 'crafter 2006-2014', '4'
+2025-01-27 23:34:07,705 - Processing make: 'Transporter 2010 - 2015 T5', model: '5'
+2025-01-27 23:34:07,705 - Added make+model combination: 'transporter 2010 - 2015 t5 5'
+2025-01-27 23:34:07,705 - Added complete terms: 'transporter 2010 - 2015 t5', '5'
+2025-01-27 23:34:07,706 - Processing make: 'Transporter 2015 - 2022 T6', model: '6'
+2025-01-27 23:34:07,706 - Added make+model combination: 'transporter 2015 - 2022 t6 6'
+2025-01-27 23:34:07,706 - Added complete terms: 'transporter 2015 - 2022 t6', '6'
+2025-01-27 23:34:07,706 - Processing make: 'Transporter 1990 - 2004', model: '7'
+2025-01-27 23:34:07,707 - Added make+model combination: 'transporter 1990 - 2004 7'
+2025-01-27 23:34:07,707 - Added complete terms: 'transporter 1990 - 2004', '7'
+2025-01-27 23:34:07,707 - Processing make: 'Crafter 2014+', model: '8'
+2025-01-27 23:34:07,707 - Added make+model combination: 'crafter 2014+ 8'
+2025-01-27 23:34:07,707 - Added complete terms: 'crafter 2014+', '8'
+2025-01-27 23:34:07,708 - Processing make: 'Caddy 2015 - 2021', model: '9'
+2025-01-27 23:34:07,708 - Added make+model combination: 'caddy 2015 - 2021 9'
+2025-01-27 23:34:07,709 - Added complete terms: 'caddy 2015 - 2021', '9'
+2025-01-27 23:34:07,709 - Processing make: 'Crafter 2017+', model: '10'
+2025-01-27 23:34:07,709 - Added make+model combination: 'crafter 2017+ 10'
+2025-01-27 23:34:07,710 - Added complete terms: 'crafter 2017+', '10'
+2025-01-27 23:34:07,710 - Processing make: 'Transporter 2022 - 2024 T6.1', model: '11'
+2025-01-27 23:34:07,710 - Added make+model combination: 'transporter 2022 - 2024 t6.1 11'
+2025-01-27 23:34:07,711 - Added complete terms: 'transporter 2022 - 2024 t6.1', '11'
+2025-01-27 23:34:07,711 - Processing make: 'Caddy 2021+', model: '12'
+2025-01-27 23:34:07,711 - Added make+model combination: 'caddy 2021+ 12'
+2025-01-27 23:34:07,711 - Added complete terms: 'caddy 2021+', '12'
+2025-01-27 23:34:07,712 - Processing make: 'Crafter 2021+', model: '13'
+2025-01-27 23:34:07,712 - Added make+model combination: 'crafter 2021+ 13'
+2025-01-27 23:34:07,712 - Added complete terms: 'crafter 2021+', '13'
+2025-01-27 23:34:07,713 - Processing make: 'Transporter 2024+ T7', model: '14'
+2025-01-27 23:34:07,713 - Added make+model combination: 'transporter 2024+ t7 14'
+2025-01-27 23:34:07,713 - Added complete terms: 'transporter 2024+ t7', '14'
+2025-01-27 23:34:07,714 - Processing make: 'Vito 2004 - 2014', model: '1'
+2025-01-27 23:34:07,714 - Added make+model combination: 'vito 2004 - 2014 1'
+2025-01-27 23:34:07,714 - Added complete terms: 'vito 2004 - 2014', '1'
+2025-01-27 23:34:07,715 - Processing make: 'Sprinter 2006 - 2014', model: '2'
+2025-01-27 23:34:07,716 - Added make+model combination: 'sprinter 2006 - 2014 2'
+2025-01-27 23:34:07,716 - Added complete terms: 'sprinter 2006 - 2014', '2'
+2025-01-27 23:34:07,717 - Processing make: 'Citan', model: '3'
+2025-01-27 23:34:07,717 - Added make+model combination: 'citan 3'
+2025-01-27 23:34:07,717 - Added complete terms: 'citan', '3'
+2025-01-27 23:34:07,718 - Processing make: 'Vito 2014+', model: '4'
+2025-01-27 23:34:07,718 - Added make+model combination: 'vito 2014+ 4'
+2025-01-27 23:34:07,718 - Added complete terms: 'vito 2014+', '4'
+2025-01-27 23:34:07,718 - Processing make: 'Sprinter 2014 - 2018', model: '5'
+2025-01-27 23:34:07,719 - Added make+model combination: 'sprinter 2014 - 2018 5'
+2025-01-27 23:34:07,719 - Added complete terms: 'sprinter 2014 - 2018', '5'
+2025-01-27 23:34:07,720 - Processing make: 'Vario Bus', model: '6'
+2025-01-27 23:34:07,720 - Added make+model combination: 'vario bus 6'
+2025-01-27 23:34:07,720 - Added complete terms: 'vario bus', '6'
+2025-01-27 23:34:07,720 - Processing make: 'Metris', model: '7'
+2025-01-27 23:34:07,721 - Added make+model combination: 'metris 7'
+2025-01-27 23:34:07,721 - Added complete terms: 'metris', '7'
+2025-01-27 23:34:07,721 - Processing make: 'Sprinter 2018+', model: '8'
+2025-01-27 23:34:07,721 - Added make+model combination: 'sprinter 2018+ 8'
+2025-01-27 23:34:07,722 - Added complete terms: 'sprinter 2018+', '8'
+2025-01-27 23:34:07,722 - Processing make: 'Vito 1996 - 2004', model: '9'
+2025-01-27 23:34:07,722 - Added make+model combination: 'vito 1996 - 2004 9'
+2025-01-27 23:34:07,722 - Added complete terms: 'vito 1996 - 2004', '9'
+2025-01-27 23:34:07,723 - Processing make: 'Sprinter 1995 - 2006', model: '10'
+2025-01-27 23:34:07,723 - Added make+model combination: 'sprinter 1995 - 2006 10'
+2025-01-27 23:34:07,723 - Added complete terms: 'sprinter 1995 - 2006', '10'
+2025-01-27 23:34:07,724 - Processing make: 'Trafic 2002-2014', model: '1'
+2025-01-27 23:34:07,724 - Added make+model combination: 'trafic 2002-2014 1'
+2025-01-27 23:34:07,724 - Added complete terms: 'trafic 2002-2014', '1'
+2025-01-27 23:34:07,724 - Processing make: 'Master 2003-2010', model: '2'
+2025-01-27 23:34:07,725 - Added make+model combination: 'master 2003-2010 2'
+2025-01-27 23:34:07,725 - Added complete terms: 'master 2003-2010', '2'
+2025-01-27 23:34:07,725 - Processing make: 'Kangoo pre 08', model: '3'
+2025-01-27 23:34:07,725 - Added make+model combination: 'kangoo pre 08 3'
+2025-01-27 23:34:07,725 - Added complete terms: 'kangoo pre 08', '3'
+2025-01-27 23:34:07,726 - Processing make: 'Kangoo 08+', model: '4'
+2025-01-27 23:34:07,726 - Added make+model combination: 'kangoo 08+ 4'
+2025-01-27 23:34:07,726 - Added complete terms: 'kangoo 08+', '4'
+2025-01-27 23:34:07,726 - Processing make: 'Traffic 2014-2022', model: '5'
+2025-01-27 23:34:07,727 - Added make+model combination: 'traffic 2014-2022 5'
+2025-01-27 23:34:07,727 - Added complete terms: 'traffic 2014-2022', '5'
+2025-01-27 23:34:07,727 - Processing make: 'Master 2010-2018', model: '6'
+2025-01-27 23:34:07,727 - Added make+model combination: 'master 2010-2018 6'
+2025-01-27 23:34:07,727 - Added complete terms: 'master 2010-2018', '6'
+2025-01-27 23:34:07,728 - Processing make: 'Master 2018-2024', model: '7'
+2025-01-27 23:34:07,728 - Added make+model combination: 'master 2018-2024 7'
+2025-01-27 23:34:07,728 - Added complete terms: 'master 2018-2024', '7'
+2025-01-27 23:34:07,728 - Processing make: 'Trafic 2019+', model: '8'
+2025-01-27 23:34:07,728 - Added make+model combination: 'trafic 2019+ 8'
+2025-01-27 23:34:07,728 - Added complete terms: 'trafic 2019+', '8'
+2025-01-27 23:34:07,729 - Processing make: 'Koleos 2017+', model: '9'
+2025-01-27 23:34:07,729 - Added make+model combination: 'koleos 2017+ 9'
+2025-01-27 23:34:07,729 - Added complete terms: 'koleos 2017+', '9'
+2025-01-27 23:34:07,730 - Processing make: 'Kangoo 2021+', model: '10'
+2025-01-27 23:34:07,730 - Added make+model combination: 'kangoo 2021+ 10'
+2025-01-27 23:34:07,730 - Added complete terms: 'kangoo 2021+', '10'
+2025-01-27 23:34:07,730 - Processing make: 'Master 2024+', model: '11'
+2025-01-27 23:34:07,730 - Added make+model combination: 'master 2024+ 11'
+2025-01-27 23:34:07,731 - Added complete terms: 'master 2024+', '11'
+2025-01-27 23:34:07,731 - Processing make: 'Trafic 2022+', model: '12'
+2025-01-27 23:34:07,731 - Added make+model combination: 'trafic 2022+ 12'
+2025-01-27 23:34:07,731 - Added complete terms: 'trafic 2022+', '12'
+2025-01-27 23:34:07,731 - Processing make: 'Combo Pre 2011', model: '1'
+2025-01-27 23:34:07,732 - Added make+model combination: 'combo pre 2011 1'
+2025-01-27 23:34:07,732 - Added complete terms: 'combo pre 2011', '1'
+2025-01-27 23:34:07,732 - Processing make: 'Combo 2012 - 2019', model: '2'
+2025-01-27 23:34:07,732 - Added make+model combination: 'combo 2012 - 2019 2'
+2025-01-27 23:34:07,732 - Added complete terms: 'combo 2012 - 2019', '2'
+2025-01-27 23:34:07,732 - Processing make: 'Vivaro 2002 - 2014', model: '3'
+2025-01-27 23:34:07,733 - Added make+model combination: 'vivaro 2002 - 2014 3'
+2025-01-27 23:34:07,733 - Added complete terms: 'vivaro 2002 - 2014', '3'
+2025-01-27 23:34:07,733 - Processing make: 'Movano 2003 - 2010', model: '4'
+2025-01-27 23:34:07,733 - Added make+model combination: 'movano 2003 - 2010 4'
+2025-01-27 23:34:07,733 - Added complete terms: 'movano 2003 - 2010', '4'
+2025-01-27 23:34:07,734 - Processing make: 'Vivaro 2014 - 2019', model: '5'
+2025-01-27 23:34:07,734 - Added make+model combination: 'vivaro 2014 - 2019 5'
+2025-01-27 23:34:07,734 - Added complete terms: 'vivaro 2014 - 2019', '5'
+2025-01-27 23:34:07,734 - Processing make: 'Movano 2010 - 2021', model: '6'
+2025-01-27 23:34:07,734 - Added make+model combination: 'movano 2010 - 2021 6'
+2025-01-27 23:34:07,735 - Added complete terms: 'movano 2010 - 2021', '6'
+2025-01-27 23:34:07,735 - Processing make: 'Combo 2019+', model: '7'
+2025-01-27 23:34:07,735 - Added make+model combination: 'combo 2019+ 7'
+2025-01-27 23:34:07,735 - Added complete terms: 'combo 2019+', '7'
+2025-01-27 23:34:07,735 - Processing make: 'Vivaro 2019+', model: '8'
+2025-01-27 23:34:07,735 - Added make+model combination: 'vivaro 2019+ 8'
+2025-01-27 23:34:07,736 - Added complete terms: 'vivaro 2019+', '8'
+2025-01-27 23:34:07,736 - Processing make: 'Movano 2021+', model: '9'
+2025-01-27 23:34:07,736 - Added make+model combination: 'movano 2021+ 9'
+2025-01-27 23:34:07,736 - Added complete terms: 'movano 2021+', '9'
+2025-01-27 23:34:07,737 - Processing make: 'Doblo pre 10', model: '1'
+2025-01-27 23:34:07,737 - Added make+model combination: 'doblo pre 10 1'
+2025-01-27 23:34:07,737 - Added complete terms: 'doblo pre 10', '1'
+2025-01-27 23:34:07,737 - Processing make: 'Doblo 10 +', model: '2'
+2025-01-27 23:34:07,738 - Added make+model combination: 'doblo 10 + 2'
+2025-01-27 23:34:07,738 - Added complete terms: 'doblo 10 +', '2'
+2025-01-27 23:34:07,738 - Processing make: 'Scudo 2007-2016', model: '3'
+2025-01-27 23:34:07,738 - Added make+model combination: 'scudo 2007-2016 3'
+2025-01-27 23:34:07,738 - Added complete terms: 'scudo 2007-2016', '3'
+2025-01-27 23:34:07,738 - Processing make: 'Ducato 2007-2014', model: '4'
+2025-01-27 23:34:07,739 - Added make+model combination: 'ducato 2007-2014 4'
+2025-01-27 23:34:07,739 - Added complete terms: 'ducato 2007-2014', '4'
+2025-01-27 23:34:07,739 - Processing make: 'Talento 2016+', model: '6'
+2025-01-27 23:34:07,739 - Added make+model combination: 'talento 2016+ 6'
+2025-01-27 23:34:07,739 - Added complete terms: 'talento 2016+', '6'
+2025-01-27 23:34:07,740 - Processing make: 'Fiorino', model: '7'
+2025-01-27 23:34:07,740 - Added make+model combination: 'fiorino 7'
+2025-01-27 23:34:07,740 - Added complete terms: 'fiorino', '7'
+2025-01-27 23:34:07,740 - Processing make: 'Scudo 2016+', model: '8'
+2025-01-27 23:34:07,740 - Added make+model combination: 'scudo 2016+ 8'
+2025-01-27 23:34:07,741 - Added complete terms: 'scudo 2016+', '8'
+2025-01-27 23:34:07,741 - Processing make: 'Scudo Pre 2007', model: '9'
+2025-01-27 23:34:07,741 - Added make+model combination: 'scudo pre 2007 9'
+2025-01-27 23:34:07,741 - Added complete terms: 'scudo pre 2007', '9'
+2025-01-27 23:34:07,741 - Processing make: 'Ducato 2014+', model: '10'
+2025-01-27 23:34:07,742 - Added make+model combination: 'ducato 2014+ 10'
+2025-01-27 23:34:07,742 - Added complete terms: 'ducato 2014+', '10'
+2025-01-27 23:34:07,742 - Processing make: 'Ducato 1993 - 2007', model: '11'
+2025-01-27 23:34:07,742 - Added make+model combination: 'ducato 1993 - 2007 11'
+2025-01-27 23:34:07,742 - Added complete terms: 'ducato 1993 - 2007', '11'
+2025-01-27 23:34:07,743 - Processing make: 'Ducato 2019+', model: '12'
+2025-01-27 23:34:07,743 - Added make+model combination: 'ducato 2019+ 12'
+2025-01-27 23:34:07,743 - Added complete terms: 'ducato 2019+', '12'
+2025-01-27 23:34:07,744 - Processing make: 'Berlingo 97-08', model: '1'
+2025-01-27 23:34:07,744 - Added make+model combination: 'berlingo 97-08 1'
+2025-01-27 23:34:07,744 - Added complete terms: 'berlingo 97-08', '1'
+2025-01-27 23:34:07,745 - Processing make: 'Berlingo 08 - 16', model: '2'
+2025-01-27 23:34:07,745 - Added make+model combination: 'berlingo 08 - 16 2'
+2025-01-27 23:34:07,745 - Added complete terms: 'berlingo 08 - 16', '2'
+2025-01-27 23:34:07,745 - Processing make: 'Nemo', model: '3'
+2025-01-27 23:34:07,746 - Added make+model combination: 'nemo 3'
+2025-01-27 23:34:07,746 - Added complete terms: 'nemo', '3'
+2025-01-27 23:34:07,748 - Processing make: 'Dispatch 07 - 16', model: '4'
+2025-01-27 23:34:07,748 - Added make+model combination: 'dispatch 07 - 16 4'
+2025-01-27 23:34:07,748 - Added complete terms: 'dispatch 07 - 16', '4'
+2025-01-27 23:34:07,748 - Processing make: 'Dispatch 95 - 07', model: '5'
+2025-01-27 23:34:07,748 - Added make+model combination: 'dispatch 95 - 07 5'
+2025-01-27 23:34:07,749 - Added complete terms: 'dispatch 95 - 07', '5'
+2025-01-27 23:34:07,749 - Processing make: 'Jumper / Relay 07 - 14', model: '6'
+2025-01-27 23:34:07,749 - Added make+model combination: 'jumper / relay 07 - 14 6'
+2025-01-27 23:34:07,749 - Added complete terms: 'jumper / relay 07 - 14', '6'
+2025-01-27 23:34:07,749 - Processing make: 'Dispatch / SpaceTourer 2016+', model: '7'
+2025-01-27 23:34:07,750 - Added make+model combination: 'dispatch / spacetourer 2016+ 7'
+2025-01-27 23:34:07,750 - Added complete terms: 'dispatch / spacetourer 2016+', '7'
+2025-01-27 23:34:07,750 - Processing make: 'Jumper / Relay 14+', model: '8'
+2025-01-27 23:34:07,750 - Added make+model combination: 'jumper / relay 14+ 8'
+2025-01-27 23:34:07,751 - Added complete terms: 'jumper / relay 14+', '8'
+2025-01-27 23:34:07,751 - Processing make: 'Berlingo 2016-2019', model: '9'
+2025-01-27 23:34:07,751 - Added make+model combination: 'berlingo 2016-2019 9'
+2025-01-27 23:34:07,751 - Added complete terms: 'berlingo 2016-2019', '9'
+2025-01-27 23:34:07,752 - Processing make: 'Ducato 14+ Facelift', model: '10'
+2025-01-27 23:34:07,752 - Added make+model combination: 'ducato 14+ facelift 10'
+2025-01-27 23:34:07,752 - Added complete terms: 'ducato 14+ facelift', '10'
+2025-01-27 23:34:07,752 - Processing make: 'Jumpy 07 - 16', model: '11'
+2025-01-27 23:34:07,753 - Added make+model combination: 'jumpy 07 - 16 11'
+2025-01-27 23:34:07,753 - Added complete terms: 'jumpy 07 - 16', '11'
+2025-01-27 23:34:07,753 - Processing make: 'Berlingo 2019+', model: '12'
+2025-01-27 23:34:07,753 - Added make+model combination: 'berlingo 2019+ 12'
+2025-01-27 23:34:07,753 - Added complete terms: 'berlingo 2019+', '12'
+2025-01-27 23:34:07,754 - Processing make: 'Jumpy 2016+', model: '13'
+2025-01-27 23:34:07,754 - Added make+model combination: 'jumpy 2016+ 13'
+2025-01-27 23:34:07,754 - Added complete terms: 'jumpy 2016+', '13'
+2025-01-27 23:34:07,754 - Processing make: 'Partner 97- 08', model: '1'
+2025-01-27 23:34:07,754 - Added make+model combination: 'partner 97- 08 1'
+2025-01-27 23:34:07,755 - Added complete terms: 'partner 97- 08', '1'
+2025-01-27 23:34:07,755 - Processing make: 'Partner 08 - 16', model: '2'
+2025-01-27 23:34:07,755 - Added make+model combination: 'partner 08 - 16 2'
+2025-01-27 23:34:07,755 - Added complete terms: 'partner 08 - 16', '2'
+2025-01-27 23:34:07,755 - Processing make: 'Bipper 2007 - 2016', model: '3'
+2025-01-27 23:34:07,755 - Added make+model combination: 'bipper 2007 - 2016 3'
+2025-01-27 23:34:07,756 - Added complete terms: 'bipper 2007 - 2016', '3'
+2025-01-27 23:34:07,756 - Processing make: 'Boxer 07-14', model: '4'
+2025-01-27 23:34:07,756 - Added make+model combination: 'boxer 07-14 4'
+2025-01-27 23:34:07,756 - Added complete terms: 'boxer 07-14', '4'
+2025-01-27 23:34:07,756 - Processing make: 'fROOF BAR', model: '4'
+2025-01-27 23:34:07,756 - Added make+model combination: 'froof bar 4'
+2025-01-27 23:34:07,757 - Added complete terms: 'froof bar', '4'
+2025-01-27 23:34:07,757 - Processing make: 'Expert 07 - 16', model: '5'
+2025-01-27 23:34:07,757 - Added make+model combination: 'expert 07 - 16 5'
+2025-01-27 23:34:07,757 - Added complete terms: 'expert 07 - 16', '5'
+2025-01-27 23:34:07,758 - Processing make: 'Expert 2016+', model: '6'
+2025-01-27 23:34:07,758 - Added make+model combination: 'expert 2016+ 6'
+2025-01-27 23:34:07,758 - Added complete terms: 'expert 2016+', '6'
+2025-01-27 23:34:07,758 - Processing make: 'Boxer 14+', model: '7'
+2025-01-27 23:34:07,759 - Added make+model combination: 'boxer 14+ 7'
+2025-01-27 23:34:07,759 - Added complete terms: 'boxer 14+', '7'
+2025-01-27 23:34:07,759 - Processing make: 'Partner 2016-2019', model: '8'
+2025-01-27 23:34:07,759 - Added make+model combination: 'partner 2016-2019 8'
+2025-01-27 23:34:07,759 - Added complete terms: 'partner 2016-2019', '8'
+2025-01-27 23:34:07,760 - Processing make: 'Expert Pre 2007', model: '9'
+2025-01-27 23:34:07,760 - Added make+model combination: 'expert pre 2007 9'
+2025-01-27 23:34:07,760 - Added complete terms: 'expert pre 2007', '9'
+2025-01-27 23:34:07,760 - Processing make: 'Partner / Rifter 2019+', model: '10'
+2025-01-27 23:34:07,760 - Added make+model combination: 'partner / rifter 2019+ 10'
+2025-01-27 23:34:07,760 - Added complete terms: 'partner / rifter 2019+', '10'
+2025-01-27 23:34:07,761 - Processing make: 'Bipper 2016+', model: '11'
+2025-01-27 23:34:07,761 - Added make+model combination: 'bipper 2016+ 11'
+2025-01-27 23:34:07,761 - Added complete terms: 'bipper 2016+', '11'
+2025-01-27 23:34:07,761 - Processing make: 'Primastar(02-14)', model: '1'
+2025-01-27 23:34:07,761 - Added make+model combination: 'primastar(02-14) 1'
+2025-01-27 23:34:07,761 - Added complete terms: 'primastar(02-14)', '1'
+2025-01-27 23:34:07,762 - Processing make: 'NV400', model: '2'
+2025-01-27 23:34:07,762 - Added make+model combination: 'nv400 2'
+2025-01-27 23:34:07,762 - Added complete terms: 'nv400', '2'
+2025-01-27 23:34:07,762 - Processing make: 'Interstar', model: '3'
+2025-01-27 23:34:07,762 - Added make+model combination: 'interstar 3'
+2025-01-27 23:34:07,763 - Added complete terms: 'interstar', '3'
+2025-01-27 23:34:07,763 - Processing make: 'Kubistar', model: '4'
+2025-01-27 23:34:07,763 - Added make+model combination: 'kubistar 4'
+2025-01-27 23:34:07,763 - Added complete terms: 'kubistar', '4'
+2025-01-27 23:34:07,763 - Processing make: 'NV200', model: '5'
+2025-01-27 23:34:07,763 - Added make+model combination: 'nv200 5'
+2025-01-27 23:34:07,764 - Added complete terms: 'nv200', '5'
+2025-01-27 23:34:07,764 - Processing make: 'NV300/ Primastar 2014+', model: '6'
+2025-01-27 23:34:07,764 - Added make+model combination: 'nv300/ primastar 2014+ 6'
+2025-01-27 23:34:07,764 - Added complete terms: 'nv300/ primastar 2014+', '6'
+2025-01-27 23:34:07,765 - Processing make: 'Primastar 2022+', model: '7'
+2025-01-27 23:34:07,765 - Added make+model combination: 'primastar 2022+ 7'
+2025-01-27 23:34:07,765 - Added complete terms: 'primastar 2022+', '7'
+2025-01-27 23:34:07,765 - Processing make: 'Interstar 2024+', model: '8'
+2025-01-27 23:34:07,765 - Added make+model combination: 'interstar 2024+ 8'
+2025-01-27 23:34:07,766 - Added complete terms: 'interstar 2024+', '8'
+2025-01-27 23:34:07,766 - Processing make: 'Hyundai  310', model: 'volvo'
+2025-01-27 23:34:07,766 - Added make+model combination: 'hyundai  310 volvo'
+2025-01-27 23:34:07,766 - Added complete terms: 'hyundai  310', 'volvo'
+2025-01-27 23:34:07,767 - Processing make: 'Daily 2006 - 2014', model: '1'
+2025-01-27 23:34:07,767 - Added make+model combination: 'daily 2006 - 2014 1'
+2025-01-27 23:34:07,767 - Added complete terms: 'daily 2006 - 2014', '1'
+2025-01-27 23:34:07,767 - Processing make: 'Daily 2014+', model: '2'
+2025-01-27 23:34:07,767 - Added make+model combination: 'daily 2014+ 2'
+2025-01-27 23:34:07,767 - Added complete terms: 'daily 2014+', '2'
+2025-01-27 23:34:07,768 - Processing make: 'Daily 1999-2006', model: '3'
+2025-01-27 23:34:07,768 - Added make+model combination: 'daily 1999-2006 3'
+2025-01-27 23:34:07,768 - Added complete terms: 'daily 1999-2006', '3'
+2025-01-27 23:34:07,768 - Processing make: 'Daily 2019+', model: '4'
+2025-01-27 23:34:07,768 - Added make+model combination: 'daily 2019+ 4'
+2025-01-27 23:34:07,768 - Added complete terms: 'daily 2019+', '4'
+2025-01-27 23:34:07,769 - Processing make: 'Maxus LDV V80', model: '1'
+2025-01-27 23:34:07,769 - Added make+model combination: 'maxus ldv v80 1'
+2025-01-27 23:34:07,769 - Added complete terms: 'maxus ldv v80', '1'
+2025-01-27 23:34:07,769 - Processing make: 'Maxus Deliver 9', model: '2'
+2025-01-27 23:34:07,769 - Added make+model combination: 'maxus deliver 9 2'
+2025-01-27 23:34:07,770 - Added complete terms: 'maxus deliver 9', '2'
+2025-01-27 23:34:07,770 - Processing make: 'Maxus Deliver 3', model: '3'
+2025-01-27 23:34:07,770 - Added make+model combination: 'maxus deliver 3 3'
+2025-01-27 23:34:07,770 - Added complete terms: 'maxus deliver 3', '3'
+2025-01-27 23:34:07,770 - Processing make: 'Maxus Mifa 9', model: '4'
+2025-01-27 23:34:07,771 - Added make+model combination: 'maxus mifa 9 4'
+2025-01-27 23:34:07,771 - Added complete terms: 'maxus mifa 9', '4'
+2025-01-27 23:34:07,771 - Processing make: 'Deliver 7', model: '5'
+2025-01-27 23:34:07,771 - Added make+model combination: 'deliver 7 5'
+2025-01-27 23:34:07,772 - Added complete terms: 'deliver 7', '5'
+2025-01-27 23:34:07,772 - Processing make: 'Deliver 3', model: '6'
+2025-01-27 23:34:07,772 - Added make+model combination: 'deliver 3 6'
+2025-01-27 23:34:07,772 - Added complete terms: 'deliver 3', '6'
+2025-01-27 23:34:07,773 - Processing make: 'Mifo', model: '7'
+2025-01-27 23:34:07,773 - Added make+model combination: 'mifo 7'
+2025-01-27 23:34:07,773 - Added complete terms: 'mifo', '7'
+2025-01-27 23:34:07,773 - Processing make: 'ProAce', model: '1'
+2025-01-27 23:34:07,773 - Added make+model combination: 'proace 1'
+2025-01-27 23:34:07,773 - Added complete terms: 'proace', '1'
+2025-01-27 23:34:07,774 - Processing make: 'ProAce / Verso 2016+', model: '2'
+2025-01-27 23:34:07,774 - Added make+model combination: 'proace / verso 2016+ 2'
+2025-01-27 23:34:07,774 - Added complete terms: 'proace / verso 2016+', '2'
+2025-01-27 23:34:07,774 - Processing make: 'Hi-Ace 1983 - 1989', model: '3'
+2025-01-27 23:34:07,774 - Added make+model combination: 'hi-ace 1983 - 1989 3'
+2025-01-27 23:34:07,774 - Added complete terms: 'hi-ace 1983 - 1989', '3'
+2025-01-27 23:34:07,775 - Processing make: 'TGE 2017+', model: '1'
+2025-01-27 23:34:07,775 - Added make+model combination: 'tge 2017+ 1'
+2025-01-27 23:34:07,775 - Added complete terms: 'tge 2017+', '1'
+2025-01-27 23:34:07,776 - Processing make: 'Audi', model: '1'
+2025-01-27 23:34:07,776 - Added make+model combination: 'audi 1'
+2025-01-27 23:34:07,776 - Added complete terms: 'audi', '1'
+2025-01-27 23:34:07,777 - Processing make: 'BMW', model: '2'
+2025-01-27 23:34:07,777 - Added make+model combination: 'bmw 2'
+2025-01-27 23:34:07,777 - Added complete terms: 'bmw', '2'
+2025-01-27 23:34:07,777 - Processing make: 'Ford', model: '3'
+2025-01-27 23:34:07,777 - Added make+model combination: 'ford 3'
+2025-01-27 23:34:07,777 - Added complete terms: 'ford', '3'
+2025-01-27 23:34:07,778 - Processing make: 'Hyundai', model: '4'
+2025-01-27 23:34:07,778 - Added make+model combination: 'hyundai 4'
+2025-01-27 23:34:07,778 - Added complete terms: 'hyundai', '4'
+2025-01-27 23:34:07,778 - Processing make: 'Isuzu', model: '5'
+2025-01-27 23:34:07,779 - Added make+model combination: 'isuzu 5'
+2025-01-27 23:34:07,779 - Added complete terms: 'isuzu', '5'
+2025-01-27 23:34:07,779 - Processing make: 'Kia', model: '6'
+2025-01-27 23:34:07,779 - Added make+model combination: 'kia 6'
+2025-01-27 23:34:07,779 - Added complete terms: 'kia', '6'
+2025-01-27 23:34:07,780 - Processing make: 'Mitsubushi', model: '7'
+2025-01-27 23:34:07,780 - Added make+model combination: 'mitsubushi 7'
+2025-01-27 23:34:07,780 - Added complete terms: 'mitsubushi', '7'
+2025-01-27 23:34:07,780 - Processing make: 'Nissan', model: '8'
+2025-01-27 23:34:07,780 - Added make+model combination: 'nissan 8'
+2025-01-27 23:34:07,781 - Added complete terms: 'nissan', '8'
+2025-01-27 23:34:07,781 - Processing make: 'Toyota', model: '9'
+2025-01-27 23:34:07,781 - Added make+model combination: 'toyota 9'
+2025-01-27 23:34:07,781 - Added complete terms: 'toyota', '9'
+2025-01-27 23:34:07,781 - Processing make: 'Volkswagen (VW)', model: '10'
+2025-01-27 23:34:07,782 - Added make+model combination: 'volkswagen (vw) 10'
+2025-01-27 23:34:07,782 - Added complete terms: 'volkswagen (vw)', '10'
+2025-01-27 23:34:07,782 - Processing make: 'Suzuki', model: '11'
+2025-01-27 23:34:07,782 - Added make+model combination: 'suzuki 11'
+2025-01-27 23:34:07,782 - Added complete terms: 'suzuki', '11'
+2025-01-27 23:34:07,783 - Processing make: 'Land Rover', model: '12'
+2025-01-27 23:34:07,783 - Added make+model combination: 'land rover 12'
+2025-01-27 23:34:07,783 - Added complete terms: 'land rover', '12'
+2025-01-27 23:34:07,783 - Processing make: 'Opel/ Vauxhall', model: '13'
+2025-01-27 23:34:07,784 - Added make+model combination: 'opel/ vauxhall 13'
+2025-01-27 23:34:07,784 - Added complete terms: 'opel/ vauxhall', '13'
+2025-01-27 23:34:07,784 - Processing make: 'Honda', model: '14'
+2025-01-27 23:34:07,784 - Added make+model combination: 'honda 14'
+2025-01-27 23:34:07,784 - Added complete terms: 'honda', '14'
+2025-01-27 23:34:07,785 - Processing make: 'Volvo', model: '15'
+2025-01-27 23:34:07,785 - Added make+model combination: 'volvo 15'
+2025-01-27 23:34:07,785 - Added complete terms: 'volvo', '15'
+2025-01-27 23:34:07,785 - Processing make: 'Mercedes', model: '16'
+2025-01-27 23:34:07,786 - Added make+model combination: 'mercedes 16'
+2025-01-27 23:34:07,786 - Added complete terms: 'mercedes', '16'
+2025-01-27 23:34:07,786 - Processing make: 'Mazda', model: '17'
+2025-01-27 23:34:07,786 - Added make+model combination: 'mazda 17'
+2025-01-27 23:34:07,787 - Added complete terms: 'mazda', '17'
+2025-01-27 23:34:07,787 - Processing make: 'Peugeot', model: '18'
+2025-01-27 23:34:07,787 - Added make+model combination: 'peugeot 18'
+2025-01-27 23:34:07,787 - Added complete terms: 'peugeot', '18'
+2025-01-27 23:34:07,788 - Processing make: 'Range Rover', model: '19'
+2025-01-27 23:34:07,788 - Added make+model combination: 'range rover 19'
+2025-01-27 23:34:07,788 - Added complete terms: 'range rover', '19'
+2025-01-27 23:34:07,788 - Processing make: 'Skoda', model: '20'
+2025-01-27 23:34:07,789 - Added make+model combination: 'skoda 20'
+2025-01-27 23:34:07,789 - Added complete terms: 'skoda', '20'
+2025-01-27 23:34:07,789 - Processing make: 'Jeep', model: '21'
+2025-01-27 23:34:07,789 - Added make+model combination: 'jeep 21'
+2025-01-27 23:34:07,789 - Added complete terms: 'jeep', '21'
+2025-01-27 23:34:07,790 - Processing make: 'Seat', model: '22'
+2025-01-27 23:34:07,790 - Added make+model combination: 'seat 22'
+2025-01-27 23:34:07,790 - Added complete terms: 'seat', '22'
+2025-01-27 23:34:07,790 - Processing make: 'Dacia', model: '23'
+2025-01-27 23:34:07,791 - Added make+model combination: 'dacia 23'
+2025-01-27 23:34:07,791 - Added complete terms: 'dacia', '23'
+2025-01-27 23:34:07,791 - Processing make: 'Renault', model: '24'
+2025-01-27 23:34:07,791 - Added make+model combination: 'renault 24'
+2025-01-27 23:34:07,792 - Added complete terms: 'renault', '24'
+2025-01-27 23:34:07,792 - Processing make: 'Fiat', model: '25'
+2025-01-27 23:34:07,792 - Added make+model combination: 'fiat 25'
+2025-01-27 23:34:07,792 - Added complete terms: 'fiat', '25'
+2025-01-27 23:34:07,793 - Processing make: 'Chevrolet', model: '26'
+2025-01-27 23:34:07,793 - Added make+model combination: 'chevrolet 26'
+2025-01-27 23:34:07,793 - Added complete terms: 'chevrolet', '26'
+2025-01-27 23:34:07,793 - Processing make: 'Porsche', model: '27'
+2025-01-27 23:34:07,793 - Added make+model combination: 'porsche 27'
+2025-01-27 23:34:07,793 - Added complete terms: 'porsche', '27'
+2025-01-27 23:34:07,794 - Processing make: 'LDV', model: '28'
+2025-01-27 23:34:07,794 - Added make+model combination: 'ldv 28'
+2025-01-27 23:34:07,794 - Added complete terms: 'ldv', '28'
+2025-01-27 23:34:07,794 - Processing make: 'SsangYong', model: '29'
+2025-01-27 23:34:07,794 - Added make+model combination: 'ssangyong 29'
+2025-01-27 23:34:07,795 - Added complete terms: 'ssangyong', '29'
+2025-01-27 23:34:07,795 - Processing make: 'Subaru', model: '31'
+2025-01-27 23:34:07,795 - Added make+model combination: 'subaru 31'
+2025-01-27 23:34:07,795 - Added complete terms: 'subaru', '31'
+2025-01-27 23:34:07,795 - Processing make: 'Jaguar', model: '32'
+2025-01-27 23:34:07,796 - Added make+model combination: 'jaguar 32'
+2025-01-27 23:34:07,796 - Added complete terms: 'jaguar', '32'
+2025-01-27 23:34:07,796 - Processing make: 'Lexus', model: '33'
+2025-01-27 23:34:07,796 - Added make+model combination: 'lexus 33'
+2025-01-27 23:34:07,796 - Added complete terms: 'lexus', '33'
+2025-01-27 23:34:07,796 - Processing make: 'Chrysler', model: '34'
+2025-01-27 23:34:07,797 - Added make+model combination: 'chrysler 34'
+2025-01-27 23:34:07,797 - Added complete terms: 'chrysler', '34'
+2025-01-27 23:34:07,797 - Processing make: 'Great Wall', model: '35'
+2025-01-27 23:34:07,797 - Added make+model combination: 'great wall 35'
+2025-01-27 23:34:07,797 - Added complete terms: 'great wall', '35'
+2025-01-27 23:34:07,798 - Processing make: 'Citroen', model: '36'
+2025-01-27 23:34:07,798 - Added make+model combination: 'citroen 36'
+2025-01-27 23:34:07,798 - Added complete terms: 'citroen', '36'
+2025-01-27 23:34:07,798 - Processing make: 'BYD', model: '37'
+2025-01-27 23:34:07,799 - Added make+model combination: 'byd 37'
+2025-01-27 23:34:07,799 - Added complete terms: 'byd', '37'
+2025-01-27 23:34:07,799 - Processing make: 'Universal', model: '30'
+2025-01-27 23:34:07,800 - Added make+model combination: 'universal 30'
+2025-01-27 23:34:07,800 - Added complete terms: 'universal', '30'
+2025-01-27 23:34:07,800 - Processing make: 'Q7 2006 - 2015', model: '1'
+2025-01-27 23:34:07,800 - Added make+model combination: 'q7 2006 - 2015 1'
+2025-01-27 23:34:07,801 - Added complete terms: 'q7 2006 - 2015', '1'
+2025-01-27 23:34:07,801 - Processing make: 'Q3 2012 - 2018', model: '2'
+2025-01-27 23:34:07,801 - Added make+model combination: 'q3 2012 - 2018 2'
+2025-01-27 23:34:07,801 - Added complete terms: 'q3 2012 - 2018', '2'
+2025-01-27 23:34:07,801 - Processing make: 'Q5 2008 - 2017', model: '3'
+2025-01-27 23:34:07,801 - Added make+model combination: 'q5 2008 - 2017 3'
+2025-01-27 23:34:07,802 - Added complete terms: 'q5 2008 - 2017', '3'
+2025-01-27 23:34:07,802 - Processing make: 'Q7 2016+', model: '4'
+2025-01-27 23:34:07,802 - Added make+model combination: 'q7 2016+ 4'
+2025-01-27 23:34:07,802 - Added complete terms: 'q7 2016+', '4'
+2025-01-27 23:34:07,802 - Processing make: 'Q5 2018+', model: '5'
+2025-01-27 23:34:07,802 - Added make+model combination: 'q5 2018+ 5'
+2025-01-27 23:34:07,802 - Added complete terms: 'q5 2018+', '5'
+2025-01-27 23:34:07,803 - Processing make: 'Q3 2018+', model: '6'
+2025-01-27 23:34:07,803 - Added make+model combination: 'q3 2018+ 6'
+2025-01-27 23:34:07,803 - Added complete terms: 'q3 2018+', '6'
+2025-01-27 23:34:07,803 - Processing make: 'X5 2006 - 2013', model: '1'
+2025-01-27 23:34:07,804 - Added make+model combination: 'x5 2006 - 2013 1'
+2025-01-27 23:34:07,804 - Added complete terms: 'x5 2006 - 2013', '1'
+2025-01-27 23:34:07,804 - Processing make: 'X4 2014 - 2018', model: '2'
+2025-01-27 23:34:07,804 - Added make+model combination: 'x4 2014 - 2018 2'
+2025-01-27 23:34:07,804 - Added complete terms: 'x4 2014 - 2018', '2'
+2025-01-27 23:34:07,804 - Processing make: 'X3 2010-2017', model: '3'
+2025-01-27 23:34:07,805 - Added make+model combination: 'x3 2010-2017 3'
+2025-01-27 23:34:07,805 - Added complete terms: 'x3 2010-2017', '3'
+2025-01-27 23:34:07,805 - Processing make: 'X5 2014 - 2018', model: '4'
+2025-01-27 23:34:07,805 - Added make+model combination: 'x5 2014 - 2018 4'
+2025-01-27 23:34:07,806 - Added complete terms: 'x5 2014 - 2018', '4'
+2025-01-27 23:34:07,806 - Processing make: 'X6 2008 - 2014', model: '5'
+2025-01-27 23:34:07,806 - Added make+model combination: 'x6 2008 - 2014 5'
+2025-01-27 23:34:07,806 - Added complete terms: 'x6 2008 - 2014', '5'
+2025-01-27 23:34:07,806 - Processing make: 'X6 2015 - 2019', model: '6'
+2025-01-27 23:34:07,807 - Added make+model combination: 'x6 2015 - 2019 6'
+2025-01-27 23:34:07,807 - Added complete terms: 'x6 2015 - 2019', '6'
+2025-01-27 23:34:07,807 - Processing make: 'X1 2015+', model: '7'
+2025-01-27 23:34:07,807 - Added make+model combination: 'x1 2015+ 7'
+2025-01-27 23:34:07,807 - Added complete terms: 'x1 2015+', '7'
+2025-01-27 23:34:07,808 - Processing make: 'X3 2003-2010', model: '8'
+2025-01-27 23:34:07,808 - Added make+model combination: 'x3 2003-2010 8'
+2025-01-27 23:34:07,808 - Added complete terms: 'x3 2003-2010', '8'
+2025-01-27 23:34:07,808 - Processing make: 'X5 2018+', model: '9'
+2025-01-27 23:34:07,808 - Added make+model combination: 'x5 2018+ 9'
+2025-01-27 23:34:07,808 - Added complete terms: 'x5 2018+', '9'
+2025-01-27 23:34:07,808 - Processing make: 'X1 2009 - 2015', model: '10'
+2025-01-27 23:34:07,809 - Added make+model combination: 'x1 2009 - 2015 10'
+2025-01-27 23:34:07,809 - Added complete terms: 'x1 2009 - 2015', '10'
+2025-01-27 23:34:07,809 - Processing make: 'X4 2018+', model: '11'
+2025-01-27 23:34:07,809 - Added make+model combination: 'x4 2018+ 11'
+2025-01-27 23:34:07,809 - Added complete terms: 'x4 2018+', '11'
+2025-01-27 23:34:07,809 - Processing make: 'X6 2020+', model: '12'
+2025-01-27 23:34:07,810 - Added make+model combination: 'x6 2020+ 12'
+2025-01-27 23:34:07,810 - Added complete terms: 'x6 2020+', '12'
+2025-01-27 23:34:07,810 - Processing make: 'X3 2017+', model: '13'
+2025-01-27 23:34:07,810 - Added make+model combination: 'x3 2017+ 13'
+2025-01-27 23:34:07,810 - Added complete terms: 'x3 2017+', '13'
+2025-01-27 23:34:07,811 - Processing make: 'X1 2024+', model: '14'
+2025-01-27 23:34:07,811 - Added make+model combination: 'x1 2024+ 14'
+2025-01-27 23:34:07,811 - Added complete terms: 'x1 2024+', '14'
+2025-01-27 23:34:07,811 - Processing make: 'Kuga 2012 - 2016', model: '1'
+2025-01-27 23:34:07,811 - Added make+model combination: 'kuga 2012 - 2016 1'
+2025-01-27 23:34:07,812 - Added complete terms: 'kuga 2012 - 2016', '1'
+2025-01-27 23:34:07,812 - Processing make: 'Kuga 2008 - 2012', model: '2'
+2025-01-27 23:34:07,812 - Added make+model combination: 'kuga 2008 - 2012 2'
+2025-01-27 23:34:07,812 - Added complete terms: 'kuga 2008 - 2012', '2'
+2025-01-27 23:34:07,812 - Processing make: 'Ranger 12 - 16', model: '3'
+2025-01-27 23:34:07,813 - Added make+model combination: 'ranger 12 - 16 3'
+2025-01-27 23:34:07,813 - Added complete terms: 'ranger 12 - 16', '3'
+2025-01-27 23:34:07,813 - Processing make: 'Ranger 06 -12', model: '4'
+2025-01-27 23:34:07,813 - Added make+model combination: 'ranger 06 -12 4'
+2025-01-27 23:34:07,813 - Added complete terms: 'ranger 06 -12', '4'
+2025-01-27 23:34:07,814 - Processing make: 'Kuga 2016+', model: '5'
+2025-01-27 23:34:07,814 - Added make+model combination: 'kuga 2016+ 5'
+2025-01-27 23:34:07,814 - Added complete terms: 'kuga 2016+', '5'
+2025-01-27 23:34:07,814 - Processing make: 'Ranger 2016-2023', model: '6'
+2025-01-27 23:34:07,814 - Added make+model combination: 'ranger 2016-2023 6'
+2025-01-27 23:34:07,815 - Added complete terms: 'ranger 2016-2023', '6'
+2025-01-27 23:34:07,815 - Processing make: 'Edge 2016+', model: '7'
+2025-01-27 23:34:07,815 - Added make+model combination: 'edge 2016+ 7'
+2025-01-27 23:34:07,815 - Added complete terms: 'edge 2016+', '7'
+2025-01-27 23:34:07,815 - Processing make: 'Galaxy 1996+', model: '8'
+2025-01-27 23:34:07,816 - Added make+model combination: 'galaxy 1996+ 8'
+2025-01-27 23:34:07,816 - Added complete terms: 'galaxy 1996+', '8'
+2025-01-27 23:34:07,816 - Processing make: 'Galaxy 2006+', model: '9'
+2025-01-27 23:34:07,816 - Added make+model combination: 'galaxy 2006+ 9'
+2025-01-27 23:34:07,816 - Added complete terms: 'galaxy 2006+', '9'
+2025-01-27 23:34:07,816 - Processing make: 'Focus SW 2011+', model: '10'
+2025-01-27 23:34:07,817 - Added make+model combination: 'focus sw 2011+ 10'
+2025-01-27 23:34:07,817 - Added complete terms: 'focus sw 2011+', '10'
+2025-01-27 23:34:07,817 - Processing make: 'Ecosport 2013-2017', model: '11'
+2025-01-27 23:34:07,817 - Added make+model combination: 'ecosport 2013-2017 11'
+2025-01-27 23:34:07,817 - Added complete terms: 'ecosport 2013-2017', '11'
+2025-01-27 23:34:07,818 - Processing make: 'Galaxy 2015+', model: '12'
+2025-01-27 23:34:07,818 - Added make+model combination: 'galaxy 2015+ 12'
+2025-01-27 23:34:07,818 - Added complete terms: 'galaxy 2015+', '12'
+2025-01-27 23:34:07,818 - Processing make: 'Ecosport 2017+', model: '13'
+2025-01-27 23:34:07,819 - Added make+model combination: 'ecosport 2017+ 13'
+2025-01-27 23:34:07,819 - Added complete terms: 'ecosport 2017+', '13'
+2025-01-27 23:34:07,819 - Processing make: 'Ranger 2023+', model: '14'
+2025-01-27 23:34:07,819 - Added make+model combination: 'ranger 2023+ 14'
+2025-01-27 23:34:07,819 - Added complete terms: 'ranger 2023+', '14'
+2025-01-27 23:34:07,820 - Processing make: 'Kuga 2020+', model: '15'
+2025-01-27 23:34:07,820 - Added make+model combination: 'kuga 2020+ 15'
+2025-01-27 23:34:07,820 - Added complete terms: 'kuga 2020+', '15'
+2025-01-27 23:34:07,821 - Processing make: 'Ranger Raptor Wildtrak 2022', model: '16'
+2025-01-27 23:34:07,821 - Added make+model combination: 'ranger raptor wildtrak 2022 16'
+2025-01-27 23:34:07,821 - Added complete terms: 'ranger raptor wildtrak 2022', '16'
+2025-01-27 23:34:07,822 - Processing make: 'Ranger 2010 - 2021', model: '17'
+2025-01-27 23:34:07,822 - Added make+model combination: 'ranger 2010 - 2021 17'
+2025-01-27 23:34:07,822 - Added complete terms: 'ranger 2010 - 2021', '17'
+2025-01-27 23:34:07,823 - Processing make: 'Ranger Wild track 2016+', model: '18'
+2025-01-27 23:34:07,823 - Added make+model combination: 'ranger wild track 2016+ 18'
+2025-01-27 23:34:07,823 - Added complete terms: 'ranger wild track 2016+', '18'
+2025-01-27 23:34:07,823 - Processing make: 'Ranger Wild track 2023+', model: '19'
+2025-01-27 23:34:07,824 - Added make+model combination: 'ranger wild track 2023+ 19'
+2025-01-27 23:34:07,824 - Added complete terms: 'ranger wild track 2023+', '19'
+2025-01-27 23:34:07,824 - Processing make: 'Santa Fe 2005-2010', model: '1'
+2025-01-27 23:34:07,825 - Added make+model combination: 'santa fe 2005-2010 1'
+2025-01-27 23:34:07,825 - Added complete terms: 'santa fe 2005-2010', '1'
+2025-01-27 23:34:07,825 - Processing make: 'iX35 2010-2015', model: '2'
+2025-01-27 23:34:07,825 - Added make+model combination: 'ix35 2010-2015 2'
+2025-01-27 23:34:07,825 - Added complete terms: 'ix35 2010-2015', '2'
+2025-01-27 23:34:07,825 - Processing make: 'Santa Fe 2010-2012', model: '3'
+2025-01-27 23:34:07,826 - Added make+model combination: 'santa fe 2010-2012 3'
+2025-01-27 23:34:07,826 - Added complete terms: 'santa fe 2010-2012', '3'
+2025-01-27 23:34:07,826 - Processing make: 'Santa Fe 2012 - 2019 IX45', model: '4'
+2025-01-27 23:34:07,826 - Added make+model combination: 'santa fe 2012 - 2019 ix45 4'
+2025-01-27 23:34:07,827 - Added complete terms: 'santa fe 2012 - 2019 ix45', '4'
+2025-01-27 23:34:07,827 - Processing make: 'Tucson 2016+', model: '5'
+2025-01-27 23:34:07,827 - Added make+model combination: 'tucson 2016+ 5'
+2025-01-27 23:34:07,827 - Added complete terms: 'tucson 2016+', '5'
+2025-01-27 23:34:07,828 - Processing make: 'IX-25', model: '6'
+2025-01-27 23:34:07,828 - Added make+model combination: 'ix-25 6'
+2025-01-27 23:34:07,828 - Added complete terms: 'ix-25', '6'
+2025-01-27 23:34:07,828 - Processing make: 'Terracan 2001 - 2004', model: '7'
+2025-01-27 23:34:07,828 - Added make+model combination: 'terracan 2001 - 2004 7'
+2025-01-27 23:34:07,828 - Added complete terms: 'terracan 2001 - 2004', '7'
+2025-01-27 23:34:07,829 - Processing make: 'Terracan 2004 - 2016', model: '8'
+2025-01-27 23:34:07,829 - Added make+model combination: 'terracan 2004 - 2016 8'
+2025-01-27 23:34:07,829 - Added complete terms: 'terracan 2004 - 2016', '8'
+2025-01-27 23:34:07,829 - Processing make: 'Santa Fe 2019+', model: '9'
+2025-01-27 23:34:07,829 - Added make+model combination: 'santa fe 2019+ 9'
+2025-01-27 23:34:07,830 - Added complete terms: 'santa fe 2019+', '9'
+2025-01-27 23:34:07,830 - Processing make: 'Kona 2018+', model: '10'
+2025-01-27 23:34:07,830 - Added make+model combination: 'kona 2018+ 10'
+2025-01-27 23:34:07,830 - Added complete terms: 'kona 2018+', '10'
+2025-01-27 23:34:07,830 - Processing make: 'Tucson 2021+', model: '11'
+2025-01-27 23:34:07,831 - Added make+model combination: 'tucson 2021+ 11'
+2025-01-27 23:34:07,831 - Added complete terms: 'tucson 2021+', '11'
+2025-01-27 23:34:07,831 - Processing make: 'D MAX/Rodeo 2007-2012', model: '1'
+2025-01-27 23:34:07,831 - Added make+model combination: 'd max/rodeo 2007-2012 1'
+2025-01-27 23:34:07,832 - Added complete terms: 'd max/rodeo 2007-2012', '1'
+2025-01-27 23:34:07,832 - Processing make: 'D MAX/Rodeo 2012 - 2016', model: '2'
+2025-01-27 23:34:07,832 - Added make+model combination: 'd max/rodeo 2012 - 2016 2'
+2025-01-27 23:34:07,832 - Added complete terms: 'd max/rodeo 2012 - 2016', '2'
+2025-01-27 23:34:07,833 - Processing make: 'Yukon', model: '3'
+2025-01-27 23:34:07,833 - Added make+model combination: 'yukon 3'
+2025-01-27 23:34:07,833 - Added complete terms: 'yukon', '3'
+2025-01-27 23:34:07,834 - Processing make: 'D-MAX / Rodeo 2002-2007', model: '4'
+2025-01-27 23:34:07,834 - Added make+model combination: 'd-max / rodeo 2002-2007 4'
+2025-01-27 23:34:07,834 - Added complete terms: 'd-max / rodeo 2002-2007', '4'
+2025-01-27 23:34:07,835 - Processing make: 'D-MAX / Rodeo 2016 - 2023', model: '5'
+2025-01-27 23:34:07,835 - Added make+model combination: 'd-max / rodeo 2016 - 2023 5'
+2025-01-27 23:34:07,835 - Added complete terms: 'd-max / rodeo 2016 - 2023', '5'
+2025-01-27 23:34:07,835 - Processing make: 'D-MAX / Rodeo 2023+', model: '6'
+2025-01-27 23:34:07,836 - Added make+model combination: 'd-max / rodeo 2023+ 6'
+2025-01-27 23:34:07,836 - Added complete terms: 'd-max / rodeo 2023+', '6'
+2025-01-27 23:34:07,836 - Processing make: 'Sportage 2010-2016', model: '1'
+2025-01-27 23:34:07,836 - Added make+model combination: 'sportage 2010-2016 1'
+2025-01-27 23:34:07,837 - Added complete terms: 'sportage 2010-2016', '1'
+2025-01-27 23:34:07,837 - Processing make: 'Sorento 2015 - 2020', model: '2'
+2025-01-27 23:34:07,837 - Added make+model combination: 'sorento 2015 - 2020 2'
+2025-01-27 23:34:07,837 - Added complete terms: 'sorento 2015 - 2020', '2'
+2025-01-27 23:34:07,837 - Processing make: 'Sportage 2016+', model: '3'
+2025-01-27 23:34:07,838 - Added make+model combination: 'sportage 2016+ 3'
+2025-01-27 23:34:07,838 - Added complete terms: 'sportage 2016+', '3'
+2025-01-27 23:34:07,838 - Processing make: 'Sportage 2005-2010', model: '4'
+2025-01-27 23:34:07,838 - Added make+model combination: 'sportage 2005-2010 4'
+2025-01-27 23:34:07,838 - Added complete terms: 'sportage 2005-2010', '4'
+2025-01-27 23:34:07,839 - Processing make: 'Sportage 2014-2016', model: '5'
+2025-01-27 23:34:07,839 - Added make+model combination: 'sportage 2014-2016 5'
+2025-01-27 23:34:07,839 - Added complete terms: 'sportage 2014-2016', '5'
+2025-01-27 23:34:07,839 - Processing make: 'Sportage 2010-2014', model: '6'
+2025-01-27 23:34:07,839 - Added make+model combination: 'sportage 2010-2014 6'
+2025-01-27 23:34:07,840 - Added complete terms: 'sportage 2010-2014', '6'
+2025-01-27 23:34:07,840 - Processing make: 'Sorento 2010-2015', model: '7'
+2025-01-27 23:34:07,840 - Added make+model combination: 'sorento 2010-2015 7'
+2025-01-27 23:34:07,840 - Added complete terms: 'sorento 2010-2015', '7'
+2025-01-27 23:34:07,841 - Processing make: 'Carens 2013+', model: '8'
+2025-01-27 23:34:07,841 - Added make+model combination: 'carens 2013+ 8'
+2025-01-27 23:34:07,841 - Added complete terms: 'carens 2013+', '8'
+2025-01-27 23:34:07,841 - Processing make: 'Niro 2017+', model: '9'
+2025-01-27 23:34:07,842 - Added make+model combination: 'niro 2017+ 9'
+2025-01-27 23:34:07,842 - Added complete terms: 'niro 2017+', '9'
+2025-01-27 23:34:07,842 - Processing make: 'Soul 2008 - 2014', model: '10'
+2025-01-27 23:34:07,842 - Added make+model combination: 'soul 2008 - 2014 10'
+2025-01-27 23:34:07,842 - Added complete terms: 'soul 2008 - 2014', '10'
+2025-01-27 23:34:07,843 - Processing make: 'Sorento 2020+', model: '11'
+2025-01-27 23:34:07,843 - Added make+model combination: 'sorento 2020+ 11'
+2025-01-27 23:34:07,843 - Added complete terms: 'sorento 2020+', '11'
+2025-01-27 23:34:07,843 - Processing make: 'L200 Pre 2005', model: '1'
+2025-01-27 23:34:07,843 - Added make+model combination: 'l200 pre 2005 1'
+2025-01-27 23:34:07,843 - Added complete terms: 'l200 pre 2005', '1'
+2025-01-27 23:34:07,844 - Processing make: 'L200 2005-2015', model: '2'
+2025-01-27 23:34:07,844 - Added make+model combination: 'l200 2005-2015 2'
+2025-01-27 23:34:07,844 - Added complete terms: 'l200 2005-2015', '2'
+2025-01-27 23:34:07,844 - Processing make: 'Shogun/Pajero 2007+', model: '3'
+2025-01-27 23:34:07,844 - Added make+model combination: 'shogun/pajero 2007+ 3'
+2025-01-27 23:34:07,844 - Added complete terms: 'shogun/pajero 2007+', '3'
+2025-01-27 23:34:07,845 - Processing make: 'Shogun/Pajero 2000 - 2006', model: '4'
+2025-01-27 23:34:07,845 - Added make+model combination: 'shogun/pajero 2000 - 2006 4'
+2025-01-27 23:34:07,845 - Added complete terms: 'shogun/pajero 2000 - 2006', '4'
+2025-01-27 23:34:07,845 - Processing make: 'L200 2012  - 2015', model: '5'
+2025-01-27 23:34:07,845 - Added make+model combination: 'l200 2012  - 2015 5'
+2025-01-27 23:34:07,845 - Added complete terms: 'l200 2012  - 2015', '5'
+2025-01-27 23:34:07,846 - Processing make: 'ASX', model: '6'
+2025-01-27 23:34:07,846 - Added make+model combination: 'asx 6'
+2025-01-27 23:34:07,846 - Added complete terms: 'asx', '6'
+2025-01-27 23:34:07,847 - Processing make: 'L200 2015+', model: '7'
+2025-01-27 23:34:07,847 - Added make+model combination: 'l200 2015+ 7'
+2025-01-27 23:34:07,847 - Added complete terms: 'l200 2015+', '7'
+2025-01-27 23:34:07,847 - Processing make: 'Outlander 12-16', model: '8'
+2025-01-27 23:34:07,847 - Added make+model combination: 'outlander 12-16 8'
+2025-01-27 23:34:07,848 - Added complete terms: 'outlander 12-16', '8'
+2025-01-27 23:34:07,848 - Processing make: 'L200 2005-2012', model: '9'
+2025-01-27 23:34:07,848 - Added make+model combination: 'l200 2005-2012 9'
+2025-01-27 23:34:07,848 - Added complete terms: 'l200 2005-2012', '9'
+2025-01-27 23:34:07,849 - Processing make: 'Outlander 06-12', model: '10'
+2025-01-27 23:34:07,849 - Added make+model combination: 'outlander 06-12 10'
+2025-01-27 23:34:07,849 - Added complete terms: 'outlander 06-12', '10'
+2025-01-27 23:34:07,849 - Processing make: 'L200 2019+', model: '11'
+2025-01-27 23:34:07,850 - Added make+model combination: 'l200 2019+ 11'
+2025-01-27 23:34:07,850 - Added complete terms: 'l200 2019+', '11'
+2025-01-27 23:34:07,850 - Processing make: 'Outlander 2021+', model: '12'
+2025-01-27 23:34:07,850 - Added make+model combination: 'outlander 2021+ 12'
+2025-01-27 23:34:07,850 - Added complete terms: 'outlander 2021+', '12'
+2025-01-27 23:34:07,851 - Processing make: 'Shogun/Pajero SPORT 2015+', model: '13'
+2025-01-27 23:34:07,851 - Added make+model combination: 'shogun/pajero sport 2015+ 13'
+2025-01-27 23:34:07,851 - Added complete terms: 'shogun/pajero sport 2015+', '13'
+2025-01-27 23:34:07,851 - Processing make: 'Navara D40 2005 - 2016', model: '1'
+2025-01-27 23:34:07,852 - Added make+model combination: 'navara d40 2005 - 2016 1'
+2025-01-27 23:34:07,852 - Added complete terms: 'navara d40 2005 - 2016', '1'
+2025-01-27 23:34:07,852 - Processing make: 'D22', model: '2'
+2025-01-27 23:34:07,852 - Added make+model combination: 'd22 2'
+2025-01-27 23:34:07,852 - Added complete terms: 'd22', '2'
+2025-01-27 23:34:07,853 - Processing make: 'Navara D40 2010 - 2016', model: '3'
+2025-01-27 23:34:07,853 - Added make+model combination: 'navara d40 2010 - 2016 3'
+2025-01-27 23:34:07,853 - Added complete terms: 'navara d40 2010 - 2016', '3'
+2025-01-27 23:34:07,853 - Processing make: 'Murano 2015+', model: '4'
+2025-01-27 23:34:07,854 - Added make+model combination: 'murano 2015+ 4'
+2025-01-27 23:34:07,854 - Added complete terms: 'murano 2015+', '4'
+2025-01-27 23:34:07,854 - Processing make: 'Qashqai 2007-2014', model: '5'
+2025-01-27 23:34:07,854 - Added make+model combination: 'qashqai 2007-2014 5'
+2025-01-27 23:34:07,855 - Added complete terms: 'qashqai 2007-2014', '5'
+2025-01-27 23:34:07,855 - Processing make: 'Juke 2011 -2020', model: '6'
+2025-01-27 23:34:07,855 - Added make+model combination: 'juke 2011 -2020 6'
+2025-01-27 23:34:07,855 - Added complete terms: 'juke 2011 -2020', '6'
+2025-01-27 23:34:07,855 - Processing make: 'X-Trail Pre 2008', model: '7'
+2025-01-27 23:34:07,856 - Added make+model combination: 'x-trail pre 2008 7'
+2025-01-27 23:34:07,856 - Added complete terms: 'x-trail pre 2008', '7'
+2025-01-27 23:34:07,856 - Processing make: 'Qashqai 2014 - 2021', model: '8'
+2025-01-27 23:34:07,856 - Added make+model combination: 'qashqai 2014 - 2021 8'
+2025-01-27 23:34:07,856 - Added complete terms: 'qashqai 2014 - 2021', '8'
+2025-01-27 23:34:07,856 - Processing make: 'X-Trail 2008-2014', model: '9'
+2025-01-27 23:34:07,857 - Added make+model combination: 'x-trail 2008-2014 9'
+2025-01-27 23:34:07,857 - Added complete terms: 'x-trail 2008-2014', '9'
+2025-01-27 23:34:07,857 - Processing make: 'X-Trail 2014+', model: '10'
+2025-01-27 23:34:07,857 - Added make+model combination: 'x-trail 2014+ 10'
+2025-01-27 23:34:07,857 - Added complete terms: 'x-trail 2014+', '10'
+2025-01-27 23:34:07,857 - Processing make: 'NP300 2016+', model: '12'
+2025-01-27 23:34:07,858 - Added make+model combination: 'np300 2016+ 12'
+2025-01-27 23:34:07,858 - Added complete terms: 'np300 2016+', '12'
+2025-01-27 23:34:07,858 - Processing make: 'X-Trail 2017 - 2021', model: '13'
+2025-01-27 23:34:07,858 - Added make+model combination: 'x-trail 2017 - 2021 13'
+2025-01-27 23:34:07,858 - Added complete terms: 'x-trail 2017 - 2021', '13'
+2025-01-27 23:34:07,858 - Processing make: 'Pathfinder 2005 - 2013', model: '14'
+2025-01-27 23:34:07,859 - Added make+model combination: 'pathfinder 2005 - 2013 14'
+2025-01-27 23:34:07,859 - Added complete terms: 'pathfinder 2005 - 2013', '14'
+2025-01-27 23:34:07,859 - Processing make: 'Pathfinder 2013+', model: '15'
+2025-01-27 23:34:07,859 - Added make+model combination: 'pathfinder 2013+ 15'
+2025-01-27 23:34:07,859 - Added complete terms: 'pathfinder 2013+', '15'
+2025-01-27 23:34:07,859 - Processing make: 'Qashqai 2021+', model: '17'
+2025-01-27 23:34:07,860 - Added make+model combination: 'qashqai 2021+ 17'
+2025-01-27 23:34:07,860 - Added complete terms: 'qashqai 2021+', '17'
+2025-01-27 23:34:07,860 - Processing make: 'X-Trail 2021+', model: '18'
+2025-01-27 23:34:07,860 - Added make+model combination: 'x-trail 2021+ 18'
+2025-01-27 23:34:07,860 - Added complete terms: 'x-trail 2021+', '18'
+2025-01-27 23:34:07,861 - Processing make: 'Juke 2020+', model: '19'
+2025-01-27 23:34:07,861 - Added make+model combination: 'juke 2020+ 19'
+2025-01-27 23:34:07,861 - Added complete terms: 'juke 2020+', '19'
+2025-01-27 23:34:07,862 - Processing make: 'Rav 4 2006 - 2013', model: '1'
+2025-01-27 23:34:07,862 - Added make+model combination: 'rav 4 2006 - 2013 1'
+2025-01-27 23:34:07,862 - Added complete terms: 'rav 4 2006 - 2013', '1'
+2025-01-27 23:34:07,862 - Processing make: 'Hi-Lux 2005-2012', model: '2'
+2025-01-27 23:34:07,863 - Added make+model combination: 'hi-lux 2005-2012 2'
+2025-01-27 23:34:07,863 - Added complete terms: 'hi-lux 2005-2012', '2'
+2025-01-27 23:34:07,863 - Processing make: 'Hi- Lux Pre 2005', model: '3'
+2025-01-27 23:34:07,863 - Added make+model combination: 'hi- lux pre 2005 3'
+2025-01-27 23:34:07,863 - Added complete terms: 'hi- lux pre 2005', '3'
+2025-01-27 23:34:07,863 - Processing make: 'Land Cruiser 03 -09', model: '4'
+2025-01-27 23:34:07,864 - Added make+model combination: 'land cruiser 03 -09 4'
+2025-01-27 23:34:07,864 - Added complete terms: 'land cruiser 03 -09', '4'
+2025-01-27 23:34:07,864 - Processing make: 'Land Cruiser 2010+', model: '5'
+2025-01-27 23:34:07,864 - Added make+model combination: 'land cruiser 2010+ 5'
+2025-01-27 23:34:07,864 - Added complete terms: 'land cruiser 2010+', '5'
+2025-01-27 23:34:07,864 - Processing make: 'Rav 4 2016+', model: '6'
+2025-01-27 23:34:07,865 - Added make+model combination: 'rav 4 2016+ 6'
+2025-01-27 23:34:07,865 - Added complete terms: 'rav 4 2016+', '6'
+2025-01-27 23:34:07,865 - Processing make: 'Rav 4 2013-2016', model: '7'
+2025-01-27 23:34:07,865 - Added make+model combination: 'rav 4 2013-2016 7'
+2025-01-27 23:34:07,865 - Added complete terms: 'rav 4 2013-2016', '7'
+2025-01-27 23:34:07,865 - Processing make: 'Hi-Lux 2012 -2016', model: '8'
+2025-01-27 23:34:07,865 - Added make+model combination: 'hi-lux 2012 -2016 8'
+2025-01-27 23:34:07,866 - Added complete terms: 'hi-lux 2012 -2016', '8'
+2025-01-27 23:34:07,866 - Processing make: 'Hi-Lux 2016+', model: '9'
+2025-01-27 23:34:07,866 - Added make+model combination: 'hi-lux 2016+ 9'
+2025-01-27 23:34:07,866 - Added complete terms: 'hi-lux 2016+', '9'
+2025-01-27 23:34:07,867 - Processing make: 'RAV 4 2000-2006', model: '10'
+2025-01-27 23:34:07,867 - Added make+model combination: 'rav 4 2000-2006 10'
+2025-01-27 23:34:07,867 - Added complete terms: 'rav 4 2000-2006', '10'
+2025-01-27 23:34:07,867 - Processing make: 'Land Cruiser 2017+', model: '11'
+2025-01-27 23:34:07,867 - Added make+model combination: 'land cruiser 2017+ 11'
+2025-01-27 23:34:07,867 - Added complete terms: 'land cruiser 2017+', '11'
+2025-01-27 23:34:07,868 - Processing make: 'Hi-Lux 2020+', model: '12'
+2025-01-27 23:34:07,868 - Added make+model combination: 'hi-lux 2020+ 12'
+2025-01-27 23:34:07,868 - Added complete terms: 'hi-lux 2020+', '12'
+2025-01-27 23:34:07,869 - Processing make: 'Rav 4 2019+', model: '13'
+2025-01-27 23:34:07,869 - Added make+model combination: 'rav 4 2019+ 13'
+2025-01-27 23:34:07,869 - Added complete terms: 'rav 4 2019+', '13'
+2025-01-27 23:34:07,870 - Processing make: 'Amarok 2010 - 2016', model: '1'
+2025-01-27 23:34:07,870 - Added make+model combination: 'amarok 2010 - 2016 1'
+2025-01-27 23:34:07,870 - Added complete terms: 'amarok 2010 - 2016', '1'
+2025-01-27 23:34:07,870 - Processing make: 'Tiguan 2012-2016', model: '2'
+2025-01-27 23:34:07,870 - Added make+model combination: 'tiguan 2012-2016 2'
+2025-01-27 23:34:07,871 - Added complete terms: 'tiguan 2012-2016', '2'
+2025-01-27 23:34:07,871 - Processing make: 'Touareg 2004 - 2010', model: '3'
+2025-01-27 23:34:07,871 - Added make+model combination: 'touareg 2004 - 2010 3'
+2025-01-27 23:34:07,871 - Added complete terms: 'touareg 2004 - 2010', '3'
+2025-01-27 23:34:07,871 - Processing make: 'Touareg 2010 - 2018', model: '4'
+2025-01-27 23:34:07,871 - Added make+model combination: 'touareg 2010 - 2018 4'
+2025-01-27 23:34:07,872 - Added complete terms: 'touareg 2010 - 2018', '4'
+2025-01-27 23:34:07,872 - Processing make: 'Amarok 2016 - 2023', model: '5'
+2025-01-27 23:34:07,872 - Added make+model combination: 'amarok 2016 - 2023 5'
+2025-01-27 23:34:07,872 - Added complete terms: 'amarok 2016 - 2023', '5'
+2025-01-27 23:34:07,872 - Processing make: 'Tiguan 2016+', model: '6'
+2025-01-27 23:34:07,872 - Added make+model combination: 'tiguan 2016+ 6'
+2025-01-27 23:34:07,873 - Added complete terms: 'tiguan 2016+', '6'
+2025-01-27 23:34:07,873 - Processing make: 'Tiguan 2006-2012', model: '7'
+2025-01-27 23:34:07,873 - Added make+model combination: 'tiguan 2006-2012 7'
+2025-01-27 23:34:07,873 - Added complete terms: 'tiguan 2006-2012', '7'
+2025-01-27 23:34:07,873 - Processing make: 'Amarok V6 2017+', model: '8'
+2025-01-27 23:34:07,874 - Added make+model combination: 'amarok v6 2017+ 8'
+2025-01-27 23:34:07,874 - Added complete terms: 'amarok v6 2017+', '8'
+2025-01-27 23:34:07,874 - Processing make: 'Touareg 2018+', model: '9'
+2025-01-27 23:34:07,874 - Added make+model combination: 'touareg 2018+ 9'
+2025-01-27 23:34:07,874 - Added complete terms: 'touareg 2018+', '9'
+2025-01-27 23:34:07,875 - Processing make: 'Touran 2015+', model: '10'
+2025-01-27 23:34:07,875 - Added make+model combination: 'touran 2015+ 10'
+2025-01-27 23:34:07,875 - Added complete terms: 'touran 2015+', '10'
+2025-01-27 23:34:07,876 - Processing make: 'T-Cross', model: '11'
+2025-01-27 23:34:07,876 - Added make+model combination: 't-cross 11'
+2025-01-27 23:34:07,876 - Added complete terms: 't-cross', '11'
+2025-01-27 23:34:07,876 - Processing make: 'T-Roc', model: '12'
+2025-01-27 23:34:07,876 - Added make+model combination: 't-roc 12'
+2025-01-27 23:34:07,877 - Added complete terms: 't-roc', '12'
+2025-01-27 23:34:07,877 - Processing make: 'Tiguan 2020+', model: '13'
+2025-01-27 23:34:07,877 - Added make+model combination: 'tiguan 2020+ 13'
+2025-01-27 23:34:07,877 - Added complete terms: 'tiguan 2020+', '13'
+2025-01-27 23:34:07,877 - Processing make: 'Amarok 2023+', model: '14'
+2025-01-27 23:34:07,877 - Added make+model combination: 'amarok 2023+ 14'
+2025-01-27 23:34:07,878 - Added complete terms: 'amarok 2023+', '14'
+2025-01-27 23:34:07,878 - Processing make: 'Vitara', model: '1'
+2025-01-27 23:34:07,878 - Added make+model combination: 'vitara 1'
+2025-01-27 23:34:07,878 - Added complete terms: 'vitara', '1'
+2025-01-27 23:34:07,878 - Processing make: 'S-Cross', model: '2'
+2025-01-27 23:34:07,879 - Added make+model combination: 's-cross 2'
+2025-01-27 23:34:07,879 - Added complete terms: 's-cross', '2'
+2025-01-27 23:34:07,879 - Processing make: 'Grand Vitara 2006 - 2015', model: '3'
+2025-01-27 23:34:07,879 - Added make+model combination: 'grand vitara 2006 - 2015 3'
+2025-01-27 23:34:07,879 - Added complete terms: 'grand vitara 2006 - 2015', '3'
+2025-01-27 23:34:07,880 - Processing make: 'Grand Vitara 2015+', model: '4'
+2025-01-27 23:34:07,880 - Added make+model combination: 'grand vitara 2015+ 4'
+2025-01-27 23:34:07,880 - Added complete terms: 'grand vitara 2015+', '4'
+2025-01-27 23:34:07,880 - Processing make: 'Range Rover Evoque  2011 - 2018', model: '1'
+2025-01-27 23:34:07,880 - Added make+model combination: 'range rover evoque  2011 - 2018 1'
+2025-01-27 23:34:07,880 - Added complete terms: 'range rover evoque  2011 - 2018', '1'
+2025-01-27 23:34:07,881 - Processing make: 'Freelander 2 2006 - 2014', model: '2'
+2025-01-27 23:34:07,881 - Added make+model combination: 'freelander 2 2006 - 2014 2'
+2025-01-27 23:34:07,881 - Added complete terms: 'freelander 2 2006 - 2014', '2'
+2025-01-27 23:34:07,881 - Processing make: 'Discovery 3 / 4', model: '3'
+2025-01-27 23:34:07,882 - Added make+model combination: 'discovery 3 / 4 3'
+2025-01-27 23:34:07,882 - Added complete terms: 'discovery 3 / 4', '3'
+2025-01-27 23:34:07,882 - Processing make: 'Range Rover Sport 2005-2013', model: '4'
+2025-01-27 23:34:07,883 - Added make+model combination: 'range rover sport 2005-2013 4'
+2025-01-27 23:34:07,883 - Added complete terms: 'range rover sport 2005-2013', '4'
+2025-01-27 23:34:07,883 - Processing make: 'Discovery Sport', model: '5'
+2025-01-27 23:34:07,883 - Added make+model combination: 'discovery sport 5'
+2025-01-27 23:34:07,883 - Added complete terms: 'discovery sport', '5'
+2025-01-27 23:34:07,884 - Processing make: 'Range Rover Evoque Dynamic', model: '6'
+2025-01-27 23:34:07,884 - Added make+model combination: 'range rover evoque dynamic 6'
+2025-01-27 23:34:07,884 - Added complete terms: 'range rover evoque dynamic', '6'
+2025-01-27 23:34:07,884 - Processing make: 'Freelander 2014+', model: '7'
+2025-01-27 23:34:07,884 - Added make+model combination: 'freelander 2014+ 7'
+2025-01-27 23:34:07,884 - Added complete terms: 'freelander 2014+', '7'
+2025-01-27 23:34:07,885 - Processing make: 'Range Rover Sport 2013+', model: '8'
+2025-01-27 23:34:07,885 - Added make+model combination: 'range rover sport 2013+ 8'
+2025-01-27 23:34:07,885 - Added complete terms: 'range rover sport 2013+', '8'
+2025-01-27 23:34:07,885 - Processing make: 'Discovery 5', model: '10'
+2025-01-27 23:34:07,885 - Added make+model combination: 'discovery 5 10'
+2025-01-27 23:34:07,885 - Added complete terms: 'discovery 5', '10'
+2025-01-27 23:34:07,886 - Processing make: 'Range Rover Vogue 2002 - 2012', model: '11'
+2025-01-27 23:34:07,886 - Added make+model combination: 'range rover vogue 2002 - 2012 11'
+2025-01-27 23:34:07,886 - Added complete terms: 'range rover vogue 2002 - 2012', '11'
+2025-01-27 23:34:07,886 - Processing make: 'Range Rover Vogue 2012+', model: '12'
+2025-01-27 23:34:07,886 - Added make+model combination: 'range rover vogue 2012+ 12'
+2025-01-27 23:34:07,886 - Added complete terms: 'range rover vogue 2012+', '12'
+2025-01-27 23:34:07,887 - Processing make: 'Defender 2020+', model: '13'
+2025-01-27 23:34:07,887 - Added make+model combination: 'defender 2020+ 13'
+2025-01-27 23:34:07,887 - Added complete terms: 'defender 2020+', '13'
+2025-01-27 23:34:07,887 - Processing make: 'Ranger Rover 2012+', model: '14'
+2025-01-27 23:34:07,887 - Added make+model combination: 'ranger rover 2012+ 14'
+2025-01-27 23:34:07,887 - Added complete terms: 'ranger rover 2012+', '14'
+2025-01-27 23:34:07,888 - Processing make: 'Range Rover Velar 2017+', model: '15'
+2025-01-27 23:34:07,888 - Added make+model combination: 'range rover velar 2017+ 15'
+2025-01-27 23:34:07,888 - Added complete terms: 'range rover velar 2017+', '15'
+2025-01-27 23:34:07,888 - Processing make: 'Range Rover Evoque 2019+', model: '16'
+2025-01-27 23:34:07,889 - Added make+model combination: 'range rover evoque 2019+ 16'
+2025-01-27 23:34:07,889 - Added complete terms: 'range rover evoque 2019+', '16'
+2025-01-27 23:34:07,890 - Processing make: 'Antara 2012+', model: '1'
+2025-01-27 23:34:07,890 - Added make+model combination: 'antara 2012+ 1'
+2025-01-27 23:34:07,890 - Added complete terms: 'antara 2012+', '1'
+2025-01-27 23:34:07,890 - Processing make: 'Antara 2006 - 2012', model: '2'
+2025-01-27 23:34:07,891 - Added make+model combination: 'antara 2006 - 2012 2'
+2025-01-27 23:34:07,891 - Added complete terms: 'antara 2006 - 2012', '2'
+2025-01-27 23:34:07,891 - Processing make: 'Mokka', model: '3'
+2025-01-27 23:34:07,891 - Added make+model combination: 'mokka 3'
+2025-01-27 23:34:07,891 - Added complete terms: 'mokka', '3'
+2025-01-27 23:34:07,892 - Processing make: 'Zafira', model: '4'
+2025-01-27 23:34:07,892 - Added make+model combination: 'zafira 4'
+2025-01-27 23:34:07,892 - Added complete terms: 'zafira', '4'
+2025-01-27 23:34:07,892 - Processing make: 'Antara 2010+', model: '5'
+2025-01-27 23:34:07,892 - Added make+model combination: 'antara 2010+ 5'
+2025-01-27 23:34:07,892 - Added complete terms: 'antara 2010+', '5'
+2025-01-27 23:34:07,893 - Processing make: 'Mokka X 2017+', model: '6'
+2025-01-27 23:34:07,893 - Added make+model combination: 'mokka x 2017+ 6'
+2025-01-27 23:34:07,893 - Added complete terms: 'mokka x 2017+', '6'
+2025-01-27 23:34:07,893 - Processing make: 'Honda CRV 2012 - 2016', model: '1'
+2025-01-27 23:34:07,893 - Added make+model combination: 'honda crv 2012 - 2016 1'
+2025-01-27 23:34:07,894 - Added complete terms: 'honda crv 2012 - 2016', '1'
+2025-01-27 23:34:07,894 - Processing make: 'Honda CRV 2016 - Present', model: '2'
+2025-01-27 23:34:07,894 - Added make+model combination: 'honda crv 2016 - present 2'
+2025-01-27 23:34:07,894 - Added complete terms: 'honda crv 2016 - present', '2'
+2025-01-27 23:34:07,895 - Processing make: 'Honda HRV 2016+', model: '3'
+2025-01-27 23:34:07,895 - Added make+model combination: 'honda hrv 2016+ 3'
+2025-01-27 23:34:07,895 - Added complete terms: 'honda hrv 2016+', '3'
+2025-01-27 23:34:07,896 - Processing make: 'CRV 2006 - 2012', model: '4'
+2025-01-27 23:34:07,896 - Added make+model combination: 'crv 2006 - 2012 4'
+2025-01-27 23:34:07,896 - Added complete terms: 'crv 2006 - 2012', '4'
+2025-01-27 23:34:07,897 - Processing make: 'CRV 2017+', model: '5'
+2025-01-27 23:34:07,897 - Added make+model combination: 'crv 2017+ 5'
+2025-01-27 23:34:07,897 - Added complete terms: 'crv 2017+', '5'
+2025-01-27 23:34:07,898 - Processing make: 'XC60 2014-2017', model: '1'
+2025-01-27 23:34:07,898 - Added make+model combination: 'xc60 2014-2017 1'
+2025-01-27 23:34:07,898 - Added complete terms: 'xc60 2014-2017', '1'
+2025-01-27 23:34:07,899 - Processing make: 'XC90 2002 - 2015', model: '2'
+2025-01-27 23:34:07,899 - Added make+model combination: 'xc90 2002 - 2015 2'
+2025-01-27 23:34:07,899 - Added complete terms: 'xc90 2002 - 2015', '2'
+2025-01-27 23:34:07,900 - Processing make: 'XC60 2008 - 2013', model: '3'
+2025-01-27 23:34:07,900 - Added make+model combination: 'xc60 2008 - 2013 3'
+2025-01-27 23:34:07,900 - Added complete terms: 'xc60 2008 - 2013', '3'
+2025-01-27 23:34:07,901 - Processing make: 'XC90 2015+', model: '4'
+2025-01-27 23:34:07,901 - Added make+model combination: 'xc90 2015+ 4'
+2025-01-27 23:34:07,901 - Added complete terms: 'xc90 2015+', '4'
+2025-01-27 23:34:07,901 - Processing make: 'XC60 2017+', model: '5'
+2025-01-27 23:34:07,902 - Added make+model combination: 'xc60 2017+ 5'
+2025-01-27 23:34:07,902 - Added complete terms: 'xc60 2017+', '5'
+2025-01-27 23:34:07,903 - Processing make: 'ML300 / 320 / 350 2006 - 2012', model: '1'
+2025-01-27 23:34:07,903 - Added make+model combination: 'ml300 / 320 / 350 2006 - 2012 1'
+2025-01-27 23:34:07,903 - Added complete terms: 'ml300 / 320 / 350 2006 - 2012', '1'
+2025-01-27 23:34:07,904 - Processing make: 'GL/GLS Class X166', model: '2'
+2025-01-27 23:34:07,904 - Added make+model combination: 'gl/gls class x166 2'
+2025-01-27 23:34:07,905 - Added complete terms: 'gl/gls class x166', '2'
+2025-01-27 23:34:07,905 - Processing make: 'GLK Class X204', model: '3'
+2025-01-27 23:34:07,906 - Added make+model combination: 'glk class x204 3'
+2025-01-27 23:34:07,906 - Added complete terms: 'glk class x204', '3'
+2025-01-27 23:34:07,906 - Processing make: 'M / GLE Class 2012+', model: '4'
+2025-01-27 23:34:07,907 - Added make+model combination: 'm / gle class 2012+ 4'
+2025-01-27 23:34:07,907 - Added complete terms: 'm / gle class 2012+', '4'
+2025-01-27 23:34:07,907 - Processing make: 'GLA 2014+', model: '5'
+2025-01-27 23:34:07,907 - Added make+model combination: 'gla 2014+ 5'
+2025-01-27 23:34:07,907 - Added complete terms: 'gla 2014+', '5'
+2025-01-27 23:34:07,908 - Processing make: 'GLC', model: '6'
+2025-01-27 23:34:07,908 - Added make+model combination: 'glc 6'
+2025-01-27 23:34:07,908 - Added complete terms: 'glc', '6'
+2025-01-27 23:34:07,908 - Processing make: 'GLE Sport 2015+', model: '7'
+2025-01-27 23:34:07,908 - Added make+model combination: 'gle sport 2015+ 7'
+2025-01-27 23:34:07,909 - Added complete terms: 'gle sport 2015+', '7'
+2025-01-27 23:34:07,909 - Processing make: 'X-Class 2017+', model: '8'
+2025-01-27 23:34:07,909 - Added make+model combination: 'x-class 2017+ 8'
+2025-01-27 23:34:07,909 - Added complete terms: 'x-class 2017+', '8'
+2025-01-27 23:34:07,910 - Processing make: '-', model: '9'
+2025-01-27 23:34:07,910 - Added make+model combination: '- 9'
+2025-01-27 23:34:07,910 - Added complete terms: '-', '9'
+2025-01-27 23:34:07,911 - Processing make: 'GLE 2019+', model: '10'
+2025-01-27 23:34:07,911 - Added make+model combination: 'gle 2019+ 10'
+2025-01-27 23:34:07,911 - Added complete terms: 'gle 2019+', '10'
+2025-01-27 23:34:07,912 - Processing make: 'GLS X167 2019+', model: '11'
+2025-01-27 23:34:07,912 - Added make+model combination: 'gls x167 2019+ 11'
+2025-01-27 23:34:07,912 - Added complete terms: 'gls x167 2019+', '11'
+2025-01-27 23:34:07,913 - Processing make: 'GLA 2020+', model: '12'
+2025-01-27 23:34:07,913 - Added make+model combination: 'gla 2020+ 12'
+2025-01-27 23:34:07,913 - Added complete terms: 'gla 2020+', '12'
+2025-01-27 23:34:07,913 - Processing make: 'GLB Class 2019+', model: '13'
+2025-01-27 23:34:07,914 - Added make+model combination: 'glb class 2019+ 13'
+2025-01-27 23:34:07,914 - Added complete terms: 'glb class 2019+', '13'
+2025-01-27 23:34:07,915 - Processing make: 'BT-50', model: '1'
+2025-01-27 23:34:07,915 - Added make+model combination: 'bt-50 1'
+2025-01-27 23:34:07,915 - Added complete terms: 'bt-50', '1'
+2025-01-27 23:34:07,915 - Processing make: 'CX-5 2012 - 2017', model: '2'
+2025-01-27 23:34:07,915 - Added make+model combination: 'cx-5 2012 - 2017 2'
+2025-01-27 23:34:07,916 - Added complete terms: 'cx-5 2012 - 2017', '2'
+2025-01-27 23:34:07,916 - Processing make: 'BT-50 2016+', model: '3'
+2025-01-27 23:34:07,916 - Added make+model combination: 'bt-50 2016+ 3'
+2025-01-27 23:34:07,916 - Added complete terms: 'bt-50 2016+', '3'
+2025-01-27 23:34:07,917 - Processing make: 'CX-5 2017+', model: '4'
+2025-01-27 23:34:07,917 - Added make+model combination: 'cx-5 2017+ 4'
+2025-01-27 23:34:07,918 - Added complete terms: 'cx-5 2017+', '4'
+2025-01-27 23:34:07,918 - Processing make: 'CX-30 2020+', model: '5'
+2025-01-27 23:34:07,919 - Added make+model combination: 'cx-30 2020+ 5'
+2025-01-27 23:34:07,919 - Added complete terms: 'cx-30 2020+', '5'
+2025-01-27 23:34:07,919 - Processing make: 'CX - 60 2022+', model: '6'
+2025-01-27 23:34:07,919 - Added make+model combination: 'cx - 60 2022+ 6'
+2025-01-27 23:34:07,920 - Added complete terms: 'cx - 60 2022+', '6'
+2025-01-27 23:34:07,920 - Processing make: '5008 2010 - 2016', model: '1'
+2025-01-27 23:34:07,920 - Added make+model combination: '5008 2010 - 2016 1'
+2025-01-27 23:34:07,920 - Added complete terms: '5008 2010 - 2016', '1'
+2025-01-27 23:34:07,921 - Processing make: '5008 2017+', model: '2'
+2025-01-27 23:34:07,921 - Added make+model combination: '5008 2017+ 2'
+2025-01-27 23:34:07,921 - Added complete terms: '5008 2017+', '2'
+2025-01-27 23:34:07,922 - Processing make: '3008 2008 - 2016', model: '3'
+2025-01-27 23:34:07,922 - Added make+model combination: '3008 2008 - 2016 3'
+2025-01-27 23:34:07,922 - Added complete terms: '3008 2008 - 2016', '3'
+2025-01-27 23:34:07,922 - Processing make: '3008 2016+', model: '4'
+2025-01-27 23:34:07,922 - Added make+model combination: '3008 2016+ 4'
+2025-01-27 23:34:07,923 - Added complete terms: '3008 2016+', '4'
+2025-01-27 23:34:07,923 - Processing make: '4008 2012 - 2017', model: '5'
+2025-01-27 23:34:07,924 - Added make+model combination: '4008 2012 - 2017 5'
+2025-01-27 23:34:07,924 - Added complete terms: '4008 2012 - 2017', '5'
+2025-01-27 23:34:07,925 - Processing make: 'Sport', model: '1'
+2025-01-27 23:34:07,925 - Added make+model combination: 'sport 1'
+2025-01-27 23:34:07,926 - Added complete terms: 'sport', '1'
+2025-01-27 23:34:07,926 - Processing make: 'Yeti', model: '1'
+2025-01-27 23:34:07,927 - Added make+model combination: 'yeti 1'
+2025-01-27 23:34:07,927 - Added complete terms: 'yeti', '1'
+2025-01-27 23:34:07,928 - Processing make: 'Kodiaq 2016+-2023', model: '2'
+2025-01-27 23:34:07,928 - Added make+model combination: 'kodiaq 2016+-2023 2'
+2025-01-27 23:34:07,928 - Added complete terms: 'kodiaq 2016+-2023', '2'
+2025-01-27 23:34:07,928 - Processing make: 'Karoq 2017+', model: '3'
+2025-01-27 23:34:07,929 - Added make+model combination: 'karoq 2017+ 3'
+2025-01-27 23:34:07,929 - Added complete terms: 'karoq 2017+', '3'
+2025-01-27 23:34:07,929 - Processing make: 'Kodiaq 2023+', model: '4'
+2025-01-27 23:34:07,929 - Added make+model combination: 'kodiaq 2023+ 4'
+2025-01-27 23:34:07,930 - Added complete terms: 'kodiaq 2023+', '4'
+2025-01-27 23:34:07,930 - Processing make: 'Grand Cherokee 2011+', model: '1'
+2025-01-27 23:34:07,931 - Added make+model combination: 'grand cherokee 2011+ 1'
+2025-01-27 23:34:07,931 - Added complete terms: 'grand cherokee 2011+', '1'
+2025-01-27 23:34:07,931 - Processing make: 'Grand Cherokee 2005-2010', model: '2'
+2025-01-27 23:34:07,932 - Added make+model combination: 'grand cherokee 2005-2010 2'
+2025-01-27 23:34:07,932 - Added complete terms: 'grand cherokee 2005-2010', '2'
+2025-01-27 23:34:07,932 - Processing make: 'Wrangler 2008 - 2018', model: '3'
+2025-01-27 23:34:07,933 - Added make+model combination: 'wrangler 2008 - 2018 3'
+2025-01-27 23:34:07,933 - Added complete terms: 'wrangler 2008 - 2018', '3'
+2025-01-27 23:34:07,933 - Processing make: 'Compass 2014-2017', model: '4'
+2025-01-27 23:34:07,934 - Added make+model combination: 'compass 2014-2017 4'
+2025-01-27 23:34:07,934 - Added complete terms: 'compass 2014-2017', '4'
+2025-01-27 23:34:07,934 - Processing make: 'Compass 2017+', model: '5'
+2025-01-27 23:34:07,935 - Added make+model combination: 'compass 2017+ 5'
+2025-01-27 23:34:07,935 - Added complete terms: 'compass 2017+', '5'
+2025-01-27 23:34:07,935 - Processing make: 'Renegade', model: '6'
+2025-01-27 23:34:07,935 - Added make+model combination: 'renegade 6'
+2025-01-27 23:34:07,936 - Added complete terms: 'renegade', '6'
+2025-01-27 23:34:07,936 - Processing make: 'Cherokee 2014+', model: '7'
+2025-01-27 23:34:07,936 - Added make+model combination: 'cherokee 2014+ 7'
+2025-01-27 23:34:07,936 - Added complete terms: 'cherokee 2014+', '7'
+2025-01-27 23:34:07,937 - Processing make: 'Wrangler 2018+', model: '8'
+2025-01-27 23:34:07,937 - Added make+model combination: 'wrangler 2018+ 8'
+2025-01-27 23:34:07,937 - Added complete terms: 'wrangler 2018+', '8'
+2025-01-27 23:34:07,938 - Processing make: 'Ateca', model: '1'
+2025-01-27 23:34:07,939 - Added make+model combination: 'ateca 1'
+2025-01-27 23:34:07,939 - Added complete terms: 'ateca', '1'
+2025-01-27 23:34:07,939 - Processing make: 'Alhambra', model: '2'
+2025-01-27 23:34:07,940 - Added make+model combination: 'alhambra 2'
+2025-01-27 23:34:07,940 - Added complete terms: 'alhambra', '2'
+2025-01-27 23:34:07,940 - Processing make: 'Tarraco', model: '3'
+2025-01-27 23:34:07,941 - Added make+model combination: 'tarraco 3'
+2025-01-27 23:34:07,941 - Added complete terms: 'tarraco', '3'
+2025-01-27 23:34:07,941 - Processing make: 'Arona', model: '4'
+2025-01-27 23:34:07,941 - Added make+model combination: 'arona 4'
+2025-01-27 23:34:07,941 - Added complete terms: 'arona', '4'
+2025-01-27 23:34:07,942 - Processing make: 'Duster 2010 - 2017', model: '1'
+2025-01-27 23:34:07,942 - Added make+model combination: 'duster 2010 - 2017 1'
+2025-01-27 23:34:07,942 - Added complete terms: 'duster 2010 - 2017', '1'
+2025-01-27 23:34:07,943 - Processing make: 'Duster 2017+', model: '2'
+2025-01-27 23:34:07,943 - Added make+model combination: 'duster 2017+ 2'
+2025-01-27 23:34:07,943 - Added complete terms: 'duster 2017+', '2'
+2025-01-27 23:34:07,944 - Processing make: 'Captur 2013 - 2019', model: '1'
+2025-01-27 23:34:07,944 - Added make+model combination: 'captur 2013 - 2019 1'
+2025-01-27 23:34:07,944 - Added complete terms: 'captur 2013 - 2019', '1'
+2025-01-27 23:34:07,944 - Processing make: 'Kadjar', model: '2'
+2025-01-27 23:34:07,944 - Added make+model combination: 'kadjar 2'
+2025-01-27 23:34:07,945 - Added complete terms: 'kadjar', '2'
+2025-01-27 23:34:07,945 - Processing make: 'Captur 2019+', model: '3'
+2025-01-27 23:34:07,946 - Added make+model combination: 'captur 2019+ 3'
+2025-01-27 23:34:07,946 - Added complete terms: 'captur 2019+', '3'
+2025-01-27 23:34:07,947 - Processing make: 'Fullback', model: '1'
+2025-01-27 23:34:07,947 - Added make+model combination: 'fullback 1'
+2025-01-27 23:34:07,947 - Added complete terms: 'fullback', '1'
+2025-01-27 23:34:07,948 - Processing make: 'Colorado', model: '1'
+2025-01-27 23:34:07,948 - Added make+model combination: 'colorado 1'
+2025-01-27 23:34:07,948 - Added complete terms: 'colorado', '1'
+2025-01-27 23:34:07,949 - Processing make: 'Cayenne 2002-2010', model: '1'
+2025-01-27 23:34:07,949 - Added make+model combination: 'cayenne 2002-2010 1'
+2025-01-27 23:34:07,949 - Added complete terms: 'cayenne 2002-2010', '1'
+2025-01-27 23:34:07,949 - Processing make: 'Cayenne 2011-2017', model: '2'
+2025-01-27 23:34:07,950 - Added make+model combination: 'cayenne 2011-2017 2'
+2025-01-27 23:34:07,950 - Added complete terms: 'cayenne 2011-2017', '2'
+2025-01-27 23:34:07,950 - Processing make: 'Cayenne 2018+', model: '3'
+2025-01-27 23:34:07,950 - Added make+model combination: 'cayenne 2018+ 3'
+2025-01-27 23:34:07,951 - Added complete terms: 'cayenne 2018+', '3'
+2025-01-27 23:34:07,952 - Processing make: 'D90 2017+', model: '1'
+2025-01-27 23:34:07,952 - Added make+model combination: 'd90 2017+ 1'
+2025-01-27 23:34:07,952 - Added complete terms: 'd90 2017+', '1'
+2025-01-27 23:34:07,953 - Processing make: 'Rexton W / Rexton III 2013 - 2017', model: '1'
+2025-01-27 23:34:07,953 - Added make+model combination: 'rexton w / rexton iii 2013 - 2017 1'
+2025-01-27 23:34:07,953 - Added complete terms: 'rexton w / rexton iii 2013 - 2017', '1'
+2025-01-27 23:34:07,953 - Processing make: 'Rexton 2017+', model: '2'
+2025-01-27 23:34:07,953 - Added make+model combination: 'rexton 2017+ 2'
+2025-01-27 23:34:07,954 - Added complete terms: 'rexton 2017+', '2'
+2025-01-27 23:34:07,954 - Processing make: 'Actyon / Korando 2011+', model: '3'
+2025-01-27 23:34:07,954 - Added make+model combination: 'actyon / korando 2011+ 3'
+2025-01-27 23:34:07,954 - Added complete terms: 'actyon / korando 2011+', '3'
+2025-01-27 23:34:07,954 - Processing make: 'SsangYong Musso 2018+', model: '4'
+2025-01-27 23:34:07,955 - Added make+model combination: 'ssangyong musso 2018+ 4'
+2025-01-27 23:34:07,955 - Added complete terms: 'ssangyong musso 2018+', '4'
+2025-01-27 23:34:07,955 - Processing make: 'Forester 2008 - 2013', model: '1'
+2025-01-27 23:34:07,955 - Added make+model combination: 'forester 2008 - 2013 1'
+2025-01-27 23:34:07,955 - Added complete terms: 'forester 2008 - 2013', '1'
+2025-01-27 23:34:07,956 - Processing make: 'Forester 2013 - 2019', model: '2'
+2025-01-27 23:34:07,956 - Added make+model combination: 'forester 2013 - 2019 2'
+2025-01-27 23:34:07,956 - Added complete terms: 'forester 2013 - 2019', '2'
+2025-01-27 23:34:07,956 - Processing make: 'Forester 2019+', model: '3'
+2025-01-27 23:34:07,957 - Added make+model combination: 'forester 2019+ 3'
+2025-01-27 23:34:07,957 - Added complete terms: 'forester 2019+', '3'
+2025-01-27 23:34:07,957 - Processing make: 'F-Pace', model: '1'
+2025-01-27 23:34:07,957 - Added make+model combination: 'f-pace 1'
+2025-01-27 23:34:07,957 - Added complete terms: 'f-pace', '1'
+2025-01-27 23:34:07,958 - Processing make: 'NX 2015+', model: '1'
+2025-01-27 23:34:07,958 - Added make+model combination: 'nx 2015+ 1'
+2025-01-27 23:34:07,959 - Added complete terms: 'nx 2015+', '1'
+2025-01-27 23:34:07,959 - Processing make: 'RX 2015+', model: '2'
+2025-01-27 23:34:07,959 - Added make+model combination: 'rx 2015+ 2'
+2025-01-27 23:34:07,959 - Added complete terms: 'rx 2015+', '2'
+2025-01-27 23:34:07,960 - Processing make: 'Grand Voyager 2008+', model: '1'
+2025-01-27 23:34:07,960 - Added make+model combination: 'grand voyager 2008+ 1'
+2025-01-27 23:34:07,960 - Added complete terms: 'grand voyager 2008+', '1'
+2025-01-27 23:34:07,961 - Processing make: 'Pao 2019+', model: '1'
+2025-01-27 23:34:07,961 - Added make+model combination: 'pao 2019+ 1'
+2025-01-27 23:34:07,961 - Added complete terms: 'pao 2019+', '1'
+2025-01-27 23:34:07,962 - Processing make: 'C5 Aircross', model: '1'
+2025-01-27 23:34:07,962 - Added make+model combination: 'c5 aircross 1'
+2025-01-27 23:34:07,962 - Added complete terms: 'c5 aircross', '1'
+2025-01-27 23:34:07,962 - Processing make: 'Atto 3/ Yuan Plus 2022+', model: '1'
+2025-01-27 23:34:07,963 - Added make+model combination: 'atto 3/ yuan plus 2022+ 1'
+2025-01-27 23:34:07,963 - Added complete terms: 'atto 3/ yuan plus 2022+', '1'
+2025-01-27 23:34:07,963 - Processing make: 'Dolphin 2021+', model: '2'
+2025-01-27 23:34:07,963 - Added make+model combination: 'dolphin 2021+ 2'
+2025-01-27 23:34:07,963 - Added complete terms: 'dolphin 2021+', '2'
+2025-01-27 23:34:07,964 - Processing make: 'Truck', model: 'Make/Model'
+2025-01-27 23:34:07,964 - Added make+model combination: 'truck make/model'
+2025-01-27 23:34:07,964 - Added complete terms: 'truck', 'make/model'
+2025-01-27 23:34:07,965 - Processing make: 'ISW', model: 'Iveco s-way'
+2025-01-27 23:34:07,965 - Added make+model combination: 'isw iveco s-way'
+2025-01-27 23:34:07,965 - Added complete terms: 'isw', 'iveco s-way'
+2025-01-27 23:34:07,965 - Processing make: 'DXG', model: 'Daf XG'
+2025-01-27 23:34:07,966 - Added make+model combination: 'dxg daf xg'
+2025-01-27 23:34:07,966 - Added complete terms: 'dxg', 'daf xg'
+2025-01-27 23:34:07,966 - Processing make: 'SNG', model: 'Scania new generation'
+2025-01-27 23:34:07,966 - Added make+model combination: 'sng scania new generation'
+2025-01-27 23:34:07,967 - Added complete terms: 'sng', 'scania new generation'
+2025-01-27 23:34:07,967 - Processing make: 'RDR', model: 'Renault D Range'
+2025-01-27 23:34:07,967 - Added make+model combination: 'rdr renault d range'
+2025-01-27 23:34:07,967 - Added complete terms: 'rdr', 'renault d range'
+2025-01-27 23:34:07,968 - Processing make: 'NGD', model: 'New Generation Daf'
+2025-01-27 23:34:07,968 - Added make+model combination: 'ngd new generation daf'
+2025-01-27 23:34:07,968 - Added complete terms: 'ngd', 'new generation daf'
+2025-01-27 23:34:07,969 - Loaded 1077 makes and 80 models successfully
+2025-01-27 23:34:07,969 - Total matchable terms: 1225
+2025-01-27 23:34:07,969 - All loaded terms:
+2025-01-27 23:34:07,970 -   - -
+2025-01-27 23:34:07,970 -   - - 9
+2025-01-27 23:34:07,970 -   - 1
+2025-01-27 23:34:07,970 -   - 10
+2025-01-27 23:34:07,970 -   - 101
+2025-01-27 23:34:07,970 -   - 102
+2025-01-27 23:34:07,970 -   - 103
+2025-01-27 23:34:07,971 -   - 11
+2025-01-27 23:34:07,971 -   - 111
+2025-01-27 23:34:07,971 -   - 112
+2025-01-27 23:34:07,971 -   - 113
+2025-01-27 23:34:07,971 -   - 12
+2025-01-27 23:34:07,972 -   - 121
+2025-01-27 23:34:07,972 -   - 122
+2025-01-27 23:34:07,972 -   - 123
+2025-01-27 23:34:07,972 -   - 12t/13t hitachi hyundai komatsu kobelco jcb cat
+2025-01-27 23:34:07,973 -   - 12t/13t hitachi hyundai komatsu kobelco jcb cat 83
+2025-01-27 23:34:07,973 -   - 13
+2025-01-27 23:34:07,973 -   - 14
+2025-01-27 23:34:07,973 -   - 15
+2025-01-27 23:34:07,974 -   - 16
+2025-01-27 23:34:07,974 -   - 17
+2025-01-27 23:34:07,974 -   - 18
+2025-01-27 23:34:07,974 -   - 19
+2025-01-27 23:34:07,974 -   - 2
+2025-01-27 23:34:07,975 -   - 20
+2025-01-27 23:34:07,975 -   - 21
+2025-01-27 23:34:07,975 -   - 22
+2025-01-27 23:34:07,975 -   - 23
+2025-01-27 23:34:07,975 -   - 24
+2025-01-27 23:34:07,975 -   - 25
+2025-01-27 23:34:07,975 -   - 26
+2025-01-27 23:34:07,976 -   - 27
+2025-01-27 23:34:07,976 -   - 28
+2025-01-27 23:34:07,976 -   - 29
+2025-01-27 23:34:07,976 -   - 3
+2025-01-27 23:34:07,976 -   - 30
+2025-01-27 23:34:07,976 -   - 3008 2008 - 2016
+2025-01-27 23:34:07,976 -   - 3008 2008 - 2016 3
+2025-01-27 23:34:07,976 -   - 3008 2016+
+2025-01-27 23:34:07,977 -   - 3008 2016+ 4
+2025-01-27 23:34:07,977 -   - 31
+2025-01-27 23:34:07,977 -   - 32
+2025-01-27 23:34:07,977 -   - 33
+2025-01-27 23:34:07,977 -   - 34
+2025-01-27 23:34:07,977 -   - 35
+2025-01-27 23:34:07,977 -   - 36
+2025-01-27 23:34:07,977 -   - 37
+2025-01-27 23:34:07,978 -   - 4
+2025-01-27 23:34:07,978 -   - 4 series
+2025-01-27 23:34:07,978 -   - 4 series 3
+2025-01-27 23:34:07,978 -   - 4008 2012 - 2017
+2025-01-27 23:34:07,978 -   - 4008 2012 - 2017 5
+2025-01-27 23:34:07,978 -   - 41
+2025-01-27 23:34:07,978 -   - 42
+2025-01-27 23:34:07,978 -   - 43
+2025-01-27 23:34:07,978 -   - 5
+2025-01-27 23:34:07,979 -   - 5008 2010 - 2016
+2025-01-27 23:34:07,979 -   - 5008 2010 - 2016 1
+2025-01-27 23:34:07,979 -   - 5008 2017+
+2025-01-27 23:34:07,979 -   - 5008 2017+ 2
+2025-01-27 23:34:07,979 -   - 51
+2025-01-27 23:34:07,980 -   - 52
+2025-01-27 23:34:07,980 -   - 53
+2025-01-27 23:34:07,980 -   - 54
+2025-01-27 23:34:07,980 -   - 55
+2025-01-27 23:34:07,980 -   - 5700xe
+2025-01-27 23:34:07,980 -   - 5700xe 61
+2025-01-27 23:34:07,981 -   - 6
+2025-01-27 23:34:07,981 -   - 61
+2025-01-27 23:34:07,981 -   - 62
+2025-01-27 23:34:07,981 -   - 63
+2025-01-27 23:34:07,981 -   - 7
+2025-01-27 23:34:07,981 -   - 71
+2025-01-27 23:34:07,981 -   - 72
+2025-01-27 23:34:07,982 -   - 73
+2025-01-27 23:34:07,982 -   - 780
+2025-01-27 23:34:07,982 -   - 780 21
+2025-01-27 23:34:07,982 -   - 8
+2025-01-27 23:34:07,982 -   - 81
+2025-01-27 23:34:07,982 -   - 82
+2025-01-27 23:34:07,982 -   - 83
+2025-01-27 23:34:07,982 -   - 9
+2025-01-27 23:34:07,982 -   - 91
+2025-01-27 23:34:07,983 -   - 92
+2025-01-27 23:34:07,983 -   - 93
+2025-01-27 23:34:07,983 -   - 94
+2025-01-27 23:34:07,983 -   - 9900i
+2025-01-27 23:34:07,983 -   - 9900i 73
+2025-01-27 23:34:07,983 -   - `
+2025-01-27 23:34:07,983 -   - ` 63
+2025-01-27 23:34:07,983 -   - active day
+2025-01-27 23:34:07,983 -   - active day 12
+2025-01-27 23:34:07,984 -   - active space / time
+2025-01-27 23:34:07,984 -   - active space / time 11
+2025-01-27 23:34:07,984 -   - actros mp3 / mp2
+2025-01-27 23:34:07,984 -   - actros mp3 / mp2 2
+2025-01-27 23:34:07,984 -   - actros mp4
+2025-01-27 23:34:07,984 -   - actros mp4 1
+2025-01-27 23:34:07,984 -   - actros mp4 2012+ streamspace
+2025-01-27 23:34:07,984 -   - actros mp4 2012+ streamspace 13
+2025-01-27 23:34:07,985 -   - actros mp5
+2025-01-27 23:34:07,985 -   - actros mp5 9
+2025-01-27 23:34:07,985 -   - actyon / korando 2011+
+2025-01-27 23:34:07,985 -   - actyon / korando 2011+ 3
+2025-01-27 23:34:07,985 -   - alhambra
+2025-01-27 23:34:07,985 -   - alhambra 2
+2025-01-27 23:34:07,985 -   - alpha
+2025-01-27 23:34:07,985 -   - alpha 1
+2025-01-27 23:34:07,986 -   - amarok 2010 - 2016
+2025-01-27 23:34:07,986 -   - amarok 2010 - 2016 1
+2025-01-27 23:34:07,986 -   - amarok 2016 - 2023
+2025-01-27 23:34:07,986 -   - amarok 2016 - 2023 5
+2025-01-27 23:34:07,986 -   - amarok 2023+
+2025-01-27 23:34:07,987 -   - amarok 2023+ 14
+2025-01-27 23:34:07,987 -   - amarok v6 2017+
+2025-01-27 23:34:07,987 -   - amarok v6 2017+ 8
+2025-01-27 23:34:07,987 -   - american style
+2025-01-27 23:34:07,987 -   - american style 9
+2025-01-27 23:34:07,987 -   - antara 2006 - 2012
+2025-01-27 23:34:07,987 -   - antara 2006 - 2012 2
+2025-01-27 23:34:07,988 -   - antara 2010+
+2025-01-27 23:34:07,988 -   - antara 2010+ 5
+2025-01-27 23:34:07,988 -   - antara 2012+
+2025-01-27 23:34:07,988 -   - antara 2012+ 1
+2025-01-27 23:34:07,988 -   - antos
+2025-01-27 23:34:07,988 -   - antos 7
+2025-01-27 23:34:07,988 -   - arocs
+2025-01-27 23:34:07,989 -   - arocs 3
+2025-01-27 23:34:07,989 -   - arona
+2025-01-27 23:34:07,989 -   - arona 4
+2025-01-27 23:34:07,989 -   - asx
+2025-01-27 23:34:07,989 -   - asx 6
+2025-01-27 23:34:07,989 -   - ateca
+2025-01-27 23:34:07,989 -   - ateca 1
+2025-01-27 23:34:07,989 -   - atego
+2025-01-27 23:34:07,990 -   - atego 5
+2025-01-27 23:34:07,990 -   - atto 3/ yuan plus 2022+
+2025-01-27 23:34:07,990 -   - atto 3/ yuan plus 2022+ 1
+2025-01-27 23:34:07,990 -   - audi
+2025-01-27 23:34:07,990 -   - audi 1
+2025-01-27 23:34:07,990 -   - axor
+2025-01-27 23:34:07,990 -   - axor 4
+2025-01-27 23:34:07,990 -   - berlingo 08 - 16
+2025-01-27 23:34:07,990 -   - berlingo 08 - 16 2
+2025-01-27 23:34:07,991 -   - berlingo 2016-2019
+2025-01-27 23:34:07,991 -   - berlingo 2016-2019 9
+2025-01-27 23:34:07,991 -   - berlingo 2019+
+2025-01-27 23:34:07,991 -   - berlingo 2019+ 12
+2025-01-27 23:34:07,991 -   - berlingo 97-08
+2025-01-27 23:34:07,991 -   - berlingo 97-08 1
+2025-01-27 23:34:07,991 -   - bigspace
+2025-01-27 23:34:07,992 -   - bigspace 12
+2025-01-27 23:34:07,992 -   - bigspace 32
+2025-01-27 23:34:07,992 -   - bigspace 92
+2025-01-27 23:34:07,992 -   - bipper 2007 - 2016
+2025-01-27 23:34:07,992 -   - bipper 2007 - 2016 3
+2025-01-27 23:34:07,992 -   - bipper 2016+
+2025-01-27 23:34:07,992 -   - bipper 2016+ 11
+2025-01-27 23:34:07,992 -   - bmw
+2025-01-27 23:34:07,992 -   - bmw 2
+2025-01-27 23:34:07,992 -   - boxer 07-14
+2025-01-27 23:34:07,993 -   - boxer 07-14 4
+2025-01-27 23:34:07,993 -   - boxer 14+
+2025-01-27 23:34:07,993 -   - boxer 14+ 7
+2025-01-27 23:34:07,993 -   - bt-50
+2025-01-27 23:34:07,993 -   - bt-50 1
+2025-01-27 23:34:07,993 -   - bt-50 2016+
+2025-01-27 23:34:07,994 -   - bt-50 2016+ 3
+2025-01-27 23:34:07,994 -   - byd
+2025-01-27 23:34:07,994 -   - byd 37
+2025-01-27 23:34:07,994 -   - c - day cab
+2025-01-27 23:34:07,994 -   - c - day cab 3
+2025-01-27 23:34:07,994 -   - c range
+2025-01-27 23:34:07,994 -   - c range 2
+2025-01-27 23:34:07,994 -   - c5 aircross
+2025-01-27 23:34:07,995 -   - c5 aircross 1
+2025-01-27 23:34:07,995 -   - cabstar
+2025-01-27 23:34:07,995 -   - cabstar 1
+2025-01-27 23:34:07,995 -   - caddy 04-2010
+2025-01-27 23:34:07,995 -   - caddy 04-2010 2
+2025-01-27 23:34:07,995 -   - caddy 2010-2015
+2025-01-27 23:34:07,995 -   - caddy 2010-2015 1
+2025-01-27 23:34:07,996 -   - caddy 2015 - 2021
+2025-01-27 23:34:07,996 -   - caddy 2015 - 2021 9
+2025-01-27 23:34:07,996 -   - caddy 2021+
+2025-01-27 23:34:07,996 -   - caddy 2021+ 12
+2025-01-27 23:34:07,996 -   - canter
+2025-01-27 23:34:07,996 -   - canter 1
+2025-01-27 23:34:07,996 -   - canter 1997-2005
+2025-01-27 23:34:07,996 -   - canter 1997-2005 5
+2025-01-27 23:34:07,996 -   - captur 2013 - 2019
+2025-01-27 23:34:07,997 -   - captur 2013 - 2019 1
+2025-01-27 23:34:07,997 -   - captur 2019+
+2025-01-27 23:34:07,997 -   - captur 2019+ 3
+2025-01-27 23:34:07,997 -   - carens 2013+
+2025-01-27 23:34:07,997 -   - carens 2013+ 8
+2025-01-27 23:34:07,997 -   - cascadia evolution
+2025-01-27 23:34:07,997 -   - cascadia evolution 42
+2025-01-27 23:34:07,998 -   - cayenne 2002-2010
+2025-01-27 23:34:07,998 -   - cayenne 2002-2010 1
+2025-01-27 23:34:07,998 -   - cayenne 2011-2017
+2025-01-27 23:34:07,998 -   - cayenne 2011-2017 2
+2025-01-27 23:34:07,998 -   - cayenne 2018+
+2025-01-27 23:34:07,998 -   - cayenne 2018+ 3
+2025-01-27 23:34:07,999 -   - cherokee 2014+
+2025-01-27 23:34:07,999 -   - cherokee 2014+ 7
+2025-01-27 23:34:07,999 -   - chevrolet
+2025-01-27 23:34:07,999 -   - chevrolet 26
+2025-01-27 23:34:07,999 -   - chrysler
+2025-01-27 23:34:07,999 -   - chrysler 34
+2025-01-27 23:34:08,000 -   - citan
+2025-01-27 23:34:08,000 -   - citan 3
+2025-01-27 23:34:08,000 -   - citreon
+2025-01-27 23:34:08,000 -   - citreon 7
+2025-01-27 23:34:08,000 -   - citroen
+2025-01-27 23:34:08,000 -   - citroen 36
+2025-01-27 23:34:08,001 -   - classic
+2025-01-27 23:34:08,001 -   - classic 14
+2025-01-27 23:34:08,001 -   - classic 31
+2025-01-27 23:34:08,001 -   - classic 94
+2025-01-27 23:34:08,001 -   - colorado
+2025-01-27 23:34:08,001 -   - colorado 1
+2025-01-27 23:34:08,002 -   - combo 2012 - 2019
+2025-01-27 23:34:08,002 -   - combo 2012 - 2019 2
+2025-01-27 23:34:08,002 -   - combo 2019+
+2025-01-27 23:34:08,002 -   - combo 2019+ 7
+2025-01-27 23:34:08,002 -   - combo pre 2011
+2025-01-27 23:34:08,002 -   - combo pre 2011 1
+2025-01-27 23:34:08,002 -   - compass 2014-2017
+2025-01-27 23:34:08,002 -   - compass 2014-2017 4
+2025-01-27 23:34:08,003 -   - compass 2017+
+2025-01-27 23:34:08,003 -   - compass 2017+ 5
+2025-01-27 23:34:08,003 -   - crafter 2006-2014
+2025-01-27 23:34:08,003 -   - crafter 2006-2014 4
+2025-01-27 23:34:08,003 -   - crafter 2014+
+2025-01-27 23:34:08,003 -   - crafter 2014+ 8
+2025-01-27 23:34:08,003 -   - crafter 2017+
+2025-01-27 23:34:08,003 -   - crafter 2017+ 10
+2025-01-27 23:34:08,004 -   - crafter 2021+
+2025-01-27 23:34:08,004 -   - crafter 2021+ 13
+2025-01-27 23:34:08,004 -   - crv 2006 - 2012
+2025-01-27 23:34:08,004 -   - crv 2006 - 2012 4
+2025-01-27 23:34:08,004 -   - crv 2017+
+2025-01-27 23:34:08,004 -   - crv 2017+ 5
+2025-01-27 23:34:08,004 -   - cx - 60 2022+
+2025-01-27 23:34:08,005 -   - cx - 60 2022+ 6
+2025-01-27 23:34:08,005 -   - cx-30 2020+
+2025-01-27 23:34:08,005 -   - cx-30 2020+ 5
+2025-01-27 23:34:08,005 -   - cx-5 2012 - 2017
+2025-01-27 23:34:08,005 -   - cx-5 2012 - 2017 2
+2025-01-27 23:34:08,006 -   - cx-5 2017+
+2025-01-27 23:34:08,006 -   - cx-5 2017+ 4
+2025-01-27 23:34:08,006 -   - d max/rodeo 2007-2012
+2025-01-27 23:34:08,006 -   - d max/rodeo 2007-2012 1
+2025-01-27 23:34:08,006 -   - d max/rodeo 2012 - 2016
+2025-01-27 23:34:08,007 -   - d max/rodeo 2012 - 2016 2
+2025-01-27 23:34:08,007 -   - d range
+2025-01-27 23:34:08,007 -   - d range 9
+2025-01-27 23:34:08,007 -   - d-max / rodeo 2002-2007
+2025-01-27 23:34:08,008 -   - d-max / rodeo 2002-2007 4
+2025-01-27 23:34:08,008 -   - d-max / rodeo 2016 - 2023
+2025-01-27 23:34:08,008 -   - d-max / rodeo 2016 - 2023 5
+2025-01-27 23:34:08,008 -   - d-max / rodeo 2023+
+2025-01-27 23:34:08,008 -   - d-max / rodeo 2023+ 6
+2025-01-27 23:34:08,008 -   - d22
+2025-01-27 23:34:08,009 -   - d22 2
+2025-01-27 23:34:08,009 -   - d90 2017+
+2025-01-27 23:34:08,009 -   - d90 2017+ 1
+2025-01-27 23:34:08,009 -   - dacia
+2025-01-27 23:34:08,009 -   - dacia 23
+2025-01-27 23:34:08,009 -   - daf
+2025-01-27 23:34:08,010 -   - daf 2017+
+2025-01-27 23:34:08,010 -   - daf 2017+ 8
+2025-01-27 23:34:08,010 -   - daf 3
+2025-01-27 23:34:08,010 -   - daf cf 2014+
+2025-01-27 23:34:08,010 -   - daf cf 2014+ 4
+2025-01-27 23:34:08,011 -   - daf cf pre 2014
+2025-01-27 23:34:08,011 -   - daf cf pre 2014 5
+2025-01-27 23:34:08,011 -   - daf lf 2014+
+2025-01-27 23:34:08,011 -   - daf lf 2014+ 6
+2025-01-27 23:34:08,011 -   - daf lf pre 2014
+2025-01-27 23:34:08,011 -   - daf lf pre 2014 7
+2025-01-27 23:34:08,011 -   - daf xg
+2025-01-27 23:34:08,011 -   - daily 1999-2006
+2025-01-27 23:34:08,012 -   - daily 1999-2006 3
+2025-01-27 23:34:08,012 -   - daily 2006 - 2014
+2025-01-27 23:34:08,012 -   - daily 2006 - 2014 1
+2025-01-27 23:34:08,012 -   - daily 2014+
+2025-01-27 23:34:08,012 -   - daily 2014+ 2
+2025-01-27 23:34:08,012 -   - daily 2019+
+2025-01-27 23:34:08,012 -   - daily 2019+ 4
+2025-01-27 23:34:08,012 -   - day + f/r sleeper
+2025-01-27 23:34:08,013 -   - day + f/r sleeper 42
+2025-01-27 23:34:08,013 -   - day cab
+2025-01-27 23:34:08,013 -   - day cab / flat cab
+2025-01-27 23:34:08,013 -   - day cab / flat cab 14
+2025-01-27 23:34:08,013 -   - day cab / flat cab 24
+2025-01-27 23:34:08,013 -   - day cab / flat cab 33
+2025-01-27 23:34:08,013 -   - day cab / standard sleeper
+2025-01-27 23:34:08,014 -   - day cab / standard sleeper - low
+2025-01-27 23:34:08,014 -   - day cab / standard sleeper - low 12
+2025-01-27 23:34:08,014 -   - day cab / standard sleeper 113
+2025-01-27 23:34:08,014 -   - day cab / standard sleeper 123
+2025-01-27 23:34:08,014 -   - day cab / standard sleeper 13
+2025-01-27 23:34:08,015 -   - day cab / standard sleeper 33
+2025-01-27 23:34:08,015 -   - day cab / standard sleeper 42
+2025-01-27 23:34:08,015 -   - day cab / standard sleeper 43
+2025-01-27 23:34:08,015 -   - day cab / standard sleeper 52
+2025-01-27 23:34:08,015 -   - day cab 22
+2025-01-27 23:34:08,015 -   - defender 2020+
+2025-01-27 23:34:08,015 -   - defender 2020+ 13
+2025-01-27 23:34:08,016 -   - deliver 3
+2025-01-27 23:34:08,016 -   - deliver 3 6
+2025-01-27 23:34:08,016 -   - deliver 7
+2025-01-27 23:34:08,016 -   - deliver 7 5
+2025-01-27 23:34:08,016 -   - discovery 3 / 4
+2025-01-27 23:34:08,016 -   - discovery 3 / 4 3
+2025-01-27 23:34:08,016 -   - discovery 5
+2025-01-27 23:34:08,017 -   - discovery 5 10
+2025-01-27 23:34:08,017 -   - discovery sport
+2025-01-27 23:34:08,017 -   - discovery sport 5
+2025-01-27 23:34:08,017 -   - dispatch / spacetourer 2016+
+2025-01-27 23:34:08,017 -   - dispatch / spacetourer 2016+ 7
+2025-01-27 23:34:08,017 -   - dispatch 07 - 16
+2025-01-27 23:34:08,017 -   - dispatch 07 - 16 4
+2025-01-27 23:34:08,017 -   - dispatch 95 - 07
+2025-01-27 23:34:08,018 -   - dispatch 95 - 07 5
+2025-01-27 23:34:08,018 -   - dk - crew cab
+2025-01-27 23:34:08,018 -   - dk - crew cab 4
+2025-01-27 23:34:08,018 -   - doblo 10 +
+2025-01-27 23:34:08,018 -   - doblo 10 + 2
+2025-01-27 23:34:08,018 -   - doblo pre 10
+2025-01-27 23:34:08,018 -   - doblo pre 10 1
+2025-01-27 23:34:08,018 -   - dolphin 2021+
+2025-01-27 23:34:08,018 -   - dolphin 2021+ 2
+2025-01-27 23:34:08,019 -   - ducato 14+ facelift
+2025-01-27 23:34:08,019 -   - ducato 14+ facelift 10
+2025-01-27 23:34:08,019 -   - ducato 1993 - 2007
+2025-01-27 23:34:08,019 -   - ducato 1993 - 2007 11
+2025-01-27 23:34:08,019 -   - ducato 2007-2014
+2025-01-27 23:34:08,019 -   - ducato 2007-2014 4
+2025-01-27 23:34:08,019 -   - ducato 2014+
+2025-01-27 23:34:08,020 -   - ducato 2014+ 10
+2025-01-27 23:34:08,020 -   - ducato 2019+
+2025-01-27 23:34:08,020 -   - ducato 2019+ 12
+2025-01-27 23:34:08,020 -   - duster 2010 - 2017
+2025-01-27 23:34:08,020 -   - duster 2010 - 2017 1
+2025-01-27 23:34:08,020 -   - duster 2017+
+2025-01-27 23:34:08,021 -   - duster 2017+ 2
+2025-01-27 23:34:08,021 -   - dxg
+2025-01-27 23:34:08,021 -   - dxg daf xg
+2025-01-27 23:34:08,021 -   - ecosport 2013-2017
+2025-01-27 23:34:08,021 -   - ecosport 2013-2017 11
+2025-01-27 23:34:08,021 -   - ecosport 2017+
+2025-01-27 23:34:08,022 -   - ecosport 2017+ 13
+2025-01-27 23:34:08,022 -   - edge 2016+
+2025-01-27 23:34:08,022 -   - edge 2016+ 7
+2025-01-27 23:34:08,022 -   - eurocargo ( 13 - 26gvw grill bar)
+2025-01-27 23:34:08,022 -   - eurocargo ( 13 - 26gvw grill bar) 3
+2025-01-27 23:34:08,022 -   - eurocargo ( 7.5 - 13gvw grill bar)
+2025-01-27 23:34:08,022 -   - eurocargo ( 7.5 - 13gvw grill bar) 31
+2025-01-27 23:34:08,022 -   - expert 07 - 16
+2025-01-27 23:34:08,023 -   - expert 07 - 16 5
+2025-01-27 23:34:08,023 -   - expert 2016+
+2025-01-27 23:34:08,023 -   - expert 2016+ 6
+2025-01-27 23:34:08,023 -   - expert pre 2007
+2025-01-27 23:34:08,023 -   - expert pre 2007 9
+2025-01-27 23:34:08,023 -   - f-max 2018+
+2025-01-27 23:34:08,023 -   - f-max 2018+ 1
+2025-01-27 23:34:08,023 -   - f-pace
+2025-01-27 23:34:08,024 -   - f-pace 1
+2025-01-27 23:34:08,024 -   - f10
+2025-01-27 23:34:08,024 -   - f10 7
+2025-01-27 23:34:08,024 -   - f12
+2025-01-27 23:34:08,024 -   - f12 8
+2025-01-27 23:34:08,024 -   - fh4 2013-2021
+2025-01-27 23:34:08,024 -   - fh4 2013-2021 1
+2025-01-27 23:34:08,024 -   - fh5 2021+
+2025-01-27 23:34:08,025 -   - fh5 2021+ 11
+2025-01-27 23:34:08,025 -   - fiat
+2025-01-27 23:34:08,025 -   - fiat 25
+2025-01-27 23:34:08,025 -   - fiat 6
+2025-01-27 23:34:08,025 -   - fiorino
+2025-01-27 23:34:08,025 -   - fiorino 7
+2025-01-27 23:34:08,025 -   - fk / fm series
+2025-01-27 23:34:08,025 -   - fk / fm series 4
+2025-01-27 23:34:08,026 -   - fm4 euro6 2013+
+2025-01-27 23:34:08,026 -   - fm4 euro6 2013+ 2
+2025-01-27 23:34:08,026 -   - fm5 2021+
+2025-01-27 23:34:08,026 -   - fm5 2021+ 12
+2025-01-27 23:34:08,026 -   - fmx 2013 - 2021
+2025-01-27 23:34:08,026 -   - fmx 2013 - 2021 9
+2025-01-27 23:34:08,026 -   - fmx 2021+
+2025-01-27 23:34:08,027 -   - fmx 2021+ 10
+2025-01-27 23:34:08,027 -   - fmx day cab
+2025-01-27 23:34:08,027 -   - fmx day cab 101
+2025-01-27 23:34:08,027 -   - fmx day cab 92
+2025-01-27 23:34:08,027 -   - fmx globetrotter
+2025-01-27 23:34:08,027 -   - fmx globetrotter 102
+2025-01-27 23:34:08,027 -   - fmx globetrotter 91
+2025-01-27 23:34:08,028 -   - fmx globetrotter xl
+2025-01-27 23:34:08,028 -   - fmx globetrotter xl 103
+2025-01-27 23:34:08,028 -   - focus sw 2011+
+2025-01-27 23:34:08,028 -   - focus sw 2011+ 10
+2025-01-27 23:34:08,028 -   - foden
+2025-01-27 23:34:08,028 -   - foden 13
+2025-01-27 23:34:08,029 -   - ford
+2025-01-27 23:34:08,029 -   - ford 1
+2025-01-27 23:34:08,029 -   - ford 15
+2025-01-27 23:34:08,029 -   - ford 3
+2025-01-27 23:34:08,029 -   - forester 2008 - 2013
+2025-01-27 23:34:08,030 -   - forester 2008 - 2013 1
+2025-01-27 23:34:08,030 -   - forester 2013 - 2019
+2025-01-27 23:34:08,030 -   - forester 2013 - 2019 2
+2025-01-27 23:34:08,030 -   - forester 2019+
+2025-01-27 23:34:08,030 -   - forester 2019+ 3
+2025-01-27 23:34:08,031 -   - freelander 2 2006 - 2014
+2025-01-27 23:34:08,031 -   - freelander 2 2006 - 2014 2
+2025-01-27 23:34:08,031 -   - freelander 2014+
+2025-01-27 23:34:08,031 -   - freelander 2014+ 7
+2025-01-27 23:34:08,031 -   - freightliner
+2025-01-27 23:34:08,031 -   - freightliner 4
+2025-01-27 23:34:08,032 -   - froof bar
+2025-01-27 23:34:08,032 -   - froof bar 4
+2025-01-27 23:34:08,032 -   - fullback
+2025-01-27 23:34:08,032 -   - fullback 1
+2025-01-27 23:34:08,032 -   - fv / fu / fp series
+2025-01-27 23:34:08,032 -   - fv / fu / fp series 3
+2025-01-27 23:34:08,033 -   - galaxy 1996+
+2025-01-27 23:34:08,033 -   - galaxy 1996+ 8
+2025-01-27 23:34:08,033 -   - galaxy 2006+
+2025-01-27 23:34:08,033 -   - galaxy 2006+ 9
+2025-01-27 23:34:08,033 -   - galaxy 2015+
+2025-01-27 23:34:08,033 -   - galaxy 2015+ 12
+2025-01-27 23:34:08,034 -   - gigaspace
+2025-01-27 23:34:08,034 -   - gigaspace 11
+2025-01-27 23:34:08,034 -   - gigaspace 91
+2025-01-27 23:34:08,034 -   - gl/gls class x166
+2025-01-27 23:34:08,034 -   - gl/gls class x166 2
+2025-01-27 23:34:08,035 -   - gla 2014+
+2025-01-27 23:34:08,035 -   - gla 2014+ 5
+2025-01-27 23:34:08,035 -   - gla 2020+
+2025-01-27 23:34:08,035 -   - gla 2020+ 12
+2025-01-27 23:34:08,035 -   - glb class 2019+
+2025-01-27 23:34:08,035 -   - glb class 2019+ 13
+2025-01-27 23:34:08,036 -   - glc
+2025-01-27 23:34:08,036 -   - glc 6
+2025-01-27 23:34:08,036 -   - gle 2019+
+2025-01-27 23:34:08,036 -   - gle 2019+ 10
+2025-01-27 23:34:08,036 -   - gle sport 2015+
+2025-01-27 23:34:08,037 -   - gle sport 2015+ 7
+2025-01-27 23:34:08,037 -   - glk class x204
+2025-01-27 23:34:08,037 -   - glk class x204 3
+2025-01-27 23:34:08,037 -   - globetrotter
+2025-01-27 23:34:08,037 -   - globetrotter 21
+2025-01-27 23:34:08,037 -   - globetrotter standard
+2025-01-27 23:34:08,038 -   - globetrotter standard 112
+2025-01-27 23:34:08,038 -   - globetrotter standard 12
+2025-01-27 23:34:08,038 -   - globetrotter standard 122
+2025-01-27 23:34:08,038 -   - globetrotter standard 32
+2025-01-27 23:34:08,038 -   - globetrotter standard 42
+2025-01-27 23:34:08,038 -   - globetrotter xl
+2025-01-27 23:34:08,038 -   - globetrotter xl 11
+2025-01-27 23:34:08,038 -   - globetrotter xl 111
+2025-01-27 23:34:08,039 -   - globetrotter xl 121
+2025-01-27 23:34:08,039 -   - globetrotter xl 31
+2025-01-27 23:34:08,039 -   - globetrotter xl 41
+2025-01-27 23:34:08,039 -   - gls x167 2019+
+2025-01-27 23:34:08,039 -   - gls x167 2019+ 11
+2025-01-27 23:34:08,040 -   - grand cherokee 2005-2010
+2025-01-27 23:34:08,040 -   - grand cherokee 2005-2010 2
+2025-01-27 23:34:08,040 -   - grand cherokee 2011+
+2025-01-27 23:34:08,040 -   - grand cherokee 2011+ 1
+2025-01-27 23:34:08,040 -   - grand vitara 2006 - 2015
+2025-01-27 23:34:08,040 -   - grand vitara 2006 - 2015 3
+2025-01-27 23:34:08,040 -   - grand vitara 2015+
+2025-01-27 23:34:08,041 -   - grand vitara 2015+ 4
+2025-01-27 23:34:08,041 -   - grand voyager 2008+
+2025-01-27 23:34:08,041 -   - grand voyager 2008+ 1
+2025-01-27 23:34:08,041 -   - great wall
+2025-01-27 23:34:08,041 -   - great wall 35
+2025-01-27 23:34:08,041 -   - hi- lux pre 2005
+2025-01-27 23:34:08,042 -   - hi- lux pre 2005 3
+2025-01-27 23:34:08,042 -   - hi-ace 1983 - 1989
+2025-01-27 23:34:08,042 -   - hi-ace 1983 - 1989 3
+2025-01-27 23:34:08,042 -   - hi-lux 2005-2012
+2025-01-27 23:34:08,042 -   - hi-lux 2005-2012 2
+2025-01-27 23:34:08,042 -   - hi-lux 2012 -2016
+2025-01-27 23:34:08,042 -   - hi-lux 2012 -2016 8
+2025-01-27 23:34:08,043 -   - hi-lux 2016+
+2025-01-27 23:34:08,043 -   - hi-lux 2016+ 9
+2025-01-27 23:34:08,043 -   - hi-lux 2020+
+2025-01-27 23:34:08,043 -   - hi-lux 2020+ 12
+2025-01-27 23:34:08,043 -   - highline
+2025-01-27 23:34:08,043 -   - highline 12
+2025-01-27 23:34:08,043 -   - highline 22
+2025-01-27 23:34:08,043 -   - highline 62
+2025-01-27 23:34:08,043 -   - honda
+2025-01-27 23:34:08,044 -   - honda 14
+2025-01-27 23:34:08,044 -   - honda crv 2012 - 2016
+2025-01-27 23:34:08,044 -   - honda crv 2012 - 2016 1
+2025-01-27 23:34:08,044 -   - honda crv 2016 - present
+2025-01-27 23:34:08,044 -   - honda crv 2016 - present 2
+2025-01-27 23:34:08,044 -   - honda hrv 2016+
+2025-01-27 23:34:08,044 -   - honda hrv 2016+ 3
+2025-01-27 23:34:08,045 -   - hyundai
+2025-01-27 23:34:08,045 -   - hyundai  310
+2025-01-27 23:34:08,045 -   - hyundai  310 volvo
+2025-01-27 23:34:08,045 -   - hyundai 10
+2025-01-27 23:34:08,045 -   - hyundai 4
+2025-01-27 23:34:08,045 -   - international
+2025-01-27 23:34:08,046 -   - international 7
+2025-01-27 23:34:08,046 -   - interstar
+2025-01-27 23:34:08,046 -   - interstar 2024+
+2025-01-27 23:34:08,046 -   - interstar 2024+ 8
+2025-01-27 23:34:08,046 -   - interstar 3
+2025-01-27 23:34:08,046 -   - isuzu
+2025-01-27 23:34:08,046 -   - isuzu 10
+2025-01-27 23:34:08,047 -   - isuzu 5
+2025-01-27 23:34:08,047 -   - isw
+2025-01-27 23:34:08,047 -   - isw iveco s-way
+2025-01-27 23:34:08,047 -   - iveco
+2025-01-27 23:34:08,047 -   - iveco 11
+2025-01-27 23:34:08,047 -   - iveco 6
+2025-01-27 23:34:08,047 -   - iveco s-way
+2025-01-27 23:34:08,047 -   - ix-25
+2025-01-27 23:34:08,048 -   - ix-25 6
+2025-01-27 23:34:08,048 -   - ix35 2010-2015
+2025-01-27 23:34:08,048 -   - ix35 2010-2015 2
+2025-01-27 23:34:08,048 -   - jaguar
+2025-01-27 23:34:08,048 -   - jaguar 32
+2025-01-27 23:34:08,048 -   - jeep
+2025-01-27 23:34:08,049 -   - jeep 21
+2025-01-27 23:34:08,049 -   - john deere / case / deutz / fendt / fiat / lamborghini
+2025-01-27 23:34:08,049 -   - john deere / case / deutz / fendt / fiat / lamborghini 82
+2025-01-27 23:34:08,049 -   - juke 2011 -2020
+2025-01-27 23:34:08,049 -   - juke 2011 -2020 6
+2025-01-27 23:34:08,049 -   - juke 2020+
+2025-01-27 23:34:08,050 -   - juke 2020+ 19
+2025-01-27 23:34:08,050 -   - jumper / relay 07 - 14
+2025-01-27 23:34:08,050 -   - jumper / relay 07 - 14 6
+2025-01-27 23:34:08,050 -   - jumper / relay 14+
+2025-01-27 23:34:08,050 -   - jumper / relay 14+ 8
+2025-01-27 23:34:08,051 -   - jumpy 07 - 16
+2025-01-27 23:34:08,051 -   - jumpy 07 - 16 11
+2025-01-27 23:34:08,051 -   - jumpy 2016+
+2025-01-27 23:34:08,051 -   - jumpy 2016+ 13
+2025-01-27 23:34:08,051 -   - k370
+2025-01-27 23:34:08,051 -   - k370 55
+2025-01-27 23:34:08,051 -   - kadjar
+2025-01-27 23:34:08,052 -   - kadjar 2
+2025-01-27 23:34:08,052 -   - kangoo 08+
+2025-01-27 23:34:08,052 -   - kangoo 08+ 4
+2025-01-27 23:34:08,052 -   - kangoo 2021+
+2025-01-27 23:34:08,052 -   - kangoo 2021+ 10
+2025-01-27 23:34:08,052 -   - kangoo pre 08
+2025-01-27 23:34:08,052 -   - kangoo pre 08 3
+2025-01-27 23:34:08,052 -   - karoq 2017+
+2025-01-27 23:34:08,052 -   - karoq 2017+ 3
+2025-01-27 23:34:08,053 -   - kentworth
+2025-01-27 23:34:08,053 -   - kentworth 5
+2025-01-27 23:34:08,053 -   - kerax
+2025-01-27 23:34:08,053 -   - kerax 7
+2025-01-27 23:34:08,053 -   - kia
+2025-01-27 23:34:08,053 -   - kia 6
+2025-01-27 23:34:08,053 -   - kodiaq 2016+-2023
+2025-01-27 23:34:08,053 -   - kodiaq 2016+-2023 2
+2025-01-27 23:34:08,054 -   - kodiaq 2023+
+2025-01-27 23:34:08,054 -   - kodiaq 2023+ 4
+2025-01-27 23:34:08,054 -   - koleos 2017+
+2025-01-27 23:34:08,054 -   - koleos 2017+ 9
+2025-01-27 23:34:08,054 -   - kona 2018+
+2025-01-27 23:34:08,054 -   - kona 2018+ 10
+2025-01-27 23:34:08,054 -   - kubistar
+2025-01-27 23:34:08,054 -   - kubistar 4
+2025-01-27 23:34:08,055 -   - kuga 2008 - 2012
+2025-01-27 23:34:08,055 -   - kuga 2008 - 2012 2
+2025-01-27 23:34:08,055 -   - kuga 2012 - 2016
+2025-01-27 23:34:08,055 -   - kuga 2012 - 2016 1
+2025-01-27 23:34:08,055 -   - kuga 2016+
+2025-01-27 23:34:08,056 -   - kuga 2016+ 5
+2025-01-27 23:34:08,056 -   - kuga 2020+
+2025-01-27 23:34:08,056 -   - kuga 2020+ 15
+2025-01-27 23:34:08,056 -   - l - distribution sleeper
+2025-01-27 23:34:08,056 -   - l - distribution sleeper 2
+2025-01-27 23:34:08,056 -   - l200 2005-2012
+2025-01-27 23:34:08,057 -   - l200 2005-2012 9
+2025-01-27 23:34:08,057 -   - l200 2005-2015
+2025-01-27 23:34:08,057 -   - l200 2005-2015 2
+2025-01-27 23:34:08,057 -   - l200 2012  - 2015
+2025-01-27 23:34:08,057 -   - l200 2012  - 2015 5
+2025-01-27 23:34:08,057 -   - l200 2015+
+2025-01-27 23:34:08,057 -   - l200 2015+ 7
+2025-01-27 23:34:08,057 -   - l200 2019+
+2025-01-27 23:34:08,058 -   - l200 2019+ 11
+2025-01-27 23:34:08,058 -   - l200 pre 2005
+2025-01-27 23:34:08,058 -   - l200 pre 2005 1
+2025-01-27 23:34:08,058 -   - land cruiser 03 -09
+2025-01-27 23:34:08,058 -   - land cruiser 03 -09 4
+2025-01-27 23:34:08,058 -   - land cruiser 2010+
+2025-01-27 23:34:08,058 -   - land cruiser 2010+ 5
+2025-01-27 23:34:08,059 -   - land cruiser 2017+
+2025-01-27 23:34:08,059 -   - land cruiser 2017+ 11
+2025-01-27 23:34:08,059 -   - land rover
+2025-01-27 23:34:08,059 -   - land rover 12
+2025-01-27 23:34:08,059 -   - lander
+2025-01-27 23:34:08,059 -   - lander 5
+2025-01-27 23:34:08,060 -   - ldv
+2025-01-27 23:34:08,060 -   - ldv 12
+2025-01-27 23:34:08,060 -   - ldv 28
+2025-01-27 23:34:08,060 -   - led
+2025-01-27 23:34:08,060 -   - led 2
+2025-01-27 23:34:08,060 -   - lexus
+2025-01-27 23:34:08,061 -   - lexus 33
+2025-01-27 23:34:08,061 -   - lf45
+2025-01-27 23:34:08,061 -   - lf45 61
+2025-01-27 23:34:08,061 -   - lf45 71
+2025-01-27 23:34:08,061 -   - lf55
+2025-01-27 23:34:08,061 -   - lf55 62
+2025-01-27 23:34:08,061 -   - lf55 72
+2025-01-27 23:34:08,062 -   - ln2
+2025-01-27 23:34:08,062 -   - ln2 8
+2025-01-27 23:34:08,062 -   - lonestar
+2025-01-27 23:34:08,062 -   - lonestar 71
+2025-01-27 23:34:08,062 -   - low roof
+2025-01-27 23:34:08,063 -   - low roof 11
+2025-01-27 23:34:08,063 -   - lt series
+2025-01-27 23:34:08,063 -   - lt series 72
+2025-01-27 23:34:08,063 -   - lx
+2025-01-27 23:34:08,063 -   - lx - long-haul sleeper
+2025-01-27 23:34:08,063 -   - lx - long-haul sleeper 1
+2025-01-27 23:34:08,064 -   - lx 34
+2025-01-27 23:34:08,064 -   - lx 52
+2025-01-27 23:34:08,064 -   - m / gle class 2012+
+2025-01-27 23:34:08,064 -   - m / gle class 2012+ 4
+2025-01-27 23:34:08,064 -   - m / l
+2025-01-27 23:34:08,064 -   - m / l 35
+2025-01-27 23:34:08,064 -   - m/l
+2025-01-27 23:34:08,065 -   - m/l 51
+2025-01-27 23:34:08,065 -   - mack
+2025-01-27 23:34:08,065 -   - mack 3
+2025-01-27 23:34:08,065 -   - magnum
+2025-01-27 23:34:08,065 -   - magnum 3
+2025-01-27 23:34:08,065 -   - magnum pre 2009
+2025-01-27 23:34:08,066 -   - magnum pre 2009 31
+2025-01-27 23:34:08,066 -   - make/model
+2025-01-27 23:34:08,066 -   - man
+2025-01-27 23:34:08,066 -   - man 14
+2025-01-27 23:34:08,066 -   - man 4
+2025-01-27 23:34:08,066 -   - master 2003-2010
+2025-01-27 23:34:08,066 -   - master 2003-2010 2
+2025-01-27 23:34:08,067 -   - master 2010-2018
+2025-01-27 23:34:08,067 -   - master 2010-2018 6
+2025-01-27 23:34:08,067 -   - master 2018-2024
+2025-01-27 23:34:08,067 -   - master 2018-2024 7
+2025-01-27 23:34:08,067 -   - master 2024+
+2025-01-27 23:34:08,068 -   - master 2024+ 11
+2025-01-27 23:34:08,068 -   - maxity 2007+
+2025-01-27 23:34:08,068 -   - maxity 2007+ 8
+2025-01-27 23:34:08,068 -   - maxus deliver 3
+2025-01-27 23:34:08,068 -   - maxus deliver 3 3
+2025-01-27 23:34:08,068 -   - maxus deliver 9
+2025-01-27 23:34:08,068 -   - maxus deliver 9 2
+2025-01-27 23:34:08,068 -   - maxus ldv v80
+2025-01-27 23:34:08,068 -   - maxus ldv v80 1
+2025-01-27 23:34:08,069 -   - maxus mifa 9
+2025-01-27 23:34:08,069 -   - maxus mifa 9 4
+2025-01-27 23:34:08,069 -   - mazda
+2025-01-27 23:34:08,069 -   - mazda 17
+2025-01-27 23:34:08,069 -   - mercedes
+2025-01-27 23:34:08,070 -   - mercedes 16
+2025-01-27 23:34:08,070 -   - mercedes 3
+2025-01-27 23:34:08,070 -   - mercedes 7
+2025-01-27 23:34:08,070 -   - mercedes 814
+2025-01-27 23:34:08,070 -   - mercedes 814 6
+2025-01-27 23:34:08,070 -   - metris
+2025-01-27 23:34:08,070 -   - metris 7
+2025-01-27 23:34:08,071 -   - midlum
+2025-01-27 23:34:08,071 -   - midlum 6
+2025-01-27 23:34:08,071 -   - mifo
+2025-01-27 23:34:08,071 -   - mifo 7
+2025-01-27 23:34:08,071 -   - mitsubishi fuso super great shogun
+2025-01-27 23:34:08,071 -   - mitsubishi fuso super great shogun 6
+2025-01-27 23:34:08,072 -   - mitsubushi
+2025-01-27 23:34:08,072 -   - mitsubushi 7
+2025-01-27 23:34:08,072 -   - mitsubushi 8
+2025-01-27 23:34:08,072 -   - ml300 / 320 / 350 2006 - 2012
+2025-01-27 23:34:08,072 -   - ml300 / 320 / 350 2006 - 2012 1
+2025-01-27 23:34:08,072 -   - mokka
+2025-01-27 23:34:08,072 -   - mokka 3
+2025-01-27 23:34:08,072 -   - mokka x 2017+
+2025-01-27 23:34:08,073 -   - mokka x 2017+ 6
+2025-01-27 23:34:08,073 -   - movano 2003 - 2010
+2025-01-27 23:34:08,073 -   - movano 2003 - 2010 4
+2025-01-27 23:34:08,073 -   - movano 2010 - 2021
+2025-01-27 23:34:08,073 -   - movano 2010 - 2021 6
+2025-01-27 23:34:08,073 -   - movano 2021+
+2025-01-27 23:34:08,073 -   - movano 2021+ 9
+2025-01-27 23:34:08,073 -   - murano 2015+
+2025-01-27 23:34:08,074 -   - murano 2015+ 4
+2025-01-27 23:34:08,074 -   - navara d40 2005 - 2016
+2025-01-27 23:34:08,074 -   - navara d40 2005 - 2016 1
+2025-01-27 23:34:08,074 -   - navara d40 2010 - 2016
+2025-01-27 23:34:08,074 -   - navara d40 2010 - 2016 3
+2025-01-27 23:34:08,074 -   - nemo
+2025-01-27 23:34:08,074 -   - nemo 3
+2025-01-27 23:34:08,074 -   - new cascadia
+2025-01-27 23:34:08,075 -   - new cascadia 41
+2025-01-27 23:34:08,075 -   - new generation daf
+2025-01-27 23:34:08,075 -   - new holand / zetor / massey ferguson / ford
+2025-01-27 23:34:08,075 -   - new holand / zetor / massey ferguson / ford 81
+2025-01-27 23:34:08,075 -   - new sino
+2025-01-27 23:34:08,075 -   - new sino 1
+2025-01-27 23:34:08,075 -   - next generation 2017+  r & s
+2025-01-27 23:34:08,076 -   - next generation 2017+  r & s 4
+2025-01-27 23:34:08,076 -   - next generation 2017+ p, g, r, s
+2025-01-27 23:34:08,076 -   - next generation 2017+ p, g, r, s 5
+2025-01-27 23:34:08,076 -   - ngd
+2025-01-27 23:34:08,076 -   - ngd new generation daf
+2025-01-27 23:34:08,077 -   - niro 2017+
+2025-01-27 23:34:08,077 -   - niro 2017+ 9
+2025-01-27 23:34:08,077 -   - nissan
+2025-01-27 23:34:08,077 -   - nissan 14
+2025-01-27 23:34:08,077 -   - nissan 8
+2025-01-27 23:34:08,077 -   - nissan 9
+2025-01-27 23:34:08,077 -   - note: has a lot of similar skus when used.
+2025-01-27 23:34:08,078 -   - note: has a lot of similar skus when used. 11
+2025-01-27 23:34:08,078 -   - note: has a lot of similar skus when used. 12
+2025-01-27 23:34:08,078 -   - np300 2016+
+2025-01-27 23:34:08,078 -   - np300 2016+ 12
+2025-01-27 23:34:08,078 -   - npr
+2025-01-27 23:34:08,078 -   - npr 1
+2025-01-27 23:34:08,079 -   - nv200
+2025-01-27 23:34:08,079 -   - nv200 5
+2025-01-27 23:34:08,079 -   - nv300/ primastar 2014+
+2025-01-27 23:34:08,079 -   - nv300/ primastar 2014+ 6
+2025-01-27 23:34:08,079 -   - nv400
+2025-01-27 23:34:08,079 -   - nv400 2
+2025-01-27 23:34:08,079 -   - nx 2015+
+2025-01-27 23:34:08,079 -   - nx 2015+ 1
+2025-01-27 23:34:08,080 -   - opel/ vauxhall
+2025-01-27 23:34:08,080 -   - opel/ vauxhall 13
+2025-01-27 23:34:08,080 -   - outlander 06-12
+2025-01-27 23:34:08,080 -   - outlander 06-12 10
+2025-01-27 23:34:08,080 -   - outlander 12-16
+2025-01-27 23:34:08,081 -   - outlander 12-16 8
+2025-01-27 23:34:08,081 -   - outlander 2021+
+2025-01-27 23:34:08,081 -   - outlander 2021+ 12
+2025-01-27 23:34:08,081 -   - p, g, r series pre 2009
+2025-01-27 23:34:08,081 -   - p, g, r series pre 2009 2
+2025-01-27 23:34:08,081 -   - p, g, r, 6 series 2009+
+2025-01-27 23:34:08,082 -   - p, g, r, 6 series 2009+ 1
+2025-01-27 23:34:08,082 -   - p, g, r, s series high cab
+2025-01-27 23:34:08,082 -   - p, g, r, s series high cab 51
+2025-01-27 23:34:08,082 -   - p, g, r, s series low cab
+2025-01-27 23:34:08,082 -   - p, g, r, s series low cab 53
+2025-01-27 23:34:08,082 -   - p, g, r, s series normal cab
+2025-01-27 23:34:08,082 -   - p, g, r, s series normal cab 52
+2025-01-27 23:34:08,082 -   - pao 2019+
+2025-01-27 23:34:08,083 -   - pao 2019+ 1
+2025-01-27 23:34:08,083 -   - partner / rifter 2019+
+2025-01-27 23:34:08,083 -   - partner / rifter 2019+ 10
+2025-01-27 23:34:08,083 -   - partner 08 - 16
+2025-01-27 23:34:08,083 -   - partner 08 - 16 2
+2025-01-27 23:34:08,084 -   - partner 2016-2019
+2025-01-27 23:34:08,084 -   - partner 2016-2019 8
+2025-01-27 23:34:08,084 -   - partner 97- 08
+2025-01-27 23:34:08,084 -   - partner 97- 08 1
+2025-01-27 23:34:08,084 -   - pathfinder 2005 - 2013
+2025-01-27 23:34:08,084 -   - pathfinder 2005 - 2013 14
+2025-01-27 23:34:08,085 -   - pathfinder 2013+
+2025-01-27 23:34:08,085 -   - pathfinder 2013+ 15
+2025-01-27 23:34:08,085 -   - peterbilt
+2025-01-27 23:34:08,085 -   - peterbilt 1
+2025-01-27 23:34:08,085 -   - peugeot
+2025-01-27 23:34:08,085 -   - peugeot 18
+2025-01-27 23:34:08,085 -   - peugoet
+2025-01-27 23:34:08,086 -   - peugoet 8
+2025-01-27 23:34:08,086 -   - pinnacle long haul
+2025-01-27 23:34:08,086 -   - pinnacle long haul 31
+2025-01-27 23:34:08,086 -   - porsche
+2025-01-27 23:34:08,086 -   - porsche 27
+2025-01-27 23:34:08,086 -   - premium
+2025-01-27 23:34:08,087 -   - premium 4
+2025-01-27 23:34:08,087 -   - primastar 2022+
+2025-01-27 23:34:08,087 -   - primastar 2022+ 7
+2025-01-27 23:34:08,087 -   - primastar(02-14)
+2025-01-27 23:34:08,087 -   - primastar(02-14) 1
+2025-01-27 23:34:08,087 -   - priviledge h/r sleeper
+2025-01-27 23:34:08,087 -   - priviledge h/r sleeper 41
+2025-01-27 23:34:08,088 -   - proace
+2025-01-27 23:34:08,088 -   - proace / verso 2016+
+2025-01-27 23:34:08,088 -   - proace / verso 2016+ 2
+2025-01-27 23:34:08,088 -   - proace 1
+2025-01-27 23:34:08,088 -   - q3 2012 - 2018
+2025-01-27 23:34:08,088 -   - q3 2012 - 2018 2
+2025-01-27 23:34:08,088 -   - q3 2018+
+2025-01-27 23:34:08,088 -   - q3 2018+ 6
+2025-01-27 23:34:08,089 -   - q5 2008 - 2017
+2025-01-27 23:34:08,089 -   - q5 2008 - 2017 3
+2025-01-27 23:34:08,089 -   - q5 2018+
+2025-01-27 23:34:08,089 -   - q5 2018+ 5
+2025-01-27 23:34:08,089 -   - q7 2006 - 2015
+2025-01-27 23:34:08,089 -   - q7 2006 - 2015 1
+2025-01-27 23:34:08,089 -   - q7 2016+
+2025-01-27 23:34:08,089 -   - q7 2016+ 4
+2025-01-27 23:34:08,090 -   - qashqai 2007-2014
+2025-01-27 23:34:08,090 -   - qashqai 2007-2014 5
+2025-01-27 23:34:08,090 -   - qashqai 2014 - 2021
+2025-01-27 23:34:08,090 -   - qashqai 2014 - 2021 8
+2025-01-27 23:34:08,091 -   - qashqai 2021+
+2025-01-27 23:34:08,091 -   - qashqai 2021+ 17
+2025-01-27 23:34:08,091 -   - r & s series high cab
+2025-01-27 23:34:08,091 -   - r & s series high cab 41
+2025-01-27 23:34:08,091 -   - r & s series low cab
+2025-01-27 23:34:08,091 -   - r & s series low cab 43
+2025-01-27 23:34:08,091 -   - r & s series normal cab
+2025-01-27 23:34:08,092 -   - r & s series normal cab 42
+2025-01-27 23:34:08,092 -   - range rover
+2025-01-27 23:34:08,092 -   - range rover 19
+2025-01-27 23:34:08,092 -   - range rover evoque  2011 - 2018
+2025-01-27 23:34:08,092 -   - range rover evoque  2011 - 2018 1
+2025-01-27 23:34:08,092 -   - range rover evoque 2019+
+2025-01-27 23:34:08,092 -   - range rover evoque 2019+ 16
+2025-01-27 23:34:08,092 -   - range rover evoque dynamic
+2025-01-27 23:34:08,093 -   - range rover evoque dynamic 6
+2025-01-27 23:34:08,093 -   - range rover sport 2005-2013
+2025-01-27 23:34:08,093 -   - range rover sport 2005-2013 4
+2025-01-27 23:34:08,093 -   - range rover sport 2013+
+2025-01-27 23:34:08,093 -   - range rover sport 2013+ 8
+2025-01-27 23:34:08,093 -   - range rover velar 2017+
+2025-01-27 23:34:08,093 -   - range rover velar 2017+ 15
+2025-01-27 23:34:08,093 -   - range rover vogue 2002 - 2012
+2025-01-27 23:34:08,094 -   - range rover vogue 2002 - 2012 11
+2025-01-27 23:34:08,094 -   - range rover vogue 2012+
+2025-01-27 23:34:08,094 -   - range rover vogue 2012+ 12
+2025-01-27 23:34:08,094 -   - ranger 06 -12
+2025-01-27 23:34:08,094 -   - ranger 06 -12 4
+2025-01-27 23:34:08,094 -   - ranger 12 - 16
+2025-01-27 23:34:08,094 -   - ranger 12 - 16 3
+2025-01-27 23:34:08,095 -   - ranger 2010 - 2021
+2025-01-27 23:34:08,095 -   - ranger 2010 - 2021 17
+2025-01-27 23:34:08,095 -   - ranger 2016-2023
+2025-01-27 23:34:08,095 -   - ranger 2016-2023 6
+2025-01-27 23:34:08,095 -   - ranger 2023+
+2025-01-27 23:34:08,096 -   - ranger 2023+ 14
+2025-01-27 23:34:08,096 -   - ranger raptor wildtrak 2022
+2025-01-27 23:34:08,096 -   - ranger raptor wildtrak 2022 16
+2025-01-27 23:34:08,096 -   - ranger rover 2012+
+2025-01-27 23:34:08,097 -   - ranger rover 2012+ 14
+2025-01-27 23:34:08,097 -   - ranger wild track 2016+
+2025-01-27 23:34:08,097 -   - ranger wild track 2016+ 18
+2025-01-27 23:34:08,097 -   - ranger wild track 2023+
+2025-01-27 23:34:08,097 -   - ranger wild track 2023+ 19
+2025-01-27 23:34:08,098 -   - rav 4 2000-2006
+2025-01-27 23:34:08,098 -   - rav 4 2000-2006 10
+2025-01-27 23:34:08,098 -   - rav 4 2006 - 2013
+2025-01-27 23:34:08,098 -   - rav 4 2006 - 2013 1
+2025-01-27 23:34:08,098 -   - rav 4 2013-2016
+2025-01-27 23:34:08,098 -   - rav 4 2013-2016 7
+2025-01-27 23:34:08,099 -   - rav 4 2016+
+2025-01-27 23:34:08,099 -   - rav 4 2016+ 6
+2025-01-27 23:34:08,099 -   - rav 4 2019+
+2025-01-27 23:34:08,099 -   - rav 4 2019+ 13
+2025-01-27 23:34:08,100 -   - rdr
+2025-01-27 23:34:08,100 -   - rdr renault d range
+2025-01-27 23:34:08,100 -   - renault
+2025-01-27 23:34:08,100 -   - renault 24
+2025-01-27 23:34:08,102 -   - renault 4
+2025-01-27 23:34:08,103 -   - renault 5
+2025-01-27 23:34:08,103 -   - renault d range
+2025-01-27 23:34:08,103 -   - renegade
+2025-01-27 23:34:08,104 -   - renegade 6
+2025-01-27 23:34:08,104 -   - rexton 2017+
+2025-01-27 23:34:08,104 -   - rexton 2017+ 2
+2025-01-27 23:34:08,104 -   - rexton w / rexton iii 2013 - 2017
+2025-01-27 23:34:08,105 -   - rexton w / rexton iii 2013 - 2017 1
+2025-01-27 23:34:08,105 -   - rx 2015+
+2025-01-27 23:34:08,105 -   - rx 2015+ 2
+2025-01-27 23:34:08,105 -   - s-cross
+2025-01-27 23:34:08,105 -   - s-cross 2
+2025-01-27 23:34:08,105 -   - s-way 2019+
+2025-01-27 23:34:08,106 -   - s-way 2019+ 5
+2025-01-27 23:34:08,106 -   - santa fe 2005-2010
+2025-01-27 23:34:08,106 -   - santa fe 2005-2010 1
+2025-01-27 23:34:08,106 -   - santa fe 2010-2012
+2025-01-27 23:34:08,106 -   - santa fe 2010-2012 3
+2025-01-27 23:34:08,107 -   - santa fe 2012 - 2019 ix45
+2025-01-27 23:34:08,107 -   - santa fe 2012 - 2019 ix45 4
+2025-01-27 23:34:08,107 -   - santa fe 2019+
+2025-01-27 23:34:08,107 -   - santa fe 2019+ 9
+2025-01-27 23:34:08,107 -   - scania
+2025-01-27 23:34:08,107 -   - scania 1
+2025-01-27 23:34:08,108 -   - scania 2 & 3 series
+2025-01-27 23:34:08,108 -   - scania 2 & 3 series 6
+2025-01-27 23:34:08,108 -   - scania new generation
+2025-01-27 23:34:08,108 -   - scudo 2007-2016
+2025-01-27 23:34:08,108 -   - scudo 2007-2016 3
+2025-01-27 23:34:08,108 -   - scudo 2016+
+2025-01-27 23:34:08,108 -   - scudo 2016+ 8
+2025-01-27 23:34:08,108 -   - scudo pre 2007
+2025-01-27 23:34:08,108 -   - scudo pre 2007 9
+2025-01-27 23:34:08,109 -   - seat
+2025-01-27 23:34:08,109 -   - seat 22
+2025-01-27 23:34:08,109 -   - shogun/pajero 2000 - 2006
+2025-01-27 23:34:08,109 -   - shogun/pajero 2000 - 2006 4
+2025-01-27 23:34:08,109 -   - shogun/pajero 2007+
+2025-01-27 23:34:08,109 -   - shogun/pajero 2007+ 3
+2025-01-27 23:34:08,109 -   - shogun/pajero sport 2015+
+2025-01-27 23:34:08,109 -   - shogun/pajero sport 2015+ 13
+2025-01-27 23:34:08,110 -   - short cab
+2025-01-27 23:34:08,110 -   - short cab 1
+2025-01-27 23:34:08,110 -   - sino
+2025-01-27 23:34:08,110 -   - sino 11
+2025-01-27 23:34:08,110 -   - skoda
+2025-01-27 23:34:08,110 -   - skoda 20
+2025-01-27 23:34:08,111 -   - sng
+2025-01-27 23:34:08,111 -   - sng scania new generation
+2025-01-27 23:34:08,111 -   - sorento 2010-2015
+2025-01-27 23:34:08,111 -   - sorento 2010-2015 7
+2025-01-27 23:34:08,111 -   - sorento 2015 - 2020
+2025-01-27 23:34:08,111 -   - sorento 2015 - 2020 2
+2025-01-27 23:34:08,112 -   - sorento 2020+
+2025-01-27 23:34:08,112 -   - sorento 2020+ 11
+2025-01-27 23:34:08,112 -   - soul 2008 - 2014
+2025-01-27 23:34:08,112 -   - soul 2008 - 2014 10
+2025-01-27 23:34:08,112 -   - space cab
+2025-01-27 23:34:08,112 -   - space cab - high
+2025-01-27 23:34:08,113 -   - space cab - high 11
+2025-01-27 23:34:08,113 -   - space cab 12
+2025-01-27 23:34:08,113 -   - space cab 22
+2025-01-27 23:34:08,113 -   - space cab 32
+2025-01-27 23:34:08,113 -   - space cab 41
+2025-01-27 23:34:08,113 -   - space cab 51
+2025-01-27 23:34:08,113 -   - sport
+2025-01-27 23:34:08,113 -   - sport 1
+2025-01-27 23:34:08,114 -   - sportage 2005-2010
+2025-01-27 23:34:08,114 -   - sportage 2005-2010 4
+2025-01-27 23:34:08,114 -   - sportage 2010-2014
+2025-01-27 23:34:08,114 -   - sportage 2010-2014 6
+2025-01-27 23:34:08,114 -   - sportage 2010-2016
+2025-01-27 23:34:08,114 -   - sportage 2010-2016 1
+2025-01-27 23:34:08,114 -   - sportage 2014-2016
+2025-01-27 23:34:08,114 -   - sportage 2014-2016 5
+2025-01-27 23:34:08,115 -   - sportage 2016+
+2025-01-27 23:34:08,115 -   - sportage 2016+ 3
+2025-01-27 23:34:08,115 -   - sprinter 1995 - 2006
+2025-01-27 23:34:08,115 -   - sprinter 1995 - 2006 10
+2025-01-27 23:34:08,115 -   - sprinter 2006 - 2014
+2025-01-27 23:34:08,115 -   - sprinter 2006 - 2014 2
+2025-01-27 23:34:08,115 -   - sprinter 2014 - 2018
+2025-01-27 23:34:08,116 -   - sprinter 2014 - 2018 5
+2025-01-27 23:34:08,116 -   - sprinter 2018+
+2025-01-27 23:34:08,116 -   - sprinter 2018+ 8
+2025-01-27 23:34:08,116 -   - ssangyong
+2025-01-27 23:34:08,116 -   - ssangyong 29
+2025-01-27 23:34:08,116 -   - ssangyong musso 2018+
+2025-01-27 23:34:08,116 -   - ssangyong musso 2018+ 4
+2025-01-27 23:34:08,116 -   - standard sleeper
+2025-01-27 23:34:08,117 -   - standard sleeper 13
+2025-01-27 23:34:08,117 -   - standard sleeper 23
+2025-01-27 23:34:08,117 -   - standard sleeper 32
+2025-01-27 23:34:08,117 -   - sterling 360
+2025-01-27 23:34:08,117 -   - sterling 360 2
+2025-01-27 23:34:08,117 -   - stralis
+2025-01-27 23:34:08,117 -   - stralis 2
+2025-01-27 23:34:08,117 -   - stralis cube + hiway
+2025-01-27 23:34:08,118 -   - stralis cube + hiway 1
+2025-01-27 23:34:08,118 -   - streamline
+2025-01-27 23:34:08,118 -   - streamline 15
+2025-01-27 23:34:08,118 -   - streamspace 2.3 / 2.5m
+2025-01-27 23:34:08,118 -   - streamspace 2.3 / 2.5m 33
+2025-01-27 23:34:08,118 -   - streamspace 2.3 / 2.5m 93
+2025-01-27 23:34:08,119 -   - subaru
+2025-01-27 23:34:08,119 -   - subaru 31
+2025-01-27 23:34:08,119 -   - superspace cab
+2025-01-27 23:34:08,119 -   - superspace cab 11
+2025-01-27 23:34:08,119 -   - superspace cab 2019+ facelift
+2025-01-27 23:34:08,119 -   - superspace cab 2019+ facelift 13
+2025-01-27 23:34:08,119 -   - superspace cab 21
+2025-01-27 23:34:08,119 -   - superspace cab 31
+2025-01-27 23:34:08,120 -   - suzuki
+2025-01-27 23:34:08,120 -   - suzuki 11
+2025-01-27 23:34:08,120 -   - t range
+2025-01-27 23:34:08,120 -   - t range 1
+2025-01-27 23:34:08,120 -   - t-cross
+2025-01-27 23:34:08,120 -   - t-cross 11
+2025-01-27 23:34:08,120 -   - t-roc
+2025-01-27 23:34:08,121 -   - t-roc 12
+2025-01-27 23:34:08,121 -   - t370
+2025-01-27 23:34:08,121 -   - t370 54
+2025-01-27 23:34:08,121 -   - t680 52"
+2025-01-27 23:34:08,121 -   - t680 52" 51
+2025-01-27 23:34:08,121 -   - t680 76"
+2025-01-27 23:34:08,121 -   - t680 76" 52
+2025-01-27 23:34:08,121 -   - talento 2016+
+2025-01-27 23:34:08,122 -   - talento 2016+ 6
+2025-01-27 23:34:08,122 -   - tarraco
+2025-01-27 23:34:08,122 -   - tarraco 3
+2025-01-27 23:34:08,122 -   - terracan 2001 - 2004
+2025-01-27 23:34:08,122 -   - terracan 2001 - 2004 7
+2025-01-27 23:34:08,122 -   - terracan 2004 - 2016
+2025-01-27 23:34:08,122 -   - terracan 2004 - 2016 8
+2025-01-27 23:34:08,123 -   - tga
+2025-01-27 23:34:08,123 -   - tga 3
+2025-01-27 23:34:08,123 -   - tge 2017+
+2025-01-27 23:34:08,123 -   - tge 2017+ 1
+2025-01-27 23:34:08,123 -   - tgl / tgm
+2025-01-27 23:34:08,123 -   - tgl / tgm 4
+2025-01-27 23:34:08,123 -   - tgs
+2025-01-27 23:34:08,123 -   - tgs 5
+2025-01-27 23:34:08,124 -   - tgx
+2025-01-27 23:34:08,124 -   - tgx 2
+2025-01-27 23:34:08,124 -   - tgx 2015+
+2025-01-27 23:34:08,124 -   - tgx 2015+ 1
+2025-01-27 23:34:08,124 -   - tiguan 2006-2012
+2025-01-27 23:34:08,124 -   - tiguan 2006-2012 7
+2025-01-27 23:34:08,124 -   - tiguan 2012-2016
+2025-01-27 23:34:08,125 -   - tiguan 2012-2016 2
+2025-01-27 23:34:08,125 -   - tiguan 2016+
+2025-01-27 23:34:08,125 -   - tiguan 2016+ 6
+2025-01-27 23:34:08,125 -   - tiguan 2020+
+2025-01-27 23:34:08,125 -   - tiguan 2020+ 13
+2025-01-27 23:34:08,125 -   - topline
+2025-01-27 23:34:08,125 -   - topline 11
+2025-01-27 23:34:08,126 -   - topline 21
+2025-01-27 23:34:08,126 -   - topline 31
+2025-01-27 23:34:08,126 -   - topline 61
+2025-01-27 23:34:08,126 -   - touareg 2004 - 2010
+2025-01-27 23:34:08,126 -   - touareg 2004 - 2010 3
+2025-01-27 23:34:08,126 -   - touareg 2010 - 2018
+2025-01-27 23:34:08,127 -   - touareg 2010 - 2018 4
+2025-01-27 23:34:08,127 -   - touareg 2018+
+2025-01-27 23:34:08,127 -   - touareg 2018+ 9
+2025-01-27 23:34:08,127 -   - touran 2015+
+2025-01-27 23:34:08,127 -   - touran 2015+ 10
+2025-01-27 23:34:08,127 -   - toyota
+2025-01-27 23:34:08,128 -   - toyota 13
+2025-01-27 23:34:08,128 -   - toyota 9
+2025-01-27 23:34:08,128 -   - tractor / excavator
+2025-01-27 23:34:08,128 -   - tractor / excavator 8
+2025-01-27 23:34:08,128 -   - traffic 2014-2022
+2025-01-27 23:34:08,128 -   - traffic 2014-2022 5
+2025-01-27 23:34:08,129 -   - trafic 2002-2014
+2025-01-27 23:34:08,129 -   - trafic 2002-2014 1
+2025-01-27 23:34:08,129 -   - trafic 2019+
+2025-01-27 23:34:08,129 -   - trafic 2019+ 8
+2025-01-27 23:34:08,129 -   - trafic 2022+
+2025-01-27 23:34:08,129 -   - trafic 2022+ 12
+2025-01-27 23:34:08,129 -   - trakker
+2025-01-27 23:34:08,130 -   - trakker 4
+2025-01-27 23:34:08,130 -   - transit / tournero connect 2024+
+2025-01-27 23:34:08,130 -   - transit / tournero connect 2024+ 15
+2025-01-27 23:34:08,130 -   - transit connect 2002 - 2014
+2025-01-27 23:34:08,131 -   - transit connect 2002 - 2014 2
+2025-01-27 23:34:08,131 -   - transit connect 2014-2024
+2025-01-27 23:34:08,131 -   - transit connect 2014-2024 6
+2025-01-27 23:34:08,131 -   - transit connect 2018+
+2025-01-27 23:34:08,131 -   - transit connect 2018+ 10
+2025-01-27 23:34:08,132 -   - transit courier
+2025-01-27 23:34:08,132 -   - transit courier 7
+2025-01-27 23:34:08,132 -   - transit courier mk2 2023+
+2025-01-27 23:34:08,132 -   - transit courier mk2 2023+ 14
+2025-01-27 23:34:08,132 -   - transit custom 2013 - 2018
+2025-01-27 23:34:08,132 -   - transit custom 2013 - 2018 3
+2025-01-27 23:34:08,133 -   - transit custom 2018 - 2023
+2025-01-27 23:34:08,133 -   - transit custom 2018 - 2023 8
+2025-01-27 23:34:08,133 -   - transit custom 2023+
+2025-01-27 23:34:08,133 -   - transit custom 2023+ 13
+2025-01-27 23:34:08,133 -   - transit mk6 2000 - 2006
+2025-01-27 23:34:08,133 -   - transit mk6 2000 - 2006 4
+2025-01-27 23:34:08,134 -   - transit mk7 2007 - 2014
+2025-01-27 23:34:08,134 -   - transit mk7 2007 - 2014 1
+2025-01-27 23:34:08,134 -   - transit mk8 2014+
+2025-01-27 23:34:08,134 -   - transit mk8 2014+ 5
+2025-01-27 23:34:08,134 -   - transit mk9 2021+
+2025-01-27 23:34:08,134 -   - transit mk9 2021+ 9
+2025-01-27 23:34:08,135 -   - transporter  2004 - 2010 t5
+2025-01-27 23:34:08,135 -   - transporter  2004 - 2010 t5 3
+2025-01-27 23:34:08,135 -   - transporter 1990 - 2004
+2025-01-27 23:34:08,135 -   - transporter 1990 - 2004 7
+2025-01-27 23:34:08,135 -   - transporter 2010 - 2015 t5
+2025-01-27 23:34:08,135 -   - transporter 2010 - 2015 t5 5
+2025-01-27 23:34:08,136 -   - transporter 2015 - 2022 t6
+2025-01-27 23:34:08,136 -   - transporter 2015 - 2022 t6 6
+2025-01-27 23:34:08,136 -   - transporter 2022 - 2024 t6.1
+2025-01-27 23:34:08,136 -   - transporter 2022 - 2024 t6.1 11
+2025-01-27 23:34:08,137 -   - transporter 2024+ t7
+2025-01-27 23:34:08,137 -   - transporter 2024+ t7 14
+2025-01-27 23:34:08,137 -   - truck
+2025-01-27 23:34:08,137 -   - truck make/model
+2025-01-27 23:34:08,137 -   - tucson 2016+
+2025-01-27 23:34:08,138 -   - tucson 2016+ 5
+2025-01-27 23:34:08,138 -   - tucson 2021+
+2025-01-27 23:34:08,138 -   - tucson 2021+ 11
+2025-01-27 23:34:08,138 -   - universal
+2025-01-27 23:34:08,138 -   - universal 16
+2025-01-27 23:34:08,139 -   - universal 20
+2025-01-27 23:34:08,139 -   - universal 30
+2025-01-27 23:34:08,139 -   - vario bus
+2025-01-27 23:34:08,139 -   - vario bus 6
+2025-01-27 23:34:08,139 -   - vauxhall / opel
+2025-01-27 23:34:08,139 -   - vauxhall / opel 5
+2025-01-27 23:34:08,140 -   - vitara
+2025-01-27 23:34:08,140 -   - vitara 1
+2025-01-27 23:34:08,140 -   - vito 1996 - 2004
+2025-01-27 23:34:08,140 -   - vito 1996 - 2004 9
+2025-01-27 23:34:08,140 -   - vito 2004 - 2014
+2025-01-27 23:34:08,140 -   - vito 2004 - 2014 1
+2025-01-27 23:34:08,141 -   - vito 2014+
+2025-01-27 23:34:08,141 -   - vito 2014+ 4
+2025-01-27 23:34:08,141 -   - vivaro 2002 - 2014
+2025-01-27 23:34:08,141 -   - vivaro 2002 - 2014 3
+2025-01-27 23:34:08,141 -   - vivaro 2014 - 2019
+2025-01-27 23:34:08,141 -   - vivaro 2014 - 2019 5
+2025-01-27 23:34:08,141 -   - vivaro 2019+
+2025-01-27 23:34:08,142 -   - vivaro 2019+ 8
+2025-01-27 23:34:08,142 -   - volkswagan (vw)
+2025-01-27 23:34:08,142 -   - volkswagan (vw) 2
+2025-01-27 23:34:08,142 -   - volkswagen (vw)
+2025-01-27 23:34:08,142 -   - volkswagen (vw) 10
+2025-01-27 23:34:08,142 -   - volvo
+2025-01-27 23:34:08,142 -   - volvo 15
+2025-01-27 23:34:08,143 -   - volvo 2
+2025-01-27 23:34:08,143 -   - volvo fe
+2025-01-27 23:34:08,143 -   - volvo fe 5
+2025-01-27 23:34:08,143 -   - volvo fh 2002-2013
+2025-01-27 23:34:08,143 -   - volvo fh 2002-2013 3
+2025-01-27 23:34:08,143 -   - volvo fl
+2025-01-27 23:34:08,143 -   - volvo fl 6
+2025-01-27 23:34:08,144 -   - volvo fm 2002-2013
+2025-01-27 23:34:08,144 -   - volvo fm 2002-2013 4
+2025-01-27 23:34:08,144 -   - volvo vnl series
+2025-01-27 23:34:08,144 -   - volvo vnl series 2
+2025-01-27 23:34:08,144 -   - w900
+2025-01-27 23:34:08,144 -   - w900 53
+2025-01-27 23:34:08,144 -   - western star
+2025-01-27 23:34:08,145 -   - western star 6
+2025-01-27 23:34:08,145 -   - wrangler 2008 - 2018
+2025-01-27 23:34:08,145 -   - wrangler 2008 - 2018 3
+2025-01-27 23:34:08,145 -   - wrangler 2018+
+2025-01-27 23:34:08,145 -   - wrangler 2018+ 8
+2025-01-27 23:34:08,145 -   - x-class 2017+
+2025-01-27 23:34:08,146 -   - x-class 2017+ 8
+2025-01-27 23:34:08,146 -   - x-trail 2008-2014
+2025-01-27 23:34:08,146 -   - x-trail 2008-2014 9
+2025-01-27 23:34:08,147 -   - x-trail 2014+
+2025-01-27 23:34:08,147 -   - x-trail 2014+ 10
+2025-01-27 23:34:08,147 -   - x-trail 2017 - 2021
+2025-01-27 23:34:08,147 -   - x-trail 2017 - 2021 13
+2025-01-27 23:34:08,147 -   - x-trail 2021+
+2025-01-27 23:34:08,147 -   - x-trail 2021+ 18
+2025-01-27 23:34:08,148 -   - x-trail pre 2008
+2025-01-27 23:34:08,148 -   - x-trail pre 2008 7
+2025-01-27 23:34:08,148 -   - x1 2009 - 2015
+2025-01-27 23:34:08,148 -   - x1 2009 - 2015 10
+2025-01-27 23:34:08,148 -   - x1 2015+
+2025-01-27 23:34:08,148 -   - x1 2015+ 7
+2025-01-27 23:34:08,148 -   - x1 2024+
+2025-01-27 23:34:08,149 -   - x1 2024+ 14
+2025-01-27 23:34:08,149 -   - x3 2003-2010
+2025-01-27 23:34:08,149 -   - x3 2003-2010 8
+2025-01-27 23:34:08,149 -   - x3 2010-2017
+2025-01-27 23:34:08,149 -   - x3 2010-2017 3
+2025-01-27 23:34:08,149 -   - x3 2017+
+2025-01-27 23:34:08,149 -   - x3 2017+ 13
+2025-01-27 23:34:08,150 -   - x4 2014 - 2018
+2025-01-27 23:34:08,150 -   - x4 2014 - 2018 2
+2025-01-27 23:34:08,150 -   - x4 2018+
+2025-01-27 23:34:08,150 -   - x4 2018+ 11
+2025-01-27 23:34:08,150 -   - x5 2006 - 2013
+2025-01-27 23:34:08,150 -   - x5 2006 - 2013 1
+2025-01-27 23:34:08,150 -   - x5 2014 - 2018
+2025-01-27 23:34:08,151 -   - x5 2014 - 2018 4
+2025-01-27 23:34:08,151 -   - x5 2018+
+2025-01-27 23:34:08,151 -   - x5 2018+ 9
+2025-01-27 23:34:08,151 -   - x6 2008 - 2014
+2025-01-27 23:34:08,151 -   - x6 2008 - 2014 5
+2025-01-27 23:34:08,152 -   - x6 2015 - 2019
+2025-01-27 23:34:08,152 -   - x6 2015 - 2019 6
+2025-01-27 23:34:08,153 -   - x6 2020+
+2025-01-27 23:34:08,154 -   - x6 2020+ 12
+2025-01-27 23:34:08,154 -   - xb/xbc
+2025-01-27 23:34:08,154 -   - xb/xbc 93
+2025-01-27 23:34:08,154 -   - xc60 2008 - 2013
+2025-01-27 23:34:08,155 -   - xc60 2008 - 2013 3
+2025-01-27 23:34:08,155 -   - xc60 2014-2017
+2025-01-27 23:34:08,155 -   - xc60 2014-2017 1
+2025-01-27 23:34:08,155 -   - xc60 2017+
+2025-01-27 23:34:08,155 -   - xc60 2017+ 5
+2025-01-27 23:34:08,156 -   - xc90 2002 - 2015
+2025-01-27 23:34:08,156 -   - xc90 2002 - 2015 2
+2025-01-27 23:34:08,156 -   - xc90 2015+
+2025-01-27 23:34:08,156 -   - xc90 2015+ 4
+2025-01-27 23:34:08,156 -   - xd/xdc/xfc
+2025-01-27 23:34:08,157 -   - xd/xdc/xfc 92
+2025-01-27 23:34:08,157 -   - xf105
+2025-01-27 23:34:08,157 -   - xf105 2
+2025-01-27 23:34:08,158 -   - xf106
+2025-01-27 23:34:08,158 -   - xf106 1
+2025-01-27 23:34:08,158 -   - xf95
+2025-01-27 23:34:08,158 -   - xf95 3
+2025-01-27 23:34:08,158 -   - xg+
+2025-01-27 23:34:08,159 -   - xg+ 91
+2025-01-27 23:34:08,159 -   - xg/xf
+2025-01-27 23:34:08,159 -   - xg/xf 9
+2025-01-27 23:34:08,160 -   - xl
+2025-01-27 23:34:08,160 -   - xl 13
+2025-01-27 23:34:08,160 -   - xl 23
+2025-01-27 23:34:08,160 -   - xl 33
+2025-01-27 23:34:08,160 -   - xlx
+2025-01-27 23:34:08,161 -   - xlx 12
+2025-01-27 23:34:08,161 -   - xlx 22
+2025-01-27 23:34:08,161 -   - xlx 32
+2025-01-27 23:34:08,161 -   - xxl
+2025-01-27 23:34:08,161 -   - xxl 11
+2025-01-27 23:34:08,162 -   - xxl 21
+2025-01-27 23:34:08,162 -   - xxl 31
+2025-01-27 23:34:08,162 -   - yeti
+2025-01-27 23:34:08,162 -   - yeti 1
+2025-01-27 23:34:08,163 -   - yukon
+2025-01-27 23:34:08,163 -   - yukon 3
+2025-01-27 23:34:08,163 -   - zafira
+2025-01-27 23:34:08,163 -   - zafira 4
+2025-01-27 23:34:08,164 - Successfully initialized VehicleQuery with Dropbox data
+2025-01-27 23:34:08,185 -  * Debugger is active!
+2025-01-27 23:34:08,190 -  * Debugger PIN: 802-974-193
