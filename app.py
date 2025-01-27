@@ -710,7 +710,7 @@ def process_description(description_template, year=None, user_make='', user_mode
                 # Only reload if the lists are empty
                 if not vehicle_query_instance.makes or not vehicle_query_instance.models:
                     vehicle_query_instance.load_makes_and_models(app.config['DROPBOX_URL'])
-                main_item = remove_existing_make_model(main_item, vehicle_query_instance.makes, vehicle_query_instance.models)
+                main_item = remove_existing_make_model(main_item, [make] if make else [], [model] if model else [])
                 log_debug(f"Main item after removing make/model: {main_item}")
             except Exception as e:
                 log_debug(f"Error loading makes/models from Dropbox: {str(e)}")
@@ -1123,4 +1123,5 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 os.makedirs(app.config['PROCESSED_FOLDER'], exist_ok=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port, debug=True)
