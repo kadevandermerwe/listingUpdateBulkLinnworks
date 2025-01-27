@@ -1,55 +1,325 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Bulk Listing Formatter</title>
+    <meta charset="UTF-8">
+    <title>Bulk Listing Processor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .navbar {
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .form-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+        }
+        .form-section h3 {
+            margin-top: 0;
+            color: #444;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: bold;
+        }
+        input[type="file"],
+        select,
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        select {
+            height: 35px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .hidden {
+            display: none;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .checkbox-item input[type="checkbox"] {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bulk Listing Formatter</h1>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Listing App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/how-to-use">How to Use</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Bulk Listing Processor</h1>
     <form action="/upload" method="post" enctype="multipart/form-data">
-        <label for="file">Product CSV File:</label>
-        <input type="file" name="file" required>
-        <br><br>
+        <div class="form-section">
+            <h3>Upload File</h3>
+            <label for="file">Upload CSV File:</label>
+            <input type="file" name="file" id="file" accept=".csv" required>
+        </div>
 
-        <label for="update_type">Choose Update Type:</label>
-        <select name="update_type" required>
-            <option value="titles">Titles Only</option>
-            <option value="descriptions">Descriptions Only</option>
-            <option value="titles_descriptions">Titles and Descriptions</option>
-            <option value="extended_properties">Extended Properties Only</option>
-            <option value="prices">Prices Only</option>
-            <option value="all">All of the Above</option>
-        </select>
-        <br><br>
+        <div class="form-section">
+            <h3>Update Type</h3>
+            <label for="update_type">Select Update Type:</label>
+            <select id="update_type" name="update_type" required>
+                <option value="titles">Titles Only</option>
+                <option value="description">Description Only</option>
+                <option value="titles + description">Titles + Description</option>
+                <option value="titles + description + properties">Titles + Description + Properties</option>
+                <option value="extended properties">Extended Properties</option>
+                <option value="price">Price</option>
+                <option value="all">All</option>
+            </select>
+        </div>
 
-        <label for="find">Find:</label>
-        <input type="text" name="find" placeholder="Text to find" required>
-        <br><br>
+        <div class="form-section" id="titles_section" style="display: none;">
+            <h3>Context</h3>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" name="context[]" id="ebay1" value="ebay1">
+                    <label for="ebay1">eBay 1</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" name="context[]" id="ebay0" value="ebay0">
+                    <label for="ebay0">eBay 0</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" name="context[]" id="magento" value="magento">
+                    <label for="magento">Magento</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" name="context[]" id="amazon" value="amazon">
+                    <label for="amazon">Amazon</label>
+                </div>
+            </div>
 
-        <label for="replace">Replace:</label>
-        <input type="text" name="replace" placeholder="Text to replace with" required>
-        <br><br>
+            <h3>Vehicle Type</h3>
+            <select name="vehicle_type" id="vehicle_type" required>
+                <option value="4x4">4x4</option>
+                <option value="Truck">Truck</option>
+                <option value="Van">Van</option>
+            </select>
 
-        <label for="change_note">Change 'Please Note' in Descriptions?</label>
-        <input type="checkbox" name="change_note" value="yes">
-        <br><br>
+            <h3>Basic Information</h3>
+            <label for="make">Make:</label>
+            <input type="text" name="make" id="make" placeholder="Enter vehicle make">
+            
+            <label for="model">Model:</label>
+            <input type="text" name="model" id="model" placeholder="Enter vehicle model">
+            
+            <label for="year">Year:</label>
+            <input type="text" name="year" id="year" placeholder="Enter year (e.g., 2020 or 2020+)">
+        </div>
 
-        <label for="note_replacement">New 'Please Note' Text:</label>
-        <input type="text" name="note_replacement" placeholder="Replacement for 'please note:'">
-        <br><br>
+        <div class="form-section" id="description_section" style="display: none;">
+            <h3>Description</h3>
+            <label for="user_description">Description:</label>
+            <textarea name="user_description" id="user_description" placeholder="Enter description"></textarea>
+        </div>
 
-        <label for="extended_properties">Extended Properties to Update:</label>
-        <select name="extended_properties" multiple>
-            <option value="BULLET1">BULLET1</option>
-            <option value="BULLET2">BULLET2</option>
-            <option value="BULLET3">BULLET3</option>
-            <option value="mag_short_description">mag_short_description</option>
-            <option value="Make">Make</option>
-            <option value="Model">Model</option>
-            <option value="Material">Material</option>
-        </select>
-        <br><br>
+        <div class="form-section" id="extended_properties_section" style="display: none;">
+            <h3>Extended Properties</h3>
+            <p>Enter values to override the original extended properties:</p>
+            
+            <label for="alteration">ALTERATION:</label>
+            <input type="text" name="alteration" id="alteration" placeholder="Enter ALTERATION value">
+            
+            <label for="bar_length">Bar Length:</label>
+            <input type="text" name="bar_length" id="bar_length" placeholder="Enter Bar Length value">
+            
+            <label for="brackets">Brackets:</label>
+            <input type="text" name="brackets" id="brackets" placeholder="Enter Brackets value">
+            
+            <label for="bts_notsold">BTS-NOTSOLD:</label>
+            <input type="text" name="bts_notsold" id="bts_notsold" placeholder="Enter BTS-NOTSOLD value">
+            
+            <label for="bullet1">Bullet Point 1:</label>
+            <input type="text" name="bullet1" id="bullet1" placeholder="Enter Bullet Point 1">
+            
+            <label for="bullet2">Bullet Point 2:</label>
+            <input type="text" name="bullet2" id="bullet2" placeholder="Enter Bullet Point 2">
+            
+            <label for="bullet3">Bullet Point 3:</label>
+            <input type="text" name="bullet3" id="bullet3" placeholder="Enter Bullet Point 3">
+            
+            <label for="bullet4">Bullet Point 4:</label>
+            <input type="text" name="bullet4" id="bullet4" placeholder="Enter Bullet Point 4">
+            
+            <label for="bullet5">Bullet Point 5:</label>
+            <input type="text" name="bullet5" id="bullet5" placeholder="Enter Bullet Point 5">
+            
+            <label for="diameter_of_bar">Diameter of Bar:</label>
+            <input type="text" name="diameter_of_bar" id="diameter_of_bar" placeholder="Enter Diameter of Bar value">
+            
+            <label for="dimension">Dimension:</label>
+            <input type="text" name="dimension" id="dimension" placeholder="Enter Dimension value">
+            
+            <label for="ebay_id">eBay ID:</label>
+            <input type="text" name="ebay_id" id="ebay_id" placeholder="Enter eBay ID value">
+            
+            <label for="ebay_store_id">eBay Store ID:</label>
+            <input type="text" name="ebay_store_id" id="ebay_store_id" placeholder="Enter eBay Store ID value">
+            
+            <label for="ebay1_store_id">eBay1 Store ID:</label>
+            <input type="text" name="ebay1_store_id" id="ebay1_store_id" placeholder="Enter eBay1 Store ID value">
+            
+            <label for="filter_attribute">Filter Attribute:</label>
+            <input type="text" name="filter_attribute" id="filter_attribute" placeholder="Enter Filter Attribute value">
+            
+            <label for="finish">Finish:</label>
+            <input type="text" name="finish" id="finish" placeholder="Enter Finish value">
+            
+            <label for="fitment_type">Fitment Type:</label>
+            <input type="text" name="fitment_type" id="fitment_type" placeholder="Enter Fitment Type value">
+            
+            <label for="fitting_link">Fitting Link:</label>
+            <input type="text" name="fitting_link" id="fitting_link" placeholder="Enter Fitting Link value">
+            
+            <label for="fitting_link_video">Fitting Link Video:</label>
+            <input type="text" name="fitting_link_video" id="fitting_link_video" placeholder="Enter Fitting Link Video value">
+            
+            <label for="google_product_category">Google Product Category:</label>
+            <input type="text" name="google_product_category" id="google_product_category" placeholder="Enter Google Product Category value">
+            
+            <label for="hs_code">HS Code:</label>
+            <input type="text" name="hs_code" id="hs_code" placeholder="Enter HS Code value">
+            
+            <label for="included_in_sale">Included in Sale:</label>
+            <input type="text" name="included_in_sale" id="included_in_sale" placeholder="Enter Included in Sale value">
+            
+            <label for="instructions">Instructions:</label>
+            <input type="text" name="instructions" id="instructions" placeholder="Enter Instructions value">
+            
+            <label for="url">URL:</label>
+            <input type="text" name="url" id="url" placeholder="Enter URL value">
+        </div>
 
-        <button type="submit">Process</button>
+        <div class="form-section" id="price_section" style="display: none;">
+            <h3>Price Update</h3>
+            <label for="price">New Price:</label>
+            <input type="number" name="price" id="price" step="0.01" placeholder="Enter new price">
+        </div>
+
+        <div class="form-section">
+            <input type="submit" value="Process File" class="submit-btn">
+        </div>
     </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('update_type').addEventListener('change', function() {
+            const titlesSection = document.getElementById('titles_section');
+            const descriptionSection = document.getElementById('description_section');
+            const extendedPropsSection = document.getElementById('extended_properties_section');
+            const priceSection = document.getElementById('price_section');
+            
+            // Hide all sections first
+            titlesSection.style.display = 'none';
+            descriptionSection.style.display = 'none';
+            extendedPropsSection.style.display = 'none';
+            priceSection.style.display = 'none';
+            
+            const updateType = this.value.toLowerCase();
+            
+            // Show relevant sections based on update type
+            switch(updateType) {
+                case 'titles':
+                    titlesSection.style.display = 'block';
+                    break;
+                case 'description':
+                    descriptionSection.style.display = 'block';
+                    break;
+                case 'titles + description':
+                    titlesSection.style.display = 'block';
+                    descriptionSection.style.display = 'block';
+                    break;
+                case 'titles + description + properties':
+                    titlesSection.style.display = 'block';
+                    descriptionSection.style.display = 'block';
+                    extendedPropsSection.style.display = 'block';
+                    break;
+                case 'extended properties':
+                    extendedPropsSection.style.display = 'block';
+                    break;
+                case 'price':
+                    priceSection.style.display = 'block';
+                    break;
+                case 'all':
+                    titlesSection.style.display = 'block';
+                    descriptionSection.style.display = 'block';
+                    extendedPropsSection.style.display = 'block';
+                    priceSection.style.display = 'block';
+                    break;
+            }
+        });
+        
+        // Trigger the change event on page load to set initial visibility
+        document.getElementById('update_type').dispatchEvent(new Event('change'));
+    </script>
 </body>
 </html>

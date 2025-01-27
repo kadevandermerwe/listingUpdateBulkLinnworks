@@ -1,0 +1,19 @@
+<p>High-quality <strong>{main_item}</strong> for<strong> {make} {model} {year} models</strong>. These are high-quality items that are supplied by the main dealers, but at a much higher cost than you find here.</p>
+{extras}
+<p><strong>Product Features:</strong></p>
+<ul>
+<li>Made from highest quality materials</li>
+<li>Easy fitting</li>
+<li>Fitting kit and fitting instructions are included</li>
+<li>No drilling required</li>
+<li>Bolt on installation</li>
+<li>Sale is for {main_item}</li>
+<li>Fits {make} {model} {year} models</li>
+<li>1-Year Warranty</li>
+<li>For technical support please contact us via eBay messages</li>
+</ul>
+<p>These, as with all our products, are made from the highest quality materials. Our products present a quality solution for your vehicle at a reasonable price.</p>
+<p>Items are boxed, new and come complete with all the nuts, bolts and fixings necessary for fitting, no drilling is needed.</p>
+<p><strong>VAT Invoice, Fitting Instructions and Tracking info will be sent as an email attachment after purchase - please check spam folder if not received.</strong></p>
+<p>Trade enquiries welcome.</p>
+<p style="font-size: 9px !important;"><em>* The product listed is not manufactured by the Original Equipment Manufacturer (&ldquo;OEM&rdquo;), unless specifically stated and where reference is made to the brand names of the OEMs, the references are for specification reference only and are not an endorsement by the OEM referred to. All warranties under consumer laws within the European Community Consumer Laws against defects are provided by the Seller.</em></p>

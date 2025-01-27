@@ -1,0 +1,17 @@
+Titles format correctly according to channel rules - True
+need to fill out item specific keywords file
+
+Descriptions format correctly according to channel rules - False
+Need to read SOPs on differences between channel descriptions
+
+
+Extended properties format correctly according to channel rules - False
+titles need to be different for each channel with correct formatting
+
+will need to work with queenie to debug
+
+update how to use page to include clearer instructions
+
+need to populate keywords file to include keywords for specific items
+
+need to populate materials file to add materials for all possible main items

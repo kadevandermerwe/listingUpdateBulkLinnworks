@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Use - Listing App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            margin-bottom: 30px;
+        }
+        .section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #0d6efd;
+            margin-bottom: 15px;
+        }
+        .section h3 {
+            color: #6c757d;
+            margin: 15px 0;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .tip {
+            background-color: #e7f3ff;
+            border-left: 4px solid #0d6efd;
+            padding: 15px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Listing App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/how-to-use">How to Use</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="mb-4">How to Use the Listing App</h1>
+
+        <!-- Getting Started Section -->
+        <div class="section">
+            <h2>Getting Started</h2>
+            <p>The Listing App helps you format product titles and descriptions for different sales channels (eBay, Amazon, and Magento). Here's how to get started:</p>
+            <ol>
+                <li>Prepare your CSV file with your product listings</li>
+                <li>Make sure your CSV has either an 'ItemTitle' or 'Item_Title' column</li>
+                <li>Optional: Include 'Material', 'Wheelbase', and 'Cab_Type' columns for additional information</li>
+            </ol>
+        </div>
+
+        <!-- File Format Section -->
+        <div class="section">
+            <h2>CSV File Format</h2>
+            <p class="text-danger"><strong>Important:</strong> All columns listed below are REQUIRED in your CSV file.</p>
+
+            <h3>Base Columns:</h3>
+            <ul>
+                <li>'ItemTitle' or 'Item_Title' - Your product title</li>
+                <li>'Material' - Product material information</li>
+                <li>'Wheelbase' - Vehicle wheelbase information</li>
+                <li>'Cab_Type' - Vehicle cab type information</li>
+            </ul>
+
+            <h3>Extended Property Columns:</h3>
+            <ul>
+                <li>'ALTERATION_Attribute' - Alteration information</li>
+                <li>'Bar length_Attribute' - Bar length information</li>
+                <li>'Brackets_Attribute' - Brackets information</li>
+                <li>'BTS-NOTSOLD_Attribute' - BTS-NOTSOLD status</li>
+                <li>'Bullet1_Attribute' - First bullet point</li>
+                <li>'Bullet2_Attribute' - Second bullet point</li>
+                <li>'Bullet3_Attribute' - Third bullet point</li>
+                <li>'Bullet4_Attribute' - Fourth bullet point</li>
+                <li>'Bullet5_Attribute' - Fifth bullet point</li>
+                <li>'Diameter of bar_Attribute' - Bar diameter information</li>
+                <li>'eBay ID_Attribute' - eBay identifier</li>
+                <li>'eBay Store ID_Attribute' - eBay store identifier</li>
+                <li>'eBay1 Store ID_Attribute' - eBay1 store identifier</li>
+                <li>'Filter Attribute_Attribute' - Filter information</li>
+                <li>'Finish_Attribute' - Finish information</li>
+                <li>'Fitment Type_Attribute' - Fitment type</li>
+                <li>'Fitting Link_Attribute' - Fitting link URL</li>
+                <li>'Fitting link video_Attribute' - Fitting video link</li>
+                <li>'google_product_category_Attribute' - Google product category</li>
+                <li>'HS Code_Attribute' - HS code</li>
+                <li>'Included in sale_Attribute' - Items included in sale</li>
+                <li>'Instructions_Attribute' - Product instructions</li>
+            </ul>
+
+            <div class="tip">
+                <strong>Important Notes:</strong>
+                <ul>
+                    <li>All columns must be present in your CSV file</li>
+                    <li>Column names are case-sensitive</li>
+                    <li>Extended property columns must end with "_Attribute"</li>
+                    <li>If you don't have a value for a column, leave it empty but the column header must still exist</li>
+                </ul>
+            </div>
+
+            <div class="tip">
+                <strong>CSV Example:</strong><br>
+                ItemTitle,Material,Wheelbase,Cab_Type,ALTERATION_Attribute,Bar length_Attribute,...<br>
+                "Grill Bar",Steel,Short,Single,None,1200mm,...
+            </div>
+            <div>To get these columns, go to Linnworks >> My Inventory >> search for items to update >> click export and choose export type as extended properties >> add ItemTitle (Title from linnworks) to this exported csv and double check to make sure you have all columns >> csv ready to upload</div>
+        </div>
+
+        <!-- Using the App Section -->
+        <div class="section">
+            <h2>Using the App</h2>
+            <ol>
+                <li>
+                    <h3>Upload Your File</h3>
+                    <ul>
+                        <li>Click "Choose File" and select your CSV file</li>
+                        <li>Only CSV files are accepted</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Select Update Type</h3>
+                    <ul>
+                        <li>"Titles Only" - Only process product titles</li>
+                        <li>"Descriptions Only" - Only process product descriptions</li>
+                        <li>"Titles + Descriptions" - Process both titles and descriptions</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Choose Sales Channels</h3>
+                    <ul>
+                        <li>eBay 1 - Primary eBay format</li>
+                        <li>eBay 0 - Secondary eBay format</li>
+                        <li>Magento - Magento store format</li>
+                        <li>Amazon - Amazon marketplace format</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Select Vehicle Type</h3>
+                    <ul>
+                        <li>Choose the appropriate vehicle type (4x4, Truck, Van)</li>
+                        <li>This affects which keywords are added to your titles</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Fill Additional Information</h3>
+                    <ul>
+                        <li>Make - Vehicle make (e.g., Ford, Toyota)</li>
+                        <li>Model - Vehicle model (e.g., Ranger, Hilux)</li>
+                        <li>Year - Vehicle year or year range</li>
+                        <li>Description - Additional description text</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <!-- Title Formatting Section -->
+        <div class="section">
+            <h2>Title Formatting</h2>
+            <h3>Channel-Specific Formats:</h3>
+            <ul>
+                <li><strong>eBay 1 & 0:</strong> 78-80 characters, includes all keywords</li>
+                <li><strong>Magento:</strong> Up to 200 characters, includes only material keywords</li>
+                <li><strong>Amazon:</strong> 80-200 characters, includes "Bragan" and "XSKU"</li>
+            </ul>
+
+            <div class="tip">
+                <strong>Note:</strong> Each channel has specific formatting rules and character limits that are automatically applied.
+            </div>
+        </div>
+
+        <!-- Keywords and Materials Section -->
+        <div class="section">
+            <h2>Keywords and Materials</h2>
+            <p>The app uses two special files to manage keywords and materials:</p>
+            <ul>
+                <li><strong>keywords.txt</strong> - Contains vehicle-specific and general keywords</li>
+                <li><strong>materials.txt</strong> - Maps product types to their materials</li>
+            </ul>
+
+            <div class="tip">
+                <strong>Tip:</strong> Material keywords are automatically added based on the product type, you don't need to specify them manually.
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
