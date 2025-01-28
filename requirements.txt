@@ -27,3 +27,4 @@ six==1.16.0
 tzdata==2025.1
 urllib3==2.0.4
 Werkzeug==2.3.7
+hashlib==3.2.0
