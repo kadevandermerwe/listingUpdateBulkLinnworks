@@ -31,30 +31,57 @@ app.config['DROPBOX_URL'] = 'https://www.dropbox.com/scl/fi/h52wh2zokq6j055tag5c
 #global variable for storing possible years 
 yearsList = [str(year) for year in range(1900, 2025)]
 
-@app.route('/ebay-notification', methods=['POST'])
+@app.route('/ebay-notification', methods=['POST', 'GET'])
 def handle_ebay_notification():
-    # Get the challenge code from the request
-    challenge_code = request.args.get('challenge_code')  # or request.form.get() depending on how eBay sends it
-    
-    # Create SHA256 hash object
-    hash_obj = hashlib.sha256()
-    
-    # Update hash with challenge code
-    hash_obj.update(challenge_code.encode('utf-8'))
-    
-    # Update with your verification token
-    hash_obj.update('35t764533e56tu79uuyt64e5w3555988'.encode('utf-8'))
-    
-    # Update with your full endpoint URL
-    hash_obj.update('https://listingupdatebulklinnworks.onrender.com'.encode('utf-8'))
-    
-    # Get the final hash
-    response_hash = hash_obj.hexdigest()
-    
-    # Return JSON response
-    return jsonify({
-        'challengeResponse': response_hash
-    }), 200
+    try:
+        # Log the request details
+        log_debug(f"eBay notification received. Method: {request.method}")
+        log_debug(f"Args: {request.args}")
+        log_debug(f"Form data: {request.form}")
+        log_debug(f"Headers: {request.headers}")
+        
+        # Get the challenge code from different possible locations
+        challenge_code = request.args.get('challenge_code')
+        if not challenge_code:
+            challenge_code = request.form.get('challenge_code')
+        if not challenge_code:
+            challenge_code = request.json.get('challenge_code') if request.is_json else None
+            
+        if not challenge_code:
+            log_debug("No challenge code found in request")
+            return jsonify({'error': 'No challenge code provided'}), 400
+            
+        log_debug(f"Challenge code received: {challenge_code}")
+        
+        # Your verification token and endpoint
+        verification_token = '274380ryho092y094ur09u2r0u9u9u02ru'
+        endpoint_url = 'https://listingupdatebulklinnworks.onrender.com/ebay-notification'
+        
+        # Create SHA256 hash object
+        hash_obj = hashlib.sha256()
+        
+        # Update hash with each component and log them
+        log_debug(f"Adding to hash - challenge_code: {challenge_code}")
+        hash_obj.update(challenge_code.encode('utf-8'))
+        
+        log_debug(f"Adding to hash - verification_token: {verification_token}")
+        hash_obj.update(verification_token.encode('utf-8'))
+        
+        log_debug(f"Adding to hash - endpoint_url: {endpoint_url}")
+        hash_obj.update(endpoint_url.encode('utf-8'))
+        
+        # Get the final hash
+        response_hash = hash_obj.hexdigest()
+        log_debug(f"Generated response hash: {response_hash}")
+        
+        # Return JSON response
+        response = {'challengeResponse': response_hash}
+        log_debug(f"Sending response: {response}")
+        return jsonify(response), 200
+        
+    except Exception as e:
+        log_debug(f"Error in handle_ebay_notification: {str(e)}")
+        return jsonify({'error': str(e)}), 500
 
 class VehicleQuery:
     def __init__(self):
