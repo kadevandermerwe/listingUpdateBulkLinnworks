@@ -10,6 +10,27 @@ import logging
 import datetime
 import hashlib
 
+# Set up logging
+logging.basicConfig(
+    filename='title_processing.log',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(message)s',
+    filemode='w'  # Overwrite the file each time
+)
+
+def log_debug(msg):
+    """Write debug message to log file"""
+    logging.debug(msg)
+    print(msg)  # Also print to console
+
+app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = 'uploads'
+app.config['PROCESSED_FOLDER'] = 'processed'
+app.config['DROPBOX_URL'] = 'https://www.dropbox.com/scl/fi/h52wh2zokq6j055tag5c2/SKU-Creator-Formating-MONSTER-COPY.xlsx?rlkey=r3r0ocp8lggvbx2zs1xnogvcp&e=2&st=bmf5lxzo&dl=1'
+
+#global variable for storing possible years 
+yearsList = [str(year) for year in range(1900, 2025)]
+
 @app.route('/ebay-notification', methods=['POST'])
 def handle_ebay_notification():
     # Get the challenge code from the request
@@ -34,27 +55,6 @@ def handle_ebay_notification():
     return jsonify({
         'challengeResponse': response_hash
     }), 200
-
-# Set up logging
-logging.basicConfig(
-    filename='title_processing.log',
-    level=logging.DEBUG,
-    format='%(asctime)s - %(message)s',
-    filemode='w'  # Overwrite the file each time
-)
-
-def log_debug(msg):
-    """Write debug message to log file"""
-    logging.debug(msg)
-    print(msg)  # Also print to console
-
-app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'uploads'
-app.config['PROCESSED_FOLDER'] = 'processed'
-app.config['DROPBOX_URL'] = 'https://www.dropbox.com/scl/fi/h52wh2zokq6j055tag5c2/SKU-Creator-Formating-MONSTER-COPY.xlsx?rlkey=r3r0ocp8lggvbx2zs1xnogvcp&e=2&st=bmf5lxzo&dl=1'
-
-#global variable for storing possible years 
-yearsList = [str(year) for year in range(1900, 2025)]
 
 class VehicleQuery:
     def __init__(self):
