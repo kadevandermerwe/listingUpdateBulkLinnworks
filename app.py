@@ -8,6 +8,32 @@ import requests
 import openpyxl as px
 import logging
 import datetime
+import hashlib
+
+@app.route('/ebay-notification', methods=['POST'])
+def handle_ebay_notification():
+    # Get the challenge code from the request
+    challenge_code = request.args.get('challenge_code')  # or request.form.get() depending on how eBay sends it
+    
+    # Create SHA256 hash object
+    hash_obj = hashlib.sha256()
+    
+    # Update hash with challenge code
+    hash_obj.update(challenge_code.encode('utf-8'))
+    
+    # Update with your verification token
+    hash_obj.update('35t764533e56tu79uuyt64e5w3555988'.encode('utf-8'))
+    
+    # Update with your full endpoint URL
+    hash_obj.update('https://listingupdatebulklinnworks.onrender.com'.encode('utf-8'))
+    
+    # Get the final hash
+    response_hash = hash_obj.hexdigest()
+    
+    # Return JSON response
+    return jsonify({
+        'challengeResponse': response_hash
+    }), 200
 
 # Set up logging
 logging.basicConfig(
@@ -402,17 +428,32 @@ def load_item_materials():
 
 def get_item_materials(item_type, materials_dict):
     """Get materials for a specific item type"""
-    if not item_type:
+    if not item_type or not materials_dict:
         return []
         
     # Try exact match first
     if item_type in materials_dict:
         return materials_dict[item_type]
         
+    # Convert to singular if plural
+    singular_form = item_type[:-1] if item_type.lower().endswith('s') and not item_type.lower().endswith('ss') else item_type
+    
+    # Try singular form
+    if singular_form in materials_dict:
+        return materials_dict[singular_form]
+        
+    # Try plural form
+    plural_form = item_type + 's'
+    if plural_form in materials_dict:
+        return materials_dict[plural_form]
+        
     # Try case-insensitive match
     item_lower = item_type.lower()
     for key in materials_dict:
         if key.lower() == item_lower:
+            return materials_dict[key]
+        # Try singular/plural match case-insensitive
+        if key.lower().rstrip('s') == item_lower.rstrip('s'):
             return materials_dict[key]
             
     return []
@@ -875,7 +916,10 @@ EXTENDED_PROPERTIES = [
     "google_product_category_Attribute",
     "HS Code_Attribute",
     "Included in sale_Attribute",
-    "Instructions_Attribute"
+    "Instructions_Attribute",
+    "Model_Attribute",
+    "URL_Attribute",
+    "Make_Attribute",
 ]
 
 def process_extended_properties(df, form_data):
@@ -904,7 +948,9 @@ def process_extended_properties(df, form_data):
         'hs_code': 'HS Code_Attribute',
         'included_in_sale': 'Included in sale_Attribute',
         'instructions': 'Instructions_Attribute',
-        'url': 'URL_Attribute'
+        'url': 'URL_Attribute',
+        'make': 'Make_Attribute',
+        'model': 'Model_Attribute',
     }
 
     # Update each column if a value was provided in the form
@@ -956,7 +1002,38 @@ def process_titles(df, context, vehicle_type='4x4', form_data={}):
                 material = str(row.get('Material', ''))
                 wheelbase = str(row.get('Wheelbase', ''))
                 cab_type = str(row.get('Cab_Type', ''))
+
+                wheelbase_list = {
+                    'SWB', 
+                    'LWB',
+                    'ELWB',
+                    'Long wheelbase',
+                    'Short wheelbase',
+                    'Extra long wheelbase'
+                }
+
+                cabTypeList = {
+                    'Double Cab',
+                    'Single Cab',
+                    'King Cab',
+                    'Crew Cab',
+                    'Extended Cab',
+
+                }
                 
+                #find matches for wheelbase in title and add to wheelbase = 
+                # Find matches for wheelbase in title and add to wheelbase =
+                # This will try to find any of the strings in wheelbase_list in the title
+                # and set wheelbase to the first match it finds
+                for match in re.finditer('|'.join(wheelbase_list), title, re.IGNORECASE):
+                    wheelbase = match.group()
+                    break
+
+                #find matches for cab_type in title and add to cab_type =
+                
+                for match1 in re.finditer('|'.join(cabTypeList), title, re.IGNORECASE):
+                    cab_type = match1.group()
+
                 # Format title for each context
                 if 'ebay1' in context:
                     result_df.at[index, 'Processed_ebay1_Title'] = format_ebay1_title(

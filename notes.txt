@@ -15,3 +15,7 @@ update how to use page to include clearer instructions
 need to populate keywords file to include keywords for specific items
 
 need to populate materials file to add materials for all possible main items
+
+use mvl api to get list of ktypes for make and model and year - this way you only need an images and composition csv
+
+use categories csvs to automatically assign ebay ids and magento ids
